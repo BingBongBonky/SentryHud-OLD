@@ -2726,7 +2726,7 @@
 		}				
 	}
 	
-// ToonHUD Buttons
+// SentryHUD Buttons
 
 	"ConsoleButton"
 	{
@@ -2805,7 +2805,7 @@
 
 		"navUp"			"SteamWorkshopButton"
 		"navLeft"		"ConsoleButton"
-		"navRight"		"HUDCenteredModeButton"
+		"navRight"		"HUDMinModeButton"
 		"navToRelay"	"SubButton"
 		
 		"pin_to_sibling"			"ConsoleButton"
@@ -2856,10 +2856,10 @@
 		}		
 	}
 	
-	"HUDCenteredModeButton"
+	"HUDMinModeButton"
 	{
 		"ControlName"	"EditablePanel"
-		"fieldName"		"HUDCenteredModeButton"
+		"fieldName"		"HUDMinModeButton"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"62"
@@ -2932,11 +2932,11 @@
 		"visible"		"1"
 
 		"navUp"			"SteamWorkshopButton"
-		"navLeft"		"HUDCenteredModeButton"
-		"navRight"		"ToonHUDButton"
+		"navLeft"		"HUDMinModeButton"
+		"navRight"		"SentryHUDButton"
 		"navToRelay"	"SubButton"
 		
-		"pin_to_sibling"			"HUDCenteredModeButton"
+		"pin_to_sibling"			"HUDMinModeButton"
 		"pin_corner_to_sibling"		"0"
 		"pin_to_sibling_corner"		"1"
 		
@@ -2984,10 +2984,10 @@
 		}		
 	}
 	
-	"ToonHUDButton"
+	"SentryHUDButton"
 	{
 		"ControlName"	"EditablePanel"
-		"fieldName"		"ToonHUDButton"
+		"fieldName"		"SentryHUDButton"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"60"
