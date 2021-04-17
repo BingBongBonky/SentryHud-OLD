@@ -96,7 +96,7 @@
 	{
 		"label"		""
 		"command"	"engine play vo/items/wheatley_sapper/wheatley_sapper_hacked24.mp3"
-		"subimage"	"replay/thumbnails/glyphs/glyph_toonhud"
+		"subimage"	"replay/thumbnails/glyphs/glyph_sentryhud"
 		"tooltip"	"SentryHUD by Healing Sentry"
 	}
 
