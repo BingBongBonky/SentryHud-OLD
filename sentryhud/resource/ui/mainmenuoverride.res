@@ -2856,10 +2856,10 @@
 		}		
 	}
 	
-	"HUDMinModeButton"
+	"HUDCenteredModeButton"
 	{
 		"ControlName"	"EditablePanel"
-		"fieldName"		"HUDMinModeButton"
+		"fieldName"		"HUDCenteredModeButton"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"62"
@@ -2932,11 +2932,11 @@
 		"visible"		"1"
 
 		"navUp"			"SteamWorkshopButton"
-		"navLeft"		"HUDMinModeButton"
-		"navRight"		"SentryHUDButton"
+		"navLeft"		"HUDCenteredModeButton"
+		"navRight"		"ToonHUDButton"
 		"navToRelay"	"SubButton"
 		
-		"pin_to_sibling"			"HUDMinModeButton"
+		"pin_to_sibling"			"HUDCenteredModeButton"
 		"pin_corner_to_sibling"		"0"
 		"pin_to_sibling_corner"		"1"
 		
@@ -2984,10 +2984,10 @@
 		}		
 	}
 	
-	"SentryHUDButton"
+	"ToonHUDButton"
 	{
 		"ControlName"	"EditablePanel"
-		"fieldName"		"SentryHUDButton"
+		"fieldName"		"ToonHUDButton"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"60"
