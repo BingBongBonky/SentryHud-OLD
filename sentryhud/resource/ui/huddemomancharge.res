@@ -8,7 +8,7 @@
 		"font"					"Default"
 		"xpos"					"c100"
 		"xpos_minmode"			"c80"
-		"ypos"					"r120"
+		"ypos"					"r90"
 		"ypos_minmode"			"r121"
 		"zpos"					"2"
 		"wide"					"180"
