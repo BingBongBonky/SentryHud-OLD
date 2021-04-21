@@ -4,7 +4,7 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"			"ObjectiveStatusFlagPanel"
-		"xpos"				"0"
+		"xpos"				"-30"
 		"ypos"				"0"
 		"zpos"				"1"
 		"wide"				"f0"
