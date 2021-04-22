@@ -124,8 +124,8 @@
 	{
 		"ControlName"		"CNavigationPanel"
 		"fieldName"			"TeamNavPanel"
-		"xpos"				"cs-0.5"
-		"ypos"				"p.7-16"
+		"xpos"				"555"
+		"ypos"				"265"
 		"zpos"				"100"
 		"wide"				"60"
 		"tall"				"25"
