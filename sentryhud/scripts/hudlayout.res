@@ -1395,7 +1395,7 @@
 		"enabled" 				"1"
 		"xpos"					"c-130"
 		"zpos"					"100"
-		"ypos"					"c-12"
+		"ypos"					"c70"
 		"wide"					"243"
 		"tall"					"170"
 		"xpos_minmode"			"c-240"
