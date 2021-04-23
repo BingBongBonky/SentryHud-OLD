@@ -1,5 +1,6 @@
 # SentryHUD
 
+This is just a highly modified ToonHUD built to my liking, and for a more competitive player than the base ToonHUD gives. If you find any bugs then contact me, or create an issue on [the issues page](https://github.com/BingBongBonky/SentryHud/issues) of this repository.
 This is just a highly modified ToonHUD built to my liking, and for a more competetive player than the base ToonHUD gives. If you find any bugs then contact me, or create an issue on [the issues page](https://github.com/BingBongBonky/SentryHud/issues).
 
 * Discord: King Stupid#7555
