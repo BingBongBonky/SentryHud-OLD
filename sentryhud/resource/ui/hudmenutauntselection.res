@@ -17,7 +17,7 @@
 		"border"			"G_TargetBorder"
 		"paintbackground"	"1"
 		"bgcolor_override"	"G_PanelBg"
-		"Alpha"			"150"
+		"Alpha"			"250"
 	}
 
 	"Divider"
