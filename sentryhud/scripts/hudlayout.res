@@ -577,8 +577,8 @@
 		"wide"		"42"
 		"tall"		"28"
 		"zpos"			"2"
-		"xpos"			"c284"
-		"ypos"			"r32"
+		"xpos"			"c235"
+		"ypos"			"c141"
 		"xpos_minmode"	"c264"
 		"ypos_minmode"	"r132"
 		
