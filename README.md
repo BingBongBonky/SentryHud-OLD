@@ -9,4 +9,16 @@ This is just a highly modified ToonHUD built to my liking, and for a more compet
 
 ## Installation
 
-To install the HUD, just drag the folder "sentryhud" into your tf/custom folder, or copy + paste it in.
+1. Press `Download ZIP` on Github. This will download `SentryHud-release.zip`
+2. Navigate to `[Drive Letter]:\Program Files (x86)\Steam\SteamApps\common\Team Fortress 2\tf\custom`
+3. Extract the .zip file contents into the `custom` folder.
+4. Ensure that the final file structure should resembles the following:
+```
+tf
+└── custom
+    └── sentryhud
+        ├── materials
+        ├── resource
+        ├── scripts
+        └── info.vdf
+```
