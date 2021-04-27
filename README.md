@@ -2,11 +2,6 @@
 
 This is just a highly modified ToonHUD built to my liking, and for a more competitive player than the base ToonHUD gives. If you find any bugs then contact me, or create an issue on [the issues page](https://github.com/BingBongBonky/SentryHud/issues/new) of this repository.
 
-## Contact me
-
-* Discord: King Stupid#7555
-* Steam: https://steamcommunity.com/id/HealingSentry/
-
 ## Installation
 
 1. Press `Download ZIP` on Github. This will download `SentryHud-release.zip`
@@ -22,3 +17,8 @@ tf
         ├── scripts
         └── info.vdf
 ```
+
+## Contact me
+
+* Discord: King Stupid#7555
+* Steam: https://steamcommunity.com/id/HealingSentry/
