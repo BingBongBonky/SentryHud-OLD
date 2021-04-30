@@ -126,8 +126,8 @@
 	}
 
 	HudFlameRocketCharge
-	// Not Real
-	// Not Implemented
+	// Does not work in game. Pressure meter. 
+	// Can be modded to work on every flamethrower except DF.
 	{
 		"fieldName"		"HudFlameRocketCharge"
 		"visible"		"1"
@@ -175,13 +175,11 @@
 		"LargeBoxWide" "110"
 		"LargeBoxTall" "77"
 		"BoxGap" "4"	[$WIN32]
-		"BoxGap" "4"	[$X360]
 		"SelectionNumberXPos" "12"
 		"SelectionNumberYPos" "4"
 		"IconXPos" "8"
 		"IconYPos" "0"
 		"TextYPos" "70"		[$WIN32]
-		"TextYPos" "65"		[$X360]
 		"ErrorYPos" "48"
 		"TextColor" "SelectionTextFg"
 		"MaxSlots"	"6"
@@ -472,6 +470,7 @@
 	}
 
 	HudDeathNotice
+	// Killfeed
 	{
 		"fieldName" "HudDeathNotice"
 		"visible" "1"
@@ -614,7 +613,6 @@
 		"visible" "0"
 		"enabled" "0"
 		"xpos"	 "r640"	[$WIN32]
-		"xpos"	 "r672"	[$X360]
 		"wide"	 "640"
 		"tall"	 "330"
 		"history_gap" "55"

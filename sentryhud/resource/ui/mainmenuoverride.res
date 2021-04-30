@@ -859,7 +859,7 @@
 			"font"			"G_FontMainMenuItemSmall"
 			"labelText"		"%noticount%"
 			"textAlignment"	"center"
-			"xpos"			"16"
+			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"4"
 			"wide"			"16"
@@ -870,7 +870,7 @@
 			"enabled"		"1"
 			"fgcolor_override"	"G_MainMenuButtonHoverFg"
 			"border"			"SharpMainMenuButtonArmed"
-			"Alpha"			"0"
+			"Alpha"			"225"
 		}
 	
 		"Notifications_ShowButtonPanel_SB"
@@ -878,7 +878,7 @@
 			"ControlName"	"CExImageButton"
 			"fieldName"		"Notifications_ShowButtonPanel_SB"
 			"xpos"			"16"
-			"ypos"			"-26"
+			"ypos"			"0"
 			"zpos"			"5"
 			"wide"			"26"
 			"tall"			"26"
@@ -2798,14 +2798,14 @@
 		"fieldName"		"HUDDefaultModeButton"
 		"xpos"			"0"
 		"ypos"			"0"
-		"zpos"			"61"
+		"zpos"			"62"
 		"wide"			"24"
 		"tall"			"24"
 		"visible"		"1"
 
 		"navUp"			"SteamWorkshopButton"
 		"navLeft"		"ConsoleButton"
-		"navRight"		"HUDMinModeButton"
+		"navRight"		"HUDMinimizedModeButton"
 		"navToRelay"	"SubButton"
 		
 		"pin_to_sibling"			"ConsoleButton"
@@ -2856,13 +2856,13 @@
 		}		
 	}
 	
-	"HUDCenteredModeButton"
+	"HUDMinimizedModeButton"
 	{
 		"ControlName"	"EditablePanel"
-		"fieldName"		"HUDCenteredModeButton"
+		"fieldName"		"HUDMinimizedModeButton"
 		"xpos"			"0"
 		"ypos"			"0"
-		"zpos"			"62"
+		"zpos"			"61"
 		"wide"			"24"
 		"tall"			"24"
 		"visible"		"1"
@@ -2932,11 +2932,11 @@
 		"visible"		"1"
 
 		"navUp"			"SteamWorkshopButton"
-		"navLeft"		"HUDCenteredModeButton"
-		"navRight"		"ToonHUDButton"
+		"navLeft"		"HUDMinimizedModeButton"
+		"navRight"		"SentryHUDButton"
 		"navToRelay"	"SubButton"
 		
-		"pin_to_sibling"			"HUDCenteredModeButton"
+		"pin_to_sibling"			"HUDMinimizedModeButton"
 		"pin_corner_to_sibling"		"0"
 		"pin_to_sibling_corner"		"1"
 		
@@ -2984,10 +2984,10 @@
 		}		
 	}
 	
-	"ToonHUDButton"
+	"SentryHUDButton"
 	{
 		"ControlName"	"EditablePanel"
-		"fieldName"		"ToonHUDButton"
+		"fieldName"		"SentryHUDButton"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"60"
@@ -4479,25 +4479,3 @@
 		}
 	}
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
