@@ -5,8 +5,8 @@ Scheme
 	Colors
 	{
 	
-		"G_ActiveWindow"			"30 30 30 235" // Active window bg color
-		"G_InctiveWindow"			"40 34 30 245" // Inactive window bg color
+		"G_ActiveWindow"			"30 30 30 255" // Active window bg color
+		"G_InctiveWindow"			"40 34 30 255" // Inactive window bg color
 		"G_TitleBg"					"45 121 221 255" // Title bg color
 		"G_TitleText"				"255 255 255 255" // Title text color
 		"G_Highlight"				"45 121 221 255" // Highlight color
