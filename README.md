@@ -2,12 +2,17 @@
 
 This is just a highly modified ToonHUD built to my liking, and for a more competitive player than the base ToonHUD gives. If you find any bugs then contact me, or create an issue on [the issues page](https://github.com/BingBongBonky/SentryHud/issues/new) of this repository.
 
+## Screenshots
+
+https://imgur.com/gallery/97ATbHK
+
 ## Installation
 
-1. Press `Assets` on [the releases page](https://github.com/BingBongBonky/SentryHud/releases), and press `sentryhud.zip` to download it.
-2. Navigate to `[Drive Letter]:\Program Files (x86)\Steam\SteamApps\common\Team Fortress 2\tf\custom`
-3. Extract the .zip file contents into the `custom` folder.
-4. Ensure that the final file structure should resembles the following:
+1. Click [here](https://github.com/BingBongBonky/SentryHud/archive/refs/heads/release.zip) to download the file. 
+2. Extract or open up the zip and copy the folder inside named "sentryhud"
+4. Navigate to `[Drive Letter]:\Program Files (x86)\Steam\SteamApps\common\Team Fortress 2\tf\custom`
+5. Paste the folder inside the custom folder.
+6. Ensure that the final file structure should resembles the following:
 ```
 tf
 └── custom
