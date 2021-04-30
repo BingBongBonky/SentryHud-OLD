@@ -859,7 +859,7 @@
 			"font"			"G_FontMainMenuItemSmall"
 			"labelText"		"%noticount%"
 			"textAlignment"	"center"
-			"xpos"			"16"
+			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"4"
 			"wide"			"16"
@@ -870,7 +870,7 @@
 			"enabled"		"1"
 			"fgcolor_override"	"G_MainMenuButtonHoverFg"
 			"border"			"SharpMainMenuButtonArmed"
-			"Alpha"			"0"
+			"Alpha"			"225"
 		}
 	
 		"Notifications_ShowButtonPanel_SB"
@@ -878,7 +878,7 @@
 			"ControlName"	"CExImageButton"
 			"fieldName"		"Notifications_ShowButtonPanel_SB"
 			"xpos"			"16"
-			"ypos"			"-26"
+			"ypos"			"0"
 			"zpos"			"5"
 			"wide"			"26"
 			"tall"			"26"
