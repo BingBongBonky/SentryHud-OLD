@@ -2798,14 +2798,14 @@
 		"fieldName"		"HUDDefaultModeButton"
 		"xpos"			"0"
 		"ypos"			"0"
-		"zpos"			"61"
+		"zpos"			"62"
 		"wide"			"24"
 		"tall"			"24"
 		"visible"		"1"
 
 		"navUp"			"SteamWorkshopButton"
 		"navLeft"		"ConsoleButton"
-		"navRight"		"HUDMinModeButton"
+		"navRight"		"HUDMinimizedModeButton"
 		"navToRelay"	"SubButton"
 		
 		"pin_to_sibling"			"ConsoleButton"
@@ -2856,13 +2856,13 @@
 		}		
 	}
 	
-	"HUDCenteredModeButton"
+	"HUDMinimizedModeButton"
 	{
 		"ControlName"	"EditablePanel"
-		"fieldName"		"HUDCenteredModeButton"
+		"fieldName"		"HUDMinimizedModeButton"
 		"xpos"			"0"
 		"ypos"			"0"
-		"zpos"			"62"
+		"zpos"			"61"
 		"wide"			"24"
 		"tall"			"24"
 		"visible"		"1"
@@ -2984,10 +2984,10 @@
 		}		
 	}
 	
-	"ToonHUDButton"
+	"SentryHUDButton"
 	{
 		"ControlName"	"EditablePanel"
-		"fieldName"		"ToonHUDButton"
+		"fieldName"		"SentryHUDButton"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"60"
@@ -4479,25 +4479,3 @@
 		}
 	}
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
