@@ -2932,11 +2932,11 @@
 		"visible"		"1"
 
 		"navUp"			"SteamWorkshopButton"
-		"navLeft"		"HUDCenteredModeButton"
-		"navRight"		"ToonHUDButton"
+		"navLeft"		"HUDMinimizedModeButton"
+		"navRight"		"SentryHUDButton"
 		"navToRelay"	"SubButton"
 		
-		"pin_to_sibling"			"HUDCenteredModeButton"
+		"pin_to_sibling"			"HUDMinimizedModeButton"
 		"pin_corner_to_sibling"		"0"
 		"pin_to_sibling_corner"		"1"
 		

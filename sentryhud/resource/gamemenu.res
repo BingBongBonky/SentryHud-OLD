@@ -75,14 +75,14 @@
 	{
 		"label"		""
 		"command"	"engine cl_hud_minmode 0"
-		"subimage"	"replay/thumbnails/glyphs/glyph_hudmode_centered"
+		"subimage"	"replay/thumbnails/glyphs/glyph_hudmode_default"
 		"tooltip"	"HUD: Default mode"
 	}
 	"HUDMinimizedModeButton"
 	{
 		"label"		""
 		"command"	"engine cl_hud_minmode 1"
-		"subimage"	"replay/thumbnails/glyphs/glyph_hudmode_default"
+		"subimage"	"replay/thumbnails/glyphs/glyph_hudmode_minimized"
 		"tooltip"	"HUD: Minimized mode"
 	}
 	"ReloadHUDButton"
