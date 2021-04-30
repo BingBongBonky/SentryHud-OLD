@@ -75,15 +75,15 @@
 	{
 		"label"		""
 		"command"	"engine cl_hud_minmode 0"
-		"subimage"	"replay/thumbnails/glyphs/glyph_hudmode_default"
+		"subimage"	"replay/thumbnails/glyphs/glyph_hudmode_centered"
 		"tooltip"	"HUD: Default mode"
 	}
-	"HUDCenteredModeButton"
+	"HUDMinimizedModeButton"
 	{
 		"label"		""
 		"command"	"engine cl_hud_minmode 1"
-		"subimage"	"replay/thumbnails/glyphs/glyph_hudmode_centered"
-		"tooltip"	"HUD: Centered mode"
+		"subimage"	"replay/thumbnails/glyphs/glyph_hudmode_default"
+		"tooltip"	"HUD: Minimized mode"
 	}
 	"ReloadHUDButton"
 	{
@@ -92,7 +92,7 @@
 		"subimage"	"replay/thumbnails/glyphs/glyph_reload"
 		"tooltip"	"Reload HUD"
 	}
-	"ToonHUDButton"
+	"SentryHUDButton"
 	{
 		"label"		""
 		"command"	"engine play vo/items/wheatley_sapper/wheatley_sapper_hacked24.mp3"
