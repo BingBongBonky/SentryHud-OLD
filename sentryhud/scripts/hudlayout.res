@@ -35,7 +35,7 @@
 		"xpos"	"0"
 		"xpos_minmode"	"0"
 		"ypos"	"-100"
-		"ypos_minmode"	"-100"
+		"ypos_minmode"	"60"
 		"wide"	"f0"
 		"tall"	"480"
 		"tall_minmode"	"480"
