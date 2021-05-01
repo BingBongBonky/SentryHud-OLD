@@ -9,12 +9,12 @@
 		"xpos" 			"2" // TLC
 		"xpos_minmode" 	"80" // TLC
 		"ypos" 			"250" // TLC
-		"ypos_minmode" 	"r114" // TLC
+		"ypos_minmode" 	"r60" // TLC
 		"zpos" 			"9"
 		"wide"			"250"
-		"wide_minmode"	"268"
+		"wide_minmode"	"300"
 		"tall" 			"130"
-		"tall_minmode" 	"114"
+		"tall_minmode" 	"60"
 		"PaintBackgroundType" "0"
 		"paintbackground"	"0"
 		"paintborder"		"0"
@@ -66,7 +66,7 @@
 		"xpos" 			"0"
 		"ypos" 			"0"
 		"wide"			"250"
-		"wide_minmode" 	"268"
+		"wide_minmode" 	"300"
 		"tall" 			"75"
 		"wrap" 			"1"
 		"autoResize" 	"1"

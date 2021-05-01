@@ -96,7 +96,7 @@
 		"xpos"			"40"
 		"ypos"			"-100"
 		"xpos_minmode"	"0"
-		"ypos_minmode"	"0"
+		"ypos_minmode"	"60"
 		"zpos"			"2"
 		"wide"			"f0"
 		"tall"			"480"
@@ -215,10 +215,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusMaxHealthValue"
-		"xpos"			"76"
-		"xpos_minmode"	"61"
-		"ypos"			"20"	[$WIN32]
-		"ypos"			"55"	[$X360]
+		"xpos"			"-6969"
+		"ypos"			"-6969"	[$WIN32]
 		"zpos"			"6"
 		"wide"			"50"
 		"tall"			"18"
