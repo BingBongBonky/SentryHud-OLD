@@ -54,7 +54,7 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"Hitmarker"
-		"xpos"			"383"
+		"xpos"			"403"
 		"ypos"			"336"
 		"zpos"			"20"
 		"wide"			"8"
@@ -93,7 +93,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"HudPlayerHealth"
-		"xpos"			"40"
+		"xpos"			"20"
 		"ypos"			"-100"
 		"xpos_minmode"	"0"
 		"ypos_minmode"	"60"
