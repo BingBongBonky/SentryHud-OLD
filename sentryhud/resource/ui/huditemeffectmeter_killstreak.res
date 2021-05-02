@@ -1,3 +1,5 @@
+// Killstreak Counter
+
 "Resource/UI/HudItemEffectMeter_Killstreak.res"
 {
 	HudItemEffectMeter
@@ -81,7 +83,7 @@
 		"xpos"					"c+230"
 		"xpos_minmode"			"c+210"
 		"ypos"					"r69"
-		"ypos_minmode"			"r25"
+		"ypos_minmode"			"r27"
 		"zpos"					"5"
 		"wide"					"34"
 		"tall"					"25"
@@ -105,7 +107,7 @@
 		"xpos"					"c+231"
 		"xpos_minmode"			"c+211"
 		"ypos"					"r68"
-		"ypos_minmode"			"r24"
+		"ypos_minmode"			"r26"
 		"zpos"					"5"
 		"wide"					"34"
 		"tall"					"25"
@@ -129,7 +131,7 @@
 		"xpos"					"c+264"
 		"xpos_minmode"			"c+244"
 		"ypos"					"r69"
-		"ypos_minmode"			"r25"
+		"ypos_minmode"			"r27"
 		"zpos"					"2"
 		"wide"					"16"
 		"tall"					"25"
@@ -148,7 +150,7 @@
 		"xpos"					"c+265"
 		"xpos_minmode"			"c+245"
 		"ypos"					"r68"
-		"ypos_minmode"			"r24"
+		"ypos_minmode"			"r26"
 		"zpos"					"2"
 		"wide"					"16"
 		"tall"					"25"

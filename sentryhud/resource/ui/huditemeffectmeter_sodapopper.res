@@ -1,4 +1,4 @@
-// Scout: The Soda Popper, Baby Face's Blaster
+// Scout: The Soda Popper, The Baby Face's Blaster
 
 #base "HudItemEffectMeter.res"
 "Resource/UI/HudItemEffectMeter_SodaPopper.res"

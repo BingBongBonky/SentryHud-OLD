@@ -1,4 +1,4 @@
-// Soldier: Cow Mangler 5000
+// Soldier: The Cow Mangler 5000
 
 #base "HudItemEffectMeter.res"
 "Resource/UI/HudItemEffectMeter_ParticleCannon.res"

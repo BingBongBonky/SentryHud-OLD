@@ -1,4 +1,4 @@
-// Spy: Spy-Cicle
+// Spy: The Spy-Cicle
 
 #base "HudItemEffectMeter.res"
 "Resource/UI/HudItemEffectMeter_SpyKnife.res"
@@ -7,6 +7,6 @@
 	{
 		"fieldName"			"HudItemEffectMeter"
 		"ypos"				"r130"
-		"ypos_minmode"		"r121"
+		"ypos_minmode"		"r70"
 	}
 }

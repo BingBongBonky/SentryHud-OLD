@@ -1,3 +1,5 @@
+// MvM: Power Up Canteen Charges (MvM)
+
 "Resource/UI/HudItemEffectMeter_PowerupBottles.res"
 {
 	HudItemEffectMeter
@@ -5,10 +7,10 @@
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"c-190"
-		"ypos"			"r114"
-		"xpos_minmode"	"c264"
-		"ypos_minmode"	"r132"
+		"xpos"			"c-210"
+		"ypos"			"r115"
+		"xpos_minmode"	"c-285"
+		"ypos_minmode"	"r115"
 		"wide"			"42"
 		"tall"			"35"
 		"MeterFG"		"White"

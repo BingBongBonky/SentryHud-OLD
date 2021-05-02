@@ -1,4 +1,4 @@
-// Scout: Bonk! Atomic Punch, Mad Milk
+// Scout: The Bonk! Atomic Punch, The Mad Milk
 
 #base "HudItemEffectMeter.res"
 "Resource/UI/HudItemEffectMeter_Scout.res"

@@ -19,8 +19,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"BackgroundGood"
-		"xpos"			"c-147"
-		"xpos_minmode"	"c+80"
+		"xpos"			"c-167"
+		"xpos_minmode"	"c-240"
 		"ypos"			"r95"
 		"zpos"			"2"
 		"wide"			"50"
@@ -54,8 +54,8 @@
 		"fieldName"		"CurrencyGood"
 		"font"			"G_FontSmall"
 		"fgcolor"		"G_White"
-		"xpos"			"c-147"
-		"xpos_minmode"	"c+80"
+		"xpos"			"c-167"
+		"xpos_minmode"	"c-240"
 		"ypos"			"r95"
 		"zpos"			"5"
 		"wide"			"50"
@@ -66,15 +66,34 @@
 		"labelText"		"%currency%"
 		"textinsetx"	"5"
 	}
-	
+
+	"CurrencyGoodShadow"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"CurrencyGoodShadow"
+		"font"			"G_FontSmall"
+		"fgcolor"		"G_Shadow"
+		"xpos"			"c-166"
+		"xpos_minmode"	"c-239"
+		"ypos"			"r94"
+		"zpos"			"4"
+		"wide"			"50"
+		"tall"			"15"
+		"visible"		"1"
+		"enabled"		"1"
+		"textAlignment"	"west"	
+		"labelText"		"%currency%"
+		"textinsetx"	"5"
+	}
+
 	"CurrencyBad"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CurrencyBad"
 		"font"			"G_FontSmall"
 		"fgcolor"		"G_CurrencyBad"
-		"xpos"			"c-147"
-		"xpos_minmode"	"c+80"
+		"xpos"			"c-167"
+		"xpos_minmode"	"c-240"
 		"ypos"			"r95"
 		"zpos"			"5"
 		"wide"			"50"
@@ -86,5 +105,22 @@
 		"textinsetx"	"5"
 	}
 	
-
+	"CurrencyBadShadow"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"CurrencyBadShadow"
+		"font"			"G_FontSmall"
+		"fgcolor"		"G_Shadow"
+		"xpos"			"c-166"
+		"xpos_minmode"	"c-239"
+		"ypos"			"r94"
+		"zpos"			"4"
+		"wide"			"50"
+		"tall"			"15"
+		"visible"		"1"
+		"enabled"		"1"
+		"textAlignment"	"west"
+		"labelText"		"%currency%"
+		"textinsetx"	"5"
+	}
 }
