@@ -86,45 +86,6 @@ event HudLowAmmoPulseStop
 
 
 event HudSpyDisguiseChanged
-<<<<<<< HEAD
-{
-	 Animate PlayerStatusSpyOutlineImage		Alpha		"255"			Linear 0.0 0.2
-	 Animate PlayerStatusSpyOutlineImage		Position	"c-200 c-200"	Linear 0.0 0.2
-	 Animate PlayerStatusSpyOutlineImage		Size		"400 400"		Linear 0.0 0.2
-	 RunEvent HudSpyDisguiseHide	0.5
-}
-
-event HudSpyDisguiseHide
-{
-	 Animate PlayerStatusSpyOutlineImage		Position	"140 r0"		Linear 0.0 0.2
-	 Animate PlayerStatusSpyOutlineImage		Size		"0 0"			Linear 0.0 0.2
-	 Animate PlayerStatusSpyOutlineImage		Alpha		"0"				Linear 0.2 0.1
-}
-
-event HudSpyDisguiseFadeIn
-{
-	 RunEvent HudSpyDisguiseChanged	0
-	
-	Animate PlayerStatusSpyImage		Alpha		"255"	Linear 0.0 0.0
-	
-	// Animate classmodelpanel 			xpos		"0"		Linear 0.0 0.0
-	// Animate classmodelpanel 			ypos		"r200"	Linear 0.0 0.0
-	// Animate PlayerStatusClassImage 	xpos		"0"		Linear 0.0 0.0
-	// Animate PlayerStatusClassImage 	ypos		"r50"	Linear 0.0 0.0
-}
-
-event HudSpyDisguiseFadeOut
-{
-	 RunEvent HudSpyDisguiseChanged	0
-	
-	Animate PlayerStatusSpyImage		Alpha		"0"			Linear 0.0 0.0
-	
-	// Animate classmodelpanel 			xpos		"-9999"		Linear 0.0 0.0
-	// Animate classmodelpanel 			ypos		"r0"		Linear 0.0 0.0
-	// Animate PlayerStatusClassImage 	xpos		"-9999"		Linear 0.0 0.0
-	// Animate PlayerStatusClassImage 	ypos		"r0"		Linear 0.0 0.0
-}
-=======
 {}
 
 event HudSpyDisguiseHide
@@ -135,7 +96,6 @@ event HudSpyDisguiseFadeIn
 
 event HudSpyDisguiseFadeOut
 {}
->>>>>>> a43ed228d2dd0560e6a184119b573cb3fba732f1
 
 //===========================================
 
