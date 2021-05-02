@@ -8,7 +8,7 @@
 		"enabled" 		"1"
 		"xpos" 			"2" // TLC
 		"xpos_minmode" 	"80" // TLC
-		"ypos" 			"250" // TLC
+		"ypos" 			"240" // TLC
 		"ypos_minmode" 	"r60" // TLC
 		"zpos" 			"9"
 		"wide"			"250"

@@ -1,3 +1,5 @@
+// Engineer: Frontier Justice
+
 "Resource/UI/HudItemEffectMeter_Engineer.res"
 {
 	HudItemEffectMeter
@@ -61,7 +63,7 @@
 		"xpos"					"c+264"
 		"xpos_minmode"			"c+244"
 		"ypos"					"r173"
-		"ypos_minmode"			"r90"
+		"ypos_minmode"			"r95"
 		"zpos"					"2"
 		"wide"					"16"
 		"tall"					"25"
@@ -82,7 +84,7 @@
 		"xpos"					"c+265"
 		"xpos_minmode"			"c+245"
 		"ypos"					"r172"
-		"ypos_minmode"			"r89"
+		"ypos_minmode"			"r94"
 		"zpos"					"2"
 		"wide"					"16"
 		"tall"					"25"
@@ -127,7 +129,7 @@
 		"xpos"					"c+230"
 		"xpos_minmode"			"c+210"
 		"ypos"					"r173"
-		"ypos_minmode"			"r90"
+		"ypos_minmode"			"r95"
 		"zpos"					"5"
 		"wide"					"34"
 		"tall"					"25"
@@ -150,7 +152,7 @@
 		"xpos"					"c+231"
 		"xpos_minmode"			"c+211"
 		"ypos"					"r172"
-		"ypos_minmode"			"r89"
+		"ypos_minmode"			"r94"
 		"zpos"					"5"
 		"wide"					"34"
 		"tall"					"25"
