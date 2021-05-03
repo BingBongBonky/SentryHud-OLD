@@ -3265,17 +3265,9 @@ Scheme
 				"range" "0x0000 0x007E"
 			}
 		}
-		"8" "resource/fonts/ToonHUD KOMIKAX.ttf"
-		"9" "resource/fonts/ToonHUD Dimbo.ttf"
-		"10" "resource/fonts/Prototype.ttf"
-		"11" "resource/fonts/Prototype Capital.ttf"
-		"12" "resource/fonts/ToonHUD Hemi Head.ttf"
-		"13" "resource/fonts/ToonHUD Icons.ttf"
-		"14" "resource/fonts/Karla.ttf"
-		"15" "resource/fonts/Lato.ttf"
-		"16" "resource/fonts/Gobold.ttf"
-		"17" "resource/fonts/ToonHUD Montserrat.ttf"
-		"18" "resource/fonts/Montserrat.ttf"
+		"8" "resource/fonts/ToonHUD Icons.ttf"
+		"9" "resource/fonts/ToonHUD Montserrat.ttf"
+		"10" "resource/fonts/Montserrat.ttf"
 	}
 }
 
