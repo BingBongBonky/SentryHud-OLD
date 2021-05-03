@@ -240,10 +240,10 @@
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"			"TFLogoImage"
-		"xpos"				"c-310"
+		"xpos"				"c-280"
 		"ypos"				"32"
 		"zpos"				"1"
-		"wide"				"160"
+		"wide"				"170"
 		"tall"				"40"
 		"visible"			"1"
 		"enabled"			"1"
@@ -256,7 +256,7 @@
 	{
 		// "ControlName"	"ImagePanel"
 		"fieldName"		"TFCharacterImage"
-		"xpos"			"c-250" // 1 RMMC
+		"xpos"			"c-160" // 1 RMMC
 		"ypos"			"-80" // 1 RMMC
 		"zpos"			"-99"
 		"wide"			"600" // 2 RMMC
@@ -441,7 +441,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"G_MenuPanel"
-		"xpos"			"c-310"
+		"xpos"			"c-275"
 		"ypos"			"80"
 		"wide"			"160"
 		"tall"			"125"
@@ -3135,7 +3135,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldname"		"ReportPlayerButton"
 		"xpos"			"0"
-		"ypos"			"-5"
+		"ypos"			"0"
 		"zpos"			"12"
 		"wide"			"20"
 		"tall"			"20"
