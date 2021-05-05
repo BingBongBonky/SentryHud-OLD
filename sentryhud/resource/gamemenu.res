@@ -76,14 +76,14 @@
 		"label"		""
 		"command"	"engine cl_hud_minmode 0"
 		"subimage"	"replay/thumbnails/glyphs/glyph_hudmode_default"
-		"tooltip"	"HUD: Default mode"
+		"tooltip"	"HUD: Default Mode"
 	}
 	"HUDMinimizedModeButton"
 	{
 		"label"		""
 		"command"	"engine cl_hud_minmode 1"
 		"subimage"	"replay/thumbnails/glyphs/glyph_hudmode_minimized"
-		"tooltip"	"HUD: Minimized mode"
+		"tooltip"	"HUD: Minimized Mode"
 	}
 	"ReloadHUDButton"
 	{
@@ -97,7 +97,5 @@
 		"label"		""
 		"command"	"engine play vo/items/wheatley_sapper/wheatley_sapper_hacked24.mp3"
 		"subimage"	"replay/thumbnails/glyphs/glyph_sentryhud"
-		"tooltip"	"SentryHUD by Healing Sentry"
+		"tooltip"	"SentryHUD v0.6 by Healing Sentry"
 	}
-
-}
