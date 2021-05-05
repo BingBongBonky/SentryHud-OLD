@@ -199,7 +199,7 @@
 		"tall"					"60"
 		"xpos"					"c+140" // 1 CM
 		"xpos_minmode"			"c+120" // 2 CM
-		"ypos"					"r32" // 3 CM
+		"ypos"					"c+115" // 3 CM
 		"ypos_minmode"			"c+108" // 4 CM
 		"visible" 				"1"
 		"enabled" 				"1"
@@ -252,7 +252,7 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-126"
-		"ypos"		"275"
+		"ypos"		"350"
 		"wide"	 	"252"
 		"tall"	 	"28"
 		"tall_minmode"	 	"28"
