@@ -8,12 +8,12 @@
 		"enabled" 		"1"
 		"xpos" 			"2" // TLC
 		"xpos_minmode" 	"80" // TLC
-		"ypos" 			"240" // TLC
+		"ypos" 			"290" // TLC
 		"ypos_minmode" 	"r60" // TLC
 		"zpos" 			"9"
-		"wide"			"250"
+		"wide"			"240"
 		"wide_minmode"	"300"
-		"tall" 			"130"
+		"tall" 			"100"
 		"tall_minmode" 	"60"
 		"PaintBackgroundType" "0"
 		"paintbackground"	"0"
