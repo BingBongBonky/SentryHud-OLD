@@ -1,4 +1,5 @@
-// Engineer: Frontier Justice
+// Engineer: The Frontier Justice
+// Pyro: The Manmelter
 
 "Resource/UI/HudItemEffectMeter_Engineer.res"
 {
