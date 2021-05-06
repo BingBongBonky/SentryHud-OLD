@@ -241,7 +241,7 @@
 		"ControlName"		"ImagePanel"
 		"fieldName"			"TFLogoImage"
 		"xpos"				"c-280"
-		"ypos"				"32"
+		"ypos"				"20"
 		"zpos"				"1"
 		"wide"				"170"
 		"tall"				"40"
@@ -256,14 +256,14 @@
 	{
 		// "ControlName"	"ImagePanel"
 		"fieldName"		"TFCharacterImage"
-		"xpos"			"c-160" // 1 RMMC
-		"ypos"			"-80" // 1 RMMC
-		"zpos"			"-99"
-		"wide"			"600" // 2 RMMC
-		"tall"			"600" // 2 RMMC
-		"visible"		"1" // 2 RMMC
-		"enabled"		"1" // 2 RMMC
-		"scaleImage"	"1"
+		"xpos"			"9999" // 1 RMMC
+		"ypos"			"9999" // 1 RMMC
+		"zpos"			"-9999"
+		"wide"			"0" // 2 RMMC
+		"tall"			"0" // 2 RMMC
+		"visible"		"0" // 2 RMMC
+		"enabled"		"0" // 2 RMMC
+		"scaleImage"	"0"
 	}
 	
 	"RankModelPanel"
@@ -441,8 +441,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"G_MenuPanel"
-		"xpos"			"c-275"
-		"ypos"			"80"
+		"xpos"			"c-277"
+		"ypos"			"60"
 		"wide"			"160"
 		"tall"			"125"
 		"zpos"			"5"
@@ -1691,11 +1691,11 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"G_Wall"
-		"xpos"			"c-275"
+		"xpos"			"c-277"
 		"ypos"			"0"
 		"zpos"			"0"
 		"wide"			"160"
-		"tall"			"f0"
+		"tall"			"500"
 		"pinCorner"		"0"
 		"autoResize"	"0"
 		"visible"		"1"
@@ -1741,7 +1741,7 @@
 		"ypos"			"0"
 		"zpos"			"6"
 		"wide"			"160"
-		"tall"			"105" // FLPH (195, 155, 130, 105)
+		"tall"			"120" // FLPH (195, 155, 130, 105)
 		"visible"		"1"	// HFLFMM
 		"enabled"		"1"	// HFLFMM
 		"border"		"NoBorder"
