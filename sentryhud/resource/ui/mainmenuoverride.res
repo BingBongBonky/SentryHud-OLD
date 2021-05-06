@@ -1691,9 +1691,9 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"G_Wall"
-		"xpos"			"c-310"
+		"xpos"			"c-275"
 		"ypos"			"0"
-		"zpos"			"-55"
+		"zpos"			"0"
 		"wide"			"160"
 		"tall"			"f0"
 		"pinCorner"		"0"
