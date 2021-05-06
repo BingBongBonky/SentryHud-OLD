@@ -761,7 +761,6 @@
 		}
 	}
 	
-	
 	"TooltipPanel"
 	{
 		"ControlName"	"EditablePanel"
