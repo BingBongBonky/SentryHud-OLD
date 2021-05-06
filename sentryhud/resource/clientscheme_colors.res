@@ -76,7 +76,7 @@ Scheme
 		"G_MainMenuButtonHover"		"45 121 221 255" // Main Menu hovered button color
 		"G_MainMenuButtonFg"		"38 30 22 255" // Main Menu button text color
 		"G_MainMenuButtonHoverFg"	"255 255 255 255" // Main Menu hovered button text color
-		"G_MainMenuShader" 			"0 0 0 0" // Main Menu shader color
+		"G_MainMenuShader" 			"18 16 14 255" // Main Menu shader color
 		"G_BackpackItemBg"			"57 53 47 133" // Backpack item bg color
 		"G_LoadoutItemBg"			"39 39 38 255" // Loadout item bg color
 		"G_MenuBg"					"37 34 32 255" // Menu bg color
