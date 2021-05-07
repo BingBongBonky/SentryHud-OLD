@@ -90,7 +90,7 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"			"TargetNameLabel"
-		"font"				"G_FontSmall_2"
+		"font"				"G_FontTargetID"
 		"xpos"				"30"
 		"ypos"				"6"
 		"zpos"				"1"

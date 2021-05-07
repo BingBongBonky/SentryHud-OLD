@@ -180,7 +180,7 @@ Scheme
 			{
 				"name"			"Keep Calm Medium" [$WINDOWS] // Primary font
 				"name"			"Keep Calm Medium" [!$WINDOWS] // Primary font
-				"tall"			"14" [$WINDOWS] // Size Tiny Primary
+				"tall"			"11" [$WINDOWS] // Size Tiny Primary
 				"tall"			"11" [!$WINDOWS] // Size Tiny Primary
 				"weight"		"0"
 				"additive"		"0"
@@ -262,7 +262,7 @@ Scheme
 			{
 				"name"			"Keep Calm Medium" [$WINDOWS] // Damage font | Primary font
 				"name"			"Keep Calm Medium" [!$WINDOWS] // Damage font | Primary font
-				"tall"			"20" // Damage size
+				"tall"			"18" // Damage size
 				"weight"		"0"
 				"additive"		"0"
 				"antialias"		"1"
@@ -276,7 +276,7 @@ Scheme
 			{
 				"name"			"Keep Calm Medium" [$WINDOWS] // Crit damage font | Primary font
 				"name"			"Keep Calm Medium" [!$WINDOWS] // Crit damage font | Primary font
-				"tall"			"22" // Crit damage size
+				"tall"			"20" // Crit damage size
 				"weight"		"0"
 				"additive"		"0"
 				"antialias"		"1"
@@ -284,6 +284,19 @@ Scheme
 			}
 		}
 		
+		"G_FontTargetID"
+		{
+			"1"
+			{
+				"name"			"Hakuna Sans" [$WINDOWS] // Target ID health font | Primary font
+				"name"			"Hakuna Sans" [!$WINDOWS] // Target ID health font | Primary font
+				"tall"			"10" // Target ID health text size
+				"weight"		"0"
+				"additive"		"0"
+				"antialias" 	"1"
+			}
+		}
+
 		"G_FontTargetIDHealth"
 		{
 			"1"
