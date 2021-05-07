@@ -213,6 +213,20 @@ Scheme
 				"antialias"		"1"
 			}
 		}
+
+		"G_FontBackpack"
+		{
+			"1"
+			{
+				"name"			"Hakuna Sans" [$WINDOWS] // Ammo Font | Primary font
+				"name"			"Hakuna Sans" [!$WINDOWS] // Ammo Font | Primary font
+				"tall"			"14" [$WINDOWS] // Size Small Primary
+				"tall"			"14" [!$WINDOWS] // Size Small Primary
+				"weight"		"0"
+				"additive"		"0"
+				"antialias"		"1"
+			}
+		}
 		
 		"G_FontMainMenuItem"
 		{
