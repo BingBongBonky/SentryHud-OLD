@@ -64,7 +64,7 @@
 				"paintborder"	"1"
 				"textAlignment"	"center"
 				"labelText"		"%page%"
-				"font"				"HudFontSmallestBold"
+				"font"				"G_FontBackpackPage"
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
 				
@@ -196,7 +196,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CaratLabel"
-		"font"			"HudFontSmallestBold"
+		"font"			"G_FontMainMenuItemSmall"
 		"labelText"		">>"
 		"textAlignment"	"west"
 		"xpos"			"-9999"
@@ -251,7 +251,7 @@
 	{
 		"ControlName"		"ComboBox"
 		"fieldName"			"ShowRarityComboBox"
-		"font"				"HudFontSmallestBold"
+		"font"				"G_FontMainMenuItemTiny"
 		"wrap"				"0"
 		"xpos"				"c81"
 		"ypos"				"16"
@@ -314,7 +314,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"NameFilterLabel"
-		"font"			"HudFontSmallestBold"
+		"font"			"G_FontMainMenuItemSmall"
 		"labelText"		"#Store_NameFilterLabel"
 		"textAlignment"	"west"
 		"xpos"			"c+137"
@@ -345,7 +345,7 @@
 		"textHidden"	"0"
 		"editable"		"1"
 		"unicode"		"1"
-		"font"			"HudFontSmallestBold"
+		"font"			"G_FontMainMenuItemSmall"
 		"fgcolor_override"		"G_InputText"
 		"bgcolor_override"		"G_MenuText"
 		"paintbackgroundtype" 	"2"
@@ -372,7 +372,7 @@
 	{
 		"ControlName"		"ComboBox"
 		"fieldName"			"SortByComboBoxi"
-		"font"				"HudFontSmallestBold"
+		"font"				"G_FontMainMenuItemSmall"
 		"xpos"				"c-24"
 		"ypos"				"16"
 		"zpos"				"2"
@@ -513,7 +513,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CurPageLabel"
-		"font"			"HudFontSmallestBold"
+		"font"			"G_FontMainMenuItemSmall"
 		"labelText"		"%backpackpage%"
 		"textAlignment"	"center"
 		"xpos"			"-9999"
@@ -624,7 +624,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#Cancel"
-		"font"			"HudFontSmallestBold"
+		"font"			"G_FontMainMenuItemSmall"
 		"textAlignment"	"center"
 		"textinsetx"	"50"
 		"dulltext"		"0"

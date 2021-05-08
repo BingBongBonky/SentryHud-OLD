@@ -502,7 +502,7 @@
 	{
 		"ControlName"	"Label"
 		"fieldName"		"ClassLabel"
-		"font"			"G_FontSmall"
+		"font"			"G_FontBackpack"
 		"labelText"		"classname"
 		"textAlignment"	"north"
 		"xpos"			"0"
@@ -577,7 +577,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"SelectLabel"
-		"font"			"G_FontSmall"
+		"font"			"G_FontBackpack"
 		"labelText"		"#SelectClassLoadout"
 		"textAlignment"	"center"
 		"xpos"			"0"
@@ -596,7 +596,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"LoadoutChangesLabel"
-		"font"			"G_FontSmall"
+		"font"			"G_FontBackpack"
 		"labelText"		"#LoadoutChangesUpdate"
 		"textAlignment"	"center"
 		"xpos"			"0"
@@ -2636,7 +2636,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"G_Scout_title"
-			"font"			"G_FontSmall"
+			"font"			"G_FontBackpack"
 			"labelText"		"Scout"
 			"textAlignment"	"center"
 			"xpos"			"c-315"
@@ -2657,7 +2657,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"G_Soldier_title"
-			"font"			"G_FontSmall"
+			"font"			"G_FontBackpack"
 			"labelText"		"Soldier"
 			"textAlignment"	"center"
 			"xpos"			"c-245"
@@ -2678,7 +2678,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"G_Pyro_title"
-			"font"			"G_FontSmall"
+			"font"			"G_FontBackpack"
 			"labelText"		"Pyro"
 			"textAlignment"	"center"
 			"xpos"			"c-175"
@@ -2699,7 +2699,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"G_Demoman_title"
-			"font"			"G_FontSmall"
+			"font"			"G_FontBackpack"
 			"labelText"		"Demoman"
 			"textAlignment"	"center"
 			"xpos"			"c-105"
@@ -2720,7 +2720,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"G_Heavy_title"
-			"font"			"G_FontSmall"
+			"font"			"G_FontBackpack"
 			"labelText"		"Heavy"
 			"textAlignment"	"center"
 			"xpos"			"c-35"
@@ -2741,7 +2741,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"G_Engineer_title"
-			"font"			"G_FontSmall"
+			"font"			"G_FontBackpack"
 			"labelText"		"Engineer"
 			"textAlignment"	"center"
 			"xpos"			"c35"
@@ -2762,7 +2762,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"G_Medic_title"
-			"font"			"G_FontSmall"
+			"font"			"G_FontBackpack"
 			"labelText"		"Medic"
 			"textAlignment"	"center"
 			"xpos"			"c105"
@@ -2783,7 +2783,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"G_Sniper_title"
-			"font"			"G_FontSmall"
+			"font"			"G_FontBackpack"
 			"labelText"		"Sniper"
 			"textAlignment"	"center"
 			"xpos"			"c175"
@@ -2804,7 +2804,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"G_Spy_title"
-			"font"			"G_FontSmall"
+			"font"			"G_FontBackpack"
 			"labelText"		"Spy"
 			"textAlignment"	"center"
 			"xpos"			"c245"

@@ -227,6 +227,35 @@ Scheme
 				"antialias"		"1"
 			}
 		}
+
+		"G_FontBackpackPage"
+		{
+			"1"
+			{
+				"name"			"Keep Calm Medium" [$WINDOWS] // Primary font
+				"name"			"Keep Calm Medium" [!$WINDOWS] // Primary font
+				"tall"			"12" [$WINDOWS] // Font Size Main Menu
+				"tall"			"12" [!$WINDOWS] // Font Size Main Menu
+				"weight"		"0"
+				"additive"		"0"
+				"antialias" 	"1"
+			}
+		}
+
+
+		"G_FontBackpackTiny"
+		{
+			"1"
+			{
+				"name"			"Hakuna Sans" [$WINDOWS] // Primary font
+				"name"			"Hakuna Sans" [!$WINDOWS] // Primary font
+				"tall"			"13" [$WINDOWS] // Size Tiny Primary
+				"tall"			"13" [!$WINDOWS] // Size Tiny Primary
+				"weight"		"0"
+				"additive"		"0"
+				"antialias" 	"1"
+			}
+		}
 		
 		"G_FontMainMenuItem"
 		{
@@ -256,6 +285,20 @@ Scheme
 			}
 		}
 		
+		"G_FontMainMenuItemTiny"
+		{
+			"1"
+			{
+				"name"			"Hakuna Sans" [$WINDOWS] // Primary font
+				"name"			"Hakuna Sans" [!$WINDOWS] // Primary font
+				"tall"			"8" [$WINDOWS] // Font Size Main Menu
+				"tall"			"8" [!$WINDOWS] // Font Size Main Menu
+				"weight"		"0"
+				"additive"		"0"
+				"antialias" 	"1"
+			}
+		}
+
 		"G_FontDamage"
 		{
 			"1"
@@ -288,9 +331,9 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Hakuna Sans" [$WINDOWS] // Target ID health font | Primary font
-				"name"			"Hakuna Sans" [!$WINDOWS] // Target ID health font | Primary font
-				"tall"			"10" // Target ID health text size
+				"name"			"Keep Calm Medium" [$WINDOWS] // Target ID health font | Primary font
+				"name"			"Keep Calm Medium" [!$WINDOWS] // Target ID health font | Primary font
+				"tall"			"12" // Target ID health text size
 				"weight"		"0"
 				"additive"		"0"
 				"antialias" 	"1"
@@ -1770,6 +1813,34 @@ Scheme
 				"weight"	"400"
 				"yres"		"1200 10000"
 				"antialias" "1"
+			}
+		}
+		
+		"G_FontScoreboard"
+		{
+			"1"
+			{
+				"name"			"Keep Calm Medium" [$WINDOWS] // Primary font
+				"name"			"Keep Calm Medium" [!$WINDOWS] // Primary font
+				"tall"			"14" [$WINDOWS] // Font Size Main Menu
+				"tall"			"14" [!$WINDOWS] // Font Size Main Menu
+				"weight"		"0"
+				"additive"		"0"
+				"antialias" 	"1"
+			}
+		}
+
+		"G_FontScoreboardMap"
+		{
+			"1"
+			{
+				"name"			"Hakuna Sans" [$WINDOWS] // Primary font
+				"name"			"Hakuna Sans" [!$WINDOWS] // Primary font
+				"tall"			"14" [$WINDOWS] // Font Size Main Menu
+				"tall"			"14" [!$WINDOWS] // Font Size Main Menu
+				"weight"		"0"
+				"additive"		"0"
+				"antialias" 	"1"
 			}
 		}
 		
