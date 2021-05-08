@@ -297,7 +297,7 @@
 		"Font"			"G_FontNone"
 		"textAlignment"	"east"
 		"fgcolor"		"G_MenuText"
-		"xpos"			"c-90"
+		"xpos"			"c-87"
 		"ypos"			"15"
 		"zpos"			"1"
 		"wide"			"106"
