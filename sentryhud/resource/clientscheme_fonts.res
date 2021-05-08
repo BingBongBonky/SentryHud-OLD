@@ -982,7 +982,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Hakuna Sans"
 				"tall"		"18"
 				"weight"	"500"
 				"additive"	"0"
@@ -1088,7 +1088,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Hakuna Sans"
 				"tall"		"10"
 				"weight"	"400"
 				"additive"	"0"
@@ -3020,7 +3020,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Hakuna Sans"
 				"tall"		"14"
 				"weight"	"500"
 				"additive"	"0"
@@ -3031,8 +3031,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
-				"tall"		"24"
+				"name"		"Hakuna Sans"
+				"tall"		"22"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
