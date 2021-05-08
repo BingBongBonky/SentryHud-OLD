@@ -2397,7 +2397,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Hakuna Sans"
 				"tall"		"8"
 				"weight"	"500"
 				"additive"	"0"
@@ -2408,7 +2408,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Hakuna Sans"
 				"tall"		"9"
 				"weight"	"500"
 				"additive"	"0"
@@ -2419,7 +2419,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Hakuna Sans"
 				"tall"		"12"
 				"weight"	"500"
 				"additive"	"0"
@@ -2430,7 +2430,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Hakuna Sans"
 				"tall"		"18"
 				"weight"	"500"
 				"additive"	"0"
@@ -2441,7 +2441,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Keep Calm Medium"
 				"tall"		"7"
 				"weight"	"500"
 				"additive"	"0"
@@ -2452,7 +2452,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"Keep Calm Medium"
 				"tall"		"8"
 				"antialias" "1"
 				"weight"	"500"
@@ -2462,7 +2462,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Keep Calm Medium"
 				"tall"		"8"
 				"weight"	"500"
 				"additive"	"0"
@@ -2473,7 +2473,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Keep Calm Medium"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -2484,7 +2484,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Keep Calm Medium"
 				"tall"		"14"
 				"weight"	"500"
 				"additive"	"0"
