@@ -1380,7 +1380,7 @@
 		"visible" 		"0"
 		"enabled" 		"1"
 		"xpos"			"0"
-		"ypos"			"0"
+		"ypos"			"-20"
 		"wide"	 		"40"
 		"tall"	 		"40"
 		"priority"		"40"
