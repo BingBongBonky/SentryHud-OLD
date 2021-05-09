@@ -145,6 +145,19 @@ Scheme
 				"antialias"		"1"
 			}
 		}
+
+		"G_FontMediumBig"
+		{
+			"1"
+			{
+				"name"			"Keep Calm Medium" [$WINDOWS] // Primary font
+				"name"			"Keep Calm Medium" [!$WINDOWS] // Primary font
+				"tall"			"30" // Size Big Primary
+				"weight"		"0"
+				"additive"		"0"
+				"antialias"		"1"
+			}
+		}
 		
 		"G_FontMedium"
 		{
@@ -169,6 +182,20 @@ Scheme
 				"tall"			"14" [$WINDOWS] // Size Small Primary
 				"tall"			"14" [!$WINDOWS] // Size Small Primary
 				"weight"		"0"
+				"additive"		"0"
+				"antialias" 	"1"
+			}
+		}
+
+		"G_FontSmallBold"
+		{
+			"1"
+			{
+				"name"			"Hakuna Sans" [$WINDOWS] // Primary font
+				"name"			"Hakuna Sans" [!$WINDOWS] // Primary font
+				"tall"			"14" [$WINDOWS] // Size Small Primary
+				"tall"			"14" [!$WINDOWS] // Size Small Primary
+				"weight"		"500"
 				"additive"		"0"
 				"antialias" 	"1"
 			}
@@ -242,6 +269,31 @@ Scheme
 			}
 		}
 
+		"G_FontItemPickup"
+		{
+			"1"
+			{
+				"name"			"Hakuna Sans" [$WINDOWS] // Primary font
+				"name"			"Hakuna Sans" [!$WINDOWS] // Primary font
+				"tall"			"30" // Size Big Primary
+				"weight"		"0"
+				"additive"		"0"
+				"antialias"		"1"
+			}
+		}
+
+		"G_FontItemPickup_2"
+		{
+			"1"
+			{
+				"name"			"Keep Calm Medium" [$WINDOWS] // Primary font
+				"name"			"Keep Calm Medium" [!$WINDOWS] // Primary font
+				"tall"			"30" // Size Big Primary
+				"weight"		"0"
+				"additive"		"0"
+				"antialias"		"1"
+			}
+		}
 
 		"G_FontBackpackTiny"
 		{
@@ -293,6 +345,20 @@ Scheme
 				"name"			"Hakuna Sans" [!$WINDOWS] // Primary font
 				"tall"			"8" [$WINDOWS] // Font Size Main Menu
 				"tall"			"8" [!$WINDOWS] // Font Size Main Menu
+				"weight"		"0"
+				"additive"		"0"
+				"antialias" 	"1"
+			}
+		}
+
+		"G_FontMainMenuNotificationCount" // Small
+		{
+			"1"
+			{
+				"name"			"Keep Calm Medium" [$WINDOWS] // Primary font
+				"name"			"Keep Calm Medium" [!$WINDOWS] // Primary font
+				"tall"			"12" [$WINDOWS] // Font Size Notification Count
+				"tall"			"12" [!$WINDOWS] // Font Size Notification Count
 				"weight"		"0"
 				"additive"		"0"
 				"antialias" 	"1"
