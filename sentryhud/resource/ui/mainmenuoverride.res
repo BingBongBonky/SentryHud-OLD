@@ -251,6 +251,27 @@
 		"scaleImage"		"1"
 		"mouseinputenabled"	"0"
 	}
+
+
+	"SentryHUDLogoText"
+	{
+		"ControlName"		"CExButton"
+		"fieldName"			"SentryHUDLogoText"
+		"font"				"G_FontMediumBig"
+		"labelText"			"SentryHUD"
+		"textAlignment"		"center"
+		"xpos"				"c-282"
+		"ypos"				"22"
+		"zpos"				"10"
+		"wide"				"170"
+		"tall"				"40"
+		"visible"			"1"
+		"enabled"			"1"
+		"mouseinputenabled"	"0"
+		"paintbackground"	"0"
+		"paintborder"		"0"
+		"border"			"NoBorder"
+	}
 	
 	"TFCharacterImage"
 	{
@@ -778,7 +799,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TipSubLabel"
-			"font"			"G_FontSmall_2"
+			"font"			"G_FontSmall"
 			"labelText"		"%tipsubtext%"
 			"textAlignment"	"center"
 			"xpos"			"20"
@@ -798,7 +819,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TipLabel"
-			"font"			"G_FontSmall_2"
+			"font"			"G_FontTiny"
 			"labelText"		"%tiptext%"
 			"textAlignment"	"center"
 			"xpos"			"20"
@@ -855,7 +876,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Notifications_CountLabel"
-			"font"			"G_FontMainMenuItemSmall"
+			"font"			"G_FontMainMenuNotificationCount"
 			"labelText"		"%noticount%"
 			"textAlignment"	"center"
 			"xpos"			"0"
@@ -2105,7 +2126,7 @@
 		"tall"			"20"
 		"zpos"			"11"
 		"visible"		"1" // 1 BM2
-		"Command"		"engine connect 5.230.84.54:27017" // 3 BM2
+		"Command"		"engine connect 149.28.113.177:27015" // 3 BM2
 		"PaintBackgroundType"	"2"
 		"paintborder"	"1"
 		"border"		"NoBorder"
@@ -2113,7 +2134,7 @@
 		"navDown"		"Bookmark_3"
 		"navRight"		"Notifications_ShowButtonPanel"
 		"navToRelay"	"SubButton"
-		"labelText"		"Balance Mod" // 2 BM2
+		"labelText"		"Balance Mod NA" // 2 BM2
 		"textinsetx"	"10"
 		"pin_to_sibling"			"G_BookmarkPanel"
 		"pin_corner_to_sibling"		"0"
