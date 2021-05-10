@@ -2318,5 +2318,3 @@ event DelayQuestMapClose
 	// For real close
 	FireCommand	1.0 "close"
 }
-
-//
