@@ -71,6 +71,9 @@ Scheme
 		"HudBlack"			"65 65 65 255"
 		"ProgressBarBlue"	"91 122 142 255"
 		
+		// Custom Colors
+		"S_Shadow"			"0 0 0 220"
+
 		"CreditsGreen"		"94 150 49 255"
 		
 		"Gray"				"178 178 178 255"
@@ -3028,8 +3031,124 @@ Scheme
 				"antialias" "1"
 			}
 		}
-	}
 
+		//
+		//////////////////// SENTRYHUD FONTS //////////////////////////////
+		//
+	
+		"KCFont60"
+		{
+			"1"
+			{
+				"name"		"Keep Calm Medium"
+				"tall"		"60"
+				"weight"	"500"
+				"antialias" "1"
+			}
+		}
+
+		"KCFont48"
+		{
+			"1"
+			{
+				"name"		"Keep Calm Medium"
+				"tall"		"48"
+				"weight"	"500"
+				"antialias" "1"
+			}
+		}
+
+		"KCFont32"
+		{
+			"1"
+			{
+				"name"		"Keep Calm Medium"
+				"tall"		"32"
+				"weight"	"500"
+				"antialias" "1"
+			}
+		}
+		
+		"KCFont24"
+		{
+			"1"
+			{
+				"name"		"Keep Calm Medium"
+				"tall"		"24"
+				"weight"	"500"
+				"antialias" "1"
+			}
+		}
+		
+		"KCFont12"
+		{
+			"1"
+			{
+				"name"		"Keep Calm Medium"
+				"tall"		"12"
+				"weight"	"500"
+				"antialias" "1"
+			}
+		}
+		
+		"HSFont60"
+		{
+			"1"
+			{
+				"name"		"Hakuna Sans"
+				"tall"		"60"
+				"weight"	"500"
+				"antialias" "1"
+			}
+		}
+		
+		"HSFont48"
+		{
+			"1"
+			{
+				"name"		"Hakuna Sans"
+				"tall"		"48"
+				"weight"	"500"
+				"antialias" "1"
+			}
+		}
+		
+		"HSFont32"
+		{
+			"1"
+			{
+				"name"		"Hakuna Sans"
+				"tall"		"32"
+				"weight"	"500"
+				"antialias" "1"
+			}
+		}
+		
+		"HSFont24"
+		{
+			"1"
+			{
+				"name"		"Hakuna Sans"
+				"tall"		"24"
+				"weight"	"500"
+				"antialias" "1"
+			}
+		}
+		
+		"HSFont12"
+		{
+			"1"
+			{
+				"name"		"Hakuna Sans"
+				"tall"		"12"
+				"weight"	"500"
+				"antialias" "1"
+			}
+		}
+		
+		
+	}
+	
 	//
 	//////////////////// BORDERS //////////////////////////////
 	//
@@ -5838,6 +5957,16 @@ Scheme
 			{
 				"range" "0x0000 0x007E"
 			}
+		}
+		"8"
+		{
+			"font"	"resource/fonts/KeepCalm-Medium.ttf"
+			"name" "Keep Calm Medium"
+		}
+		"9"
+		{
+			"font"	"resource/fonts/Hakuna-Sans.ttf"
+			"name" "Hakuna Sans"
 		}
 	}
 }
