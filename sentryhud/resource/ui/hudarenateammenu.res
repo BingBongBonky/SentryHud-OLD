@@ -1,27 +1,8 @@
 "Resource/UI/ArenaTeamMenu.res"
 {
-	"Background"
-	{
-		"ControlName"	"CExLabel"
-		"labelText"		""
-		"fieldName"		"Background"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"-10"		
-		"wide"			"f0"
-		"tall"			"480"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"paintbackground"	"1"
-		"bgcolor_override"	"G_TransparentMenuBG"
-	}
-	
-	
 	"team"
 	{
-		"ControlName"	"CTeamMenu"
+		"ControlName"		"CTeamMenu"
 		"fieldName"		"team"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -29,8 +10,8 @@
 		"tall"			"480"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"0"
+		"visible"		"1"
+		"enabled"		"1"
 		"tabPosition"	"0"
 	}
 
@@ -51,7 +32,7 @@
 
 	"MapInfo"
 	{
-		"ControlName"	"HTML"
+		"ControlName"		"HTML"
 		"fieldName"		"MapInfo"
 		"xpos"			"100"
 		"ypos"			"34"
@@ -66,7 +47,7 @@
 
 	"mapname"
 	{
-		"ControlName"	"Label"
+		"ControlName"		"Label"
 		"fieldName"		"mapname"
 		"xpos"			"c-310"
 		"ypos"			"50"
@@ -81,117 +62,67 @@
 		"dulltext"		"0"
 		"brighttext"	"1"
 	}
-	
-	"teambutton0"
-	{
-		"ControlName"	"CTFTeamButton"
-		"fieldName"		"teambutton0"
-		"xpos"			"c-516"
-		"ypos"			"c-58"
-		"zpos"			"12"
-		"wide"			"510"
-		"tall"			"52"
-		"autoResize"	"0"
-		"pinCorner"		"2"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"3"
-		"labelText"		""
-		"textAlignment"	"south-west"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"paintborder"	"0"
-		"command"		"jointeam spectate"
-		"team"				"3"		// team blue
-		"associated_model"	"bluedoor"
-		"hover"				"2.0"
-		"font"			"MenuMainTitle"
-	}
-
-	"teambutton1"
-	{
-		"ControlName"	"CTFTeamButton"
-		"fieldName"		"teambutton1"
-		"xpos"			"c6"
-		"ypos"			"c-58"
-		"zpos"			"12"
-		"wide"			"510"
-		"tall"			"52"
-		"autoResize"	"0"
-		"pinCorner"		"2"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"4"
-		"labelText"		""
-		"textAlignment"	"east"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"paintborder"	"0"
-		"command"		"jointeam spectatearena"
-		"team"				"2"		// team red	
-		"font"				"G_FontBig"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
-	}
-
 	"teambutton2"
 	{
-		"ControlName"	"CTFTeamButton"
+		"ControlName"		"CTFTeamButton"
 		"fieldName"		"teambutton2"
-		"xpos"			"c-516"
-		"ypos"			"c-58"
-		"zpos"			"12"
-		"wide"			"510"
-		"tall"			"52"
+		"xpos"			"c-290"
+		"ypos"			"101"
+		"zpos"			"3"
+		"wide"			"124"
+		"tall"			"310"
 		"autoResize"	"0"
 		"pinCorner"		"2"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"	"3"
-		"labelText"		"&A"
+		"tabPosition"	"1"
+		"labelText"		"&1"	[$WIN32]
+		"labelText"		""		[$X360]
 		"textAlignment"	"south-west"
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"paintborder"	"0"
 		"command"		"jointeam spectate"
-		"team"				"3"		// team blue
-		"associated_model"	"bluedoor"
-		"hover"				"2.0"
+		"associated_model"	"autodoor"
 		"font"			"MenuMainTitle"
+		"fgcolor"		"255 255 255 255"
 	}
 	
 	"teambutton3"
 	{
-		"ControlName"	"CTFTeamButton"
+		"ControlName"		"CTFTeamButton"
 		"fieldName"		"teambutton3"
-		"xpos"			"c6"
-		"ypos"			"c-58"
-		"zpos"			"12"
-		"wide"			"510"
-		"tall"			"52"
+		"xpos"			"c-140"
+		"ypos"			"232"
+		"zpos"			"3"
+		"wide"			"82"
+		"tall"			"57"
 		"autoResize"	"0"
 		"pinCorner"		"2"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"	"4"
-		"labelText"		"&D"
-		"textAlignment"	"east"
+		"tabPosition"	"2"
+		"labelText"		"&2"	[$WIN32]
+		"labelText"		""		[$X360]
+		"textAlignment"	"south-west"
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"paintborder"	"0"
 		"command"		"jointeam spectatearena"
-		"team"				"2"		// team red	
-		"font"			"G_FontBig"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
+		"associated_model"	"spectate"	
+		"font"			"MenuMainTitle"
+		"fgcolor"		"255 255 255 255"
 	}
 	
 	"CancelButton" [$WIN32] 
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"CancelButton"
-		"xpos"			"r160"
+		"xpos"			"r190"
+		"xpos_hidef"			"r200"
 		"ypos"			"r40"
+		"ypos_lodef"			"r64"
+		"ypos_hidef"			"r54"
 		"zpos"			"6"
 		"wide"			"150"
 		"tall"			"30"
@@ -207,33 +138,7 @@
 		"command"		"cancelmenu"
 		"font"			"MenuSmallFont"
 	}
-	
-	"TeamMenuSelect"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"TeamMenuSelect"
-		"xpos"			"30"
-		"xpos_lodef"			"52"
-		"xpos_hidef"			"72"
-		"ypos"			"r40"
-		"ypos_lodef"			"r60"
-		"ypos_hidef"			"r54"
-		"zpos"			"6"
-		"wide"			"450"
-		"tall"			"30"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"visible_lodef"		"0"
-		"enabled"		"0"
-		"labelText"		"#TF_SelectATeam"
-		"textAlignment"	"west"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"font"			"MenuMainTitle"
-		"fgcolor"		"HudOffWhite"
-	}
-	
+		
 	"TeamMenuAuto"
 	{
 		"ControlName"	"CExLabel"
@@ -251,9 +156,9 @@
 		"tall"			"24"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"0"
-		"labelText"		"#TF_Random"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"#TF_Arena_Menu_Fight"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -277,9 +182,9 @@
 		"tall"			"20"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"0"
-		"labelText"		""
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"#TF_Spectate"
 		"textAlignment"	"north"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -300,14 +205,13 @@
 		"tall"			"480"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"0"
+		"visible"		"1"
+		"enabled"		"1"
 		"fov"			"20"
-		"Alpha"			"0"
 		
 		"model"
 		{
-			"modelname"	"models/vgui/UI_team01.mdl"
+			"modelname"	"models/vgui/ui_arena01.mdl"
 			"skin"		"0"
 			"angles_x" "0"
 			"angles_y" "180"
@@ -318,162 +222,9 @@
 			"origin_y" "0"
 			"origin_z" "-34"
 		}
-	}
-	
-	"Wall"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"Wall"
-		"xpos"			"0"
-		"ypos"			"c-75"
-		"zpos"			"-5"		
-		"wide"			"f0"
-		"tall"			"86"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"paintbackground"	"1"
-		"bgcolor_override"	"G_MenuShader"
-	}
-	
-	
-	"BlueTeamButton"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldname"		"BlueTeamButton"
-		"xpos"			"c-516"
-		"ypos"			"c-58"
-		"zpos"			"10"
-		"wide"			"510"
-		"tall"			"52"
-		"visible"		"1"
-		"PaintBackgroundType"	"2"
-		"paintborder"	"1"
-		"border"		"G_TargetBorder"
-
-		"SubButton"
-		{
-			"ControlName"	"CExImageButton"
-			"fieldName"		"SubButton"
-			"labelText"		""
-			"xpos"			"-3"
-			"ypos"			"-3"
-			"zpos"			"1"
-			"wide"			"516"
-			"tall"			"58"
-			"autoResize"	"0"
-			"pinCorner"		"3"
-			"visible"		"1"
-			"enabled"		"1"
-			"tabPosition"	"0"
-			"textinsetx"	"30"
-			"use_proportional_insets" "1"
-			"font"			"G_FontBig"
-			"textAlignment"	"east"
-			"dulltext"		"0"
-			"brighttext"	"0"
-			"default"		"1"
-			
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
-			
-			"defaultFgColor_override" 	"G_White"
-			"armedFgColor_override"		"G_White"
-			"depressedFgColor_override" "G_White"
-			
-			"border_default"	"TFFatLineBorderBlueBG"
-			"border_armed"		"TFFatLineBorderBlueBGOpaque"
-			"paintbackground"	"0"
-			"image_drawcolor"	"G_White"
-			"image_armedcolor"	"G_White"	
-		}
-	}
-		
-	"RedTeamButton"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldname"		"RedTeamButton"
-		"xpos"			"c6"
-		"ypos"			"c-58"
-		"zpos"			"10"
-		"wide"			"510"
-		"tall"			"52"
-		"visible"		"1"
-		"PaintBackgroundType"	"2"
-		"paintborder"	"1"
-		"border"		"G_TargetBorder"
-
-		"SubButton"
-		{
-			"ControlName"	"CExImageButton"
-			"fieldName"		"SubButton"
-			"labelText"		""
-			"xpos"			"-3"
-			"ypos"			"-3"
-			"zpos"			"1"
-			"wide"			"516"
-			"tall"			"58"
-			"autoResize"	"0"
-			"pinCorner"		"3"
-			"visible"		"1"
-			"enabled"		"1"
-			"tabPosition"	"0"
-			"textinsetx"	"30"
-			"use_proportional_insets" "1"
-			"font"			"G_FontBig"
-			"textAlignment"	"west"
-			"dulltext"		"0"
-			"brighttext"	"0"
-			"default"		"1"
-			"fgcolor_override"		"G_White"
-			
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
-			
-			"defaultFgColor_override" 	"G_White"
-			"armedFgColor_override"		"G_White"
-			"depressedFgColor_override" "G_White"
-			
-			"border_default"	"TFFatLineBorderRedBG"
-			"border_armed"		"TFFatLineBorderRedBGOpaque"
-			"paintbackground"	"0"
-			"image_drawcolor"	"G_White"
-			"image_armedcolor"	"G_White"	
-		}
-	}
-	
-	
-	"BlueTeamImage"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"BlueTeamImage"
-		"xpos"			"10"
-		"ypos"			"c-52"
-		"zpos"			"12"
-		"wide"			"40"
-		"tall"			"40"
-		"visible"		"1"
-		"enabled"		"1"
-		"scaleImage"	"1"
-		"image"			"../hud/hud_icon_attack"
 	}	
-	
-	"RedTeamImage"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"RedTeamImage"
-		"xpos"			"r50"
-		"ypos"			"c-52"
-		"zpos"			"12"
-		"wide"			"40"
-		"tall"			"40"
-		"visible"		"1"
-		"enabled"		"1"
-		"scaleImage"	"1"
-		"image"			"glyph_tv"
-	}	
-	
+
+
 	
 	"ShadedBar"
 	{
@@ -490,204 +241,13 @@
 		"tall_hidef"			"65"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"0"
+		"visible"		"1"
+		"enabled"		"1"
 		"tabPosition"	"0"	
-		"image"			"loadout_bottom_gradient"
-		"tileImage"		"1"
+		"fillcolor"		"0 0 0 180"
 		"PaintBackgroundType"	"0"
 	}		
-	
-	"BlueCount"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"BlueCount"
-		"xpos"			"c-526"
-		"ypos"			"c-58"
-		"zpos"			"11"
-		"wide"			"510"
-		"tall"			"52"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"#TF_Arena_Menu_Fight"
-		"textAlignment"	"east"
-		"dulltext"		"0"
-		"brighttext"	"1"
-		"font"			"G_FontBig"
-		"fgcolor"		"G_White"
-		"textinsetx"	"5"
-	}		
-	
-	"RedCount"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"RedCount"
-		"xpos"			"c16"
-		"ypos"			"c-58"
-		"zpos"			"11"
-		"wide"			"510"
-		"tall"			"52"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"#TF_Spectate"
-		"textAlignment"	"west"
-		"dulltext"		"0"
-		"brighttext"	"1"
-		"font"			"G_FontBig"
-		"fgcolor"		"G_White"
-		"textinsetx"	"15"
-	}	
-	
-	"bluedoor"
-	{
-		"ControlName"	"CModelPanel"
-		"fieldName"		"bluedoor"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"2"		
-		"wide"			"640"
-		"tall"			"480"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"0"
-		"fov"			"20"
 		
-		"model"
-		{
-			"modelname"	"models/vgui/UI_team01_blue.mdl"
-			"skin"		"0"
-			"angles_x" "0"
-			"angles_y" "180"
-			"angles_z" "0"
-			"origin_x" "290"
-			"origin_x_lodef" "320"
-			"origin_x_hidef" "305"
-			"origin_y" "0"
-			"origin_z" "-34"
-			
-			"animation"
-			{
-				"name"			"idle_enabled"
-				"sequence"		"idle"
-				"default"		"1"
-			}
-
-			"animation"
-			{
-				"name"			"idle_disabled"
-				"sequence"		"fullidle"
-			}			
-			
-			"animation"
-			{
-				"name"			"enter_enabled"
-				"sequence"		"hoveropen"
-			}
-			
-			"animation"
-			{
-				"name"			"enter_disabled"
-				"sequence"		"fullidle"
-			}
-				
-			"animation"
-			{
-				"name"			"exit_enabled"
-				"sequence"		"hoverclose"
-			}
-			
-			"animation"
-			{
-				"name"			"exit_disabled"
-				"sequence"		"fullidle"
-			}
-			
-			"animation"
-			{
-				"name"			"hover_disabled"
-				"sequence"		"fullhover"
-			}
-		}
-	}	
-	
-	"reddoor"
-	{
-		"ControlName"	"CModelPanel"
-		"fieldName"		"reddoor"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"2"		
-		"wide"			"f0"
-		"tall"			"480"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"0"
-		"fov"			"20"
-		
-		"model"
-		{
-			"modelname"	"models/vgui/UI_team01_red.mdl"
-			"skin"		"0"
-			"angles_x" "0"
-			"angles_y" "180"
-			"angles_z" "0"
-			"origin_x" "290"
-			"origin_x_lodef" "320"
-			"origin_x_hidef" "305"
-			"origin_y" "0"
-			"origin_z" "-34"
-			
-			"animation"
-			{
-				"name"			"idle_enabled"
-				"sequence"		"idle"
-				"default"		"1"
-			}
-
-			"animation"
-			{
-				"name"			"idle_disabled"
-				"sequence"		"fullidle"
-			}			
-			
-			"animation"
-			{
-				"name"			"enter_enabled"
-				"sequence"		"hoveropen"
-			}
-			
-			"animation"
-			{
-				"name"			"enter_disabled"
-				"sequence"		"fullidle"
-			}
-				
-			"animation"
-			{
-				"name"			"exit_enabled"
-				"sequence"		"hoverclose"
-			}
-			
-			"animation"
-			{
-				"name"			"exit_disabled"
-				"sequence"		"fullidle"
-			}
-			
-			"animation"
-			{
-				"name"			"hover_disabled"
-				"sequence"		"fullhover"
-			}
-		}
-	}		
-	
 	"autodoor"
 	{
 		"ControlName"	"CModelPanel"
@@ -699,13 +259,13 @@
 		"tall"			"480"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"0"
+		"visible"		"1"
+		"enabled"		"1"
 		"fov"			"20"
 		
 		"model"
 		{
-			"modelname"	"models/vgui/UI_team01_random.mdl"
+			"modelname"	"models/vgui/ui_arenadoor01.mdl"
 			"skin"		"0"
 			"angles_x" "0"
 			"angles_y" "180"
@@ -748,8 +308,8 @@
 		"tall"			"480"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"0"
+		"visible"		"1"
+		"enabled"		"1"
 		"fov"			"20"
 		
 		"model"
@@ -829,109 +389,5 @@
 			"icon"		"#GameUI_Icons_A_BUTTON"	
 		}
 	}	
-	
-	"HighlanderLabel" [$WIN32] 
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"HighlanderLabel"
-		"xpos"			"c-150"
-		"ypos"			"20"
-		"zpos"			"6"
-		"wide"			"300"
-		"tall"			"60"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"1"
-		"labelText"		"#TF_Highlander_Mode"
-		"textAlignment"	"west"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"font"			"G_FontMedium"
-		"fgcolor"		"HudOffWhite"
-		"centerwrap"	"1"
-		"textinsetx"	"5"
-	}
-	
-	"HighlanderLabelShadow" [$WIN32] 
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"HighlanderLabelShadow"
-		"xpos"			"c-150"
-		"ypos"			"20"
-		"zpos"			"6"
-		"wide"			"300"
-		"tall"			"60"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"0"
-		"labelText"		"#TF_Highlander_Mode"
-		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"font"			"CapPlayerFont"
-		"fgcolor"		"black"
-		"centerwrap"	"0"
-	}
-	
-	"TeamsFullLabel" [$WIN32] 
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"TeamsFullLabel"
-		"xpos"			"c-200"
-		"ypos"			"100"
-		"zpos"			"6"
-		"wide"			"400"
-		"tall"			"35"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"1"
-		"labelText"		"#TF_Teams_Full"
-		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"font"			"G_FontMedium_2"
-		"fgcolor"		"HudOffWhite"
-		"centerwrap"	"0"
-	}
-	
-	"TeamsFullLabelShadow" [$WIN32] 
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"TeamsFullLabelShadow"
-		"xpos"			"c-149"
-		"ypos"			"136"
-		"zpos"			"6"
-		"wide"			"105"
-		"tall"			"35"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"1"
-		"labelText"		"#TF_Teams_Full"
-		"textAlignment"	"west"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"font"			"CapPlayerFont"
-		"fgcolor"		"black"
-		"centerwrap"	"1"
-	}
-
-	"TeamsFullArrow" [$WIN32]
-	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"TeamsFullArrow"
-		"xpos"			"c-118"
-		"ypos"			"165"
-		"zpos"			"6"
-		"wide"			"40"
-		"tall"			"40"
-		"visible"		"0"
-		"enabled"		"1"
-		"image"			"../HUD/arrow_big_down"
-		"scaleImage"	"1"	
-	}
 }
 

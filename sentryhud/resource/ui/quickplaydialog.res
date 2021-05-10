@@ -4,63 +4,61 @@
 	{
 		"ControlName"	"CQuickplayDialog"
 		"fieldName"		"QuickplayDialog"
-		"xpos"			"0"
-		"ypos"			"0"
-		"wide"			"f0"
-		"tall"			"480"
-		"autoResize"	"0"
+		"xpos"		"0"
+		"ypos"		"0"
+		"wide"		"f0"
+		"tall"		"480"
+		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"		"0"
-		"bgcolor_override"	"G_DimmFooter"
+		"bgcolor_override"	"0 0 0 240"
 
-		"event247_image"			"illustrations/gamemode_halloween2015"
-		"community_update_image"	"illustrations/gamemode_invasion"
+		"event247_image"	"illustrations/gamemode_halloween2015"
+//		"community_update_image"	"illustrations/gamemode_invasion"
 	}
 
 	"Container"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"Container"
-		"xpos"			"c-200"
-		"ypos"			"c-205"
-		"wide"			"400"
-		"tall"			"410"
-		"autoResize"	"0"
+		"xpos"		"c-200"
+		"ypos"		"c-205"
+		"wide"		"400"
+		"tall"		"410"
+		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"			"0"
+		"tabPosition"		"0"
 		"PaintBackgroundType"	"0"
 		"paintbackground"		"1"
-		"bgcolor_override"		"G_MenuBg"
-		"border"				"G_MenuBorder"
+		"border"				"QuickplayBorder"
 
 		"Background"
 		{
 			"ControlName"	"EditablePanel"
 			"fieldName"		"Background"
-			"xpos"			"0"
-			"ypos"			"0"
-			"wide"			"f0"
-			"tall"			"f0"
-			"autoResize"	"0"
+			"xpos"		"0"
+			"ypos"		"0"
+			"wide"		"f0"
+			"tall"		"f0"
+			"autoResize"		"0"
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"		"0"
-			"bgcolor_override"	"G_MenuBg"
+			"bgcolor_override"	"40 37 37 255"
 			"proportionalToParent"	"1"
 		}
 
 		"TitleLabel"
 		{
-			"ControlName"	"CExLabel"
+			"ControlName"		"CExLabel"
 			"fieldName"		"TitleLabel"
 			"font"			"HudFontMediumBold"
 			"labelText"		"#TF_Quickplay_Title"
-			"fgcolor"		"G_MenuText"
 			"textAlignment"	"center"
 			"xpos"			"40"
 			"ypos"			"15"
@@ -139,7 +137,7 @@
 				"tall"		"245"
 				"visible"	"1"
 				"enabled"	"1"
-				"border"	"MainMenuBrightContainer"
+				"border"				"MainMenuHighlightBorder"
 
 				"ModeImage"
 				{
@@ -259,10 +257,9 @@
 		
 					"MoreInfoLabel"
 					{
-						"ControlName"	"CExLabel"
+						"ControlName"		"CExLabel"
 						"fieldName"		"MoreInfoLabel"
 						"font"			"HudFontSmallest"
-						"fgcolor"		"G_MenuText"
 						"labelText"		"%more_info%"
 						"textAlignment"	"center"
 						"xpos"			"10"
@@ -345,10 +342,9 @@
 
 			"TitleLabel"
 			{
-				"ControlName"	"CExLabel"
+				"ControlName"		"CExLabel"
 				"fieldName"		"TitleLabel"
 				"font"			"HudFontSmallBold"
-				"fgcolor"		"G_MenuText"
 				"labelText"		"#TF_Quickplay_AdvancedOptions"
 				"textAlignment"	"center"
 				"xpos"			"10"
@@ -737,9 +733,9 @@
 			"border_armed"		"MainMenuButtonArmed"
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" 	"G_ButtonText"
-			"armedFgColor_override" 	"G_ButtonHoverText"
-			"depressedFgColor_override" "G_ButtonHoverText"
+			"defaultFgColor_override" "46 43 42 255"
+			"armedFgColor_override" "235 226 202 255"
+			"depressedFgColor_override" "46 43 42 255"
 		}
 
 		"ShowServersButton"
@@ -770,9 +766,9 @@
 			"border_armed"		"MainMenuButtonArmed"
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" 	"G_ButtonText"
-			"armedFgColor_override" 	"G_ButtonHoverText"
-			"depressedFgColor_override" "G_ButtonHoverText"
+			"defaultFgColor_override" "46 43 42 255"
+			"armedFgColor_override" "235 226 202 255"
+			"depressedFgColor_override" "46 43 42 255"
 		}
 
 		"OptionsButton"
@@ -821,10 +817,9 @@
 
 		"OptionsSummaryLabel"
 		{
-			"ControlName"	"CExLabel"
+			"ControlName"		"CExLabel"
 			"fieldName"		"OptionsSummaryLabel"
 			"font"			"HudFontSmallest"
-			"fgcolor"		"G_MenuText"
 			"textAlignment"	"left"
 			"wrap"			"1"
 			"proportionalToParent"	"1"

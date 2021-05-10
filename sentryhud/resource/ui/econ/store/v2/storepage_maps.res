@@ -53,11 +53,6 @@
 		"visible"			"0"
 	}
 	
-	"SearchIcon"
-	{
-		"visible"			"0"
-	}
-	
 	"TitleLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -66,7 +61,7 @@
 		"labelText"		"#Store_Maps_Title"
 		"textAlignment"	"north-west"
 		"xpos"			"c-292"
-		"ypos"			"8"
+		"ypos"			"20"
 		"zpos"			"5"
 		"wide"			"500"
 		"tall"			"25"
@@ -74,7 +69,6 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"G_MenuText"
 	}
 	
 	"SubTitleLabel"
@@ -85,7 +79,7 @@
 		"labelText"		"#Store_Maps_SubTitle"
 		"textAlignment"	"south-west"
 		"xpos"			"c-292"
-		"ypos"			"18"
+		"ypos"			"30"
 		"zpos"			"5"
 		"wide"			"500"
 		"tall"			"25"
@@ -93,7 +87,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"G_MenuText"
+		"fgcolor"		"96 90 85 255"
 	}
 	
 	"LearnMoreButton"
@@ -101,17 +95,17 @@
 		"ControlName"	"CExButton"
 		"fieldName"		"LearnMoreButton"
 		"xpos"			"c175"
-		"ypos"			"15"
+		"ypos"			"20"
 		"zpos"			"5"
 		"wide"			"120"
-		"tall"			"20"
+		"tall"			"25"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#Store_LearnMore"
-		"font"			"HudFontSmallestBold"
+		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"

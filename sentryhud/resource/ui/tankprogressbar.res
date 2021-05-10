@@ -8,7 +8,7 @@
 		"ypos"			"0"
 		"zpos"			"3"
 		"wide"			"190"
-		"tall"			"22"
+		"tall"			"18"
 		"visible"		"0"
 		"enabled"		"1"	
 	}
@@ -17,11 +17,11 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"TankImage"
-		"xpos"			"0"
+		"xpos"			"5"
 		"ypos"			"0"
 		"zpos"			"3"
-		"wide"			"22"
-		"tall"			"22"
+		"wide"			"18"
+		"tall"			"18"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/leaderboard_class_tank"
@@ -30,72 +30,41 @@
 
 	"ProgressBar"
 	{
-		"ControlName"	"ScalableImagePanel"
+		"ControlName"		"ScalableImagePanel"
 		"fieldName"		"ProgressBar"
-		"xpos"			"25"
-		"ypos"			"3"
-		"ypos_minmode"	"5"
-		"zpos"			"4"
-		"wide"			"165"
-		"tall"			"13"
+		"xpos"			"30"
+		"ypos"			"4"
+		"zpos"			"1"
+		"wide"			"153"
+		"tall"			"10"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../hud/color_panel_blu"
-		"src_corner_height"		"23"
-		"src_corner_width"		"23"
-		"draw_corner_width"		"0"
-		"draw_corner_height" 	"0"		
+		"image"			"../HUD/tournament_panel_blu"
+		
+ 		"src_corner_height"	"22"				// pixels inside the image
+ 		"src_corner_width"	"22"
+ 	
+ 		"draw_corner_width"	"5"				// screen size of the corners ( and sides ), proportional
+ 		"draw_corner_height" 	"5"	
 	}
 	
 	"ProgressBarBG"
 	{
-		"ControlName"	"ScalableImagePanel"
+		"ControlName"		"ScalableImagePanel"
 		"fieldName"		"ProgressBarBG"
-		"xpos"			"25"
+		"xpos"			"29"
 		"ypos"			"3"
-		"ypos_minmode"	"5"
-		"zpos"			"3"
-		"wide"			"165"
-		"tall"			"13"
-		"visible"		"0"
-		"enabled"		"0"
-		"image"			"../HUD/tournament_panel_brown"
-		"paintborder"			"0"
-		"border"				"G_MeterBorder"
-		"src_corner_height"		"23"
-		"src_corner_width"		"23"
-		"draw_corner_width"		"0"
-		"draw_corner_height" 	"0"	
-	}
-	
-	"G_ProgressBarBG"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"G_ProgressBarBG"
-		"xpos"			"25"
-		"ypos"			"3"
-		"ypos_minmode"	"5"
-		"zpos"			"3"
-		"wide"			"165"
-		"tall"			"13"
+		"zpos"			"1"
+		"wide"			"155"
+		"tall"			"12"
 		"visible"		"1"
 		"enabled"		"1"
-		"bgcolor_override"	"0 0 0 150"
-	}
+		"image"			"../HUD/tournament_panel_tan"
+		
+		"src_corner_height"	"22"				// pixels inside the image
+		"src_corner_width"	"22"
 	
-	"ProgressBarBorder"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"ProgressBarBorder"
-		"xpos"			"25"
-		"ypos"			"3"
-		"ypos_minmode"	"5"
-		"zpos"			"20"
-		"wide"			"165"
-		"tall"			"13"
-		"visible"		"1"
-		"enabled"		"1"
-		"paintborder"	"1"
-		"border"		"G_TargetBorder"
+		"draw_corner_width"	"5"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"5"	
 	}
 }

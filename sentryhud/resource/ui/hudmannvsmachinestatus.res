@@ -5,11 +5,11 @@
 		"ControlName"		"CWaveStatusPanel"
 		"fieldName"			"WaveStatusPanel"
 		"xpos"				"c-300"
-		"ypos"				"-10"
-		"ypos_minmode"		"0"
+		"ypos"				"0"
 		"zpos"				"0"
 		"wide"				"600"
 		"tall"				"67"
+		"ypos_minmode"		"-7"
 		"visible"			"1"
 		"enabled"			"1"
 	}
@@ -18,11 +18,11 @@
 	{
 		"ControlName"		"CWaveCompleteSummaryPanel"
 		"fieldName"			"WaveCompleteSummaryPanel"
-		"xpos"				"0"
-		"ypos"				"0"
-		"zpos"				"5"
-		"wide"				"f0"
-		"tall"				"f0"
+		"xpos"				"c-125"
+		"ypos"				"120"
+		"zpos"				"0"
+		"wide"				"400"
+		"tall"				"400"
 		"visible"			"1"
 		"enabled"			"1"
 	}
@@ -43,31 +43,33 @@
 		"pin_corner_to_sibling"        "4"          
 		"pin_to_sibling_corner"        "6"  
 	}
-	
+
 	"CurrencyStatusPanel"
 	{
 		"ControlName"		"CCurrencyStatusPanel"
 		"fieldName"			"CurrencyStatusPanel"
 		"xpos"				"0"
-		"ypos"				"0"
-		"wide"				"f0"
-		"tall"				"f0"
+		"ypos"				"r100"
+		"wide"				"100"
+		"tall"				"100"
+		"xpos_minmode"		"65"
+		"ypos_minmode"		"r88"
 		"visible" 			"1"
 		"enabled" 			"1"
-		"paintbackground"	"1"
 	}
 	
 	"InWorldCurrencyPanel"
 	{
 		"ControlName"		"CInWorldCurrencyStatus"
 		"fieldName"			"InWorldCurrencyPanel"
-		"xpos"				"0"
-		"ypos"				"0"
-		"wide"				"f0"
-		"tall"				"f0"
+		"xpos"				"33"
+		"ypos"				"r15"
+		"wide"				"100"
+		"tall"				"100"
+		"xpos_minmode"		"145"
+		"ypos_minmode"		"r12"
 		"visible" 			"1"
 		"enabled" 			"1"
-		"paintbackground"	"1"
 	}
 
 	"WarningSwoop"
@@ -182,7 +184,7 @@
 		"fieldName"			"VictorySplash"
 		"xpos"				"0"
 		"ypos"				"0"
-		//"zpos"			"102"
+		//"zpos"				"102"
 		"wide"				"f0"
 		"tall"				"480"
 		"visible"			"0"
@@ -223,10 +225,10 @@
 		
 		"Background"
 		{
-			"ControlName"	"ScalableImagePanel"
+			"ControlName"		"ScalableImagePanel"
 			"fieldName"		"Background"
 			"xpos"			"c-150"
-			"ypos"			"5"
+			"ypos"			"400"
 			"wide"			"300"
 			"tall"			"20"
 			"autoResize"	"0"
@@ -234,30 +236,28 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"image"			"../hud/color_panel_red"
-			"paintborder"	"1"
-			"border"		"G_TargetBorder"
 
-			"src_corner_height"	"22"
+			"src_corner_height"	"22"				// pixels inside the image
 			"src_corner_width"	"22"
 		
-			"draw_corner_width"		"0"
-			"draw_corner_height" 	"0"	
+			"draw_corner_width"	"5"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"5"	
 		}
 	
 		"ServerChangeLabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"ServerChangeLabel"
-			"font"			"G_FontSmall_2"
+			"font"			"HudFontSmall"
 			"textAlignment"	"center"
 			"labelText"		"%servermessage%"
 			"xpos"			"c-150"
-			"ypos"			"5"
+			"ypos"			"400"
 			"wide"			"300"
 			"tall"			"20"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"G_White"		
+			"fgcolor"		"tanlight"		
 		}
 	}
 	

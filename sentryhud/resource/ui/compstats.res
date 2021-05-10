@@ -11,16 +11,16 @@
 		"tall"			"330"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
-		
+
 		"RankImage"
 		{
 			"ControlName"	"CTFLocalPlayerBadgePanel"
 			"fieldName"		"RankImage"
-			"xpos"			"0"
-			"ypos"			"0"
+			"xpos"			"-8"
+			"ypos"			"-15"
 			"zpos"			"110"
 			"wide"			"o1"
-			"tall"			"40"
+			"tall"			"70"
 			"visible"		"1"
 			"enabled"		"1"
 			"proportionaltoparent"	"1"
@@ -33,11 +33,11 @@
 		{
 			"ControlName"	"CPvPRankPanel"
 			"fieldName"		"RankPanel"
-			"xpos"			"0"
-			"ypos"			"-25"
+			"xpos"			"-75"
+			"ypos"			"-35"
 			"zpos"			"100"
-			"wide"			"260"
-			"tall"			"60"
+			"wide"			"320"
+			"tall"			"100"
 			"visible"		"1"
 			"proportionaltoparent"	"1"
 			"mouseinputenabled"	"0"
@@ -46,7 +46,7 @@
 
 			"show_model"	"0"
 			"show_name"		"0"
-			
+
 			"BGBorder"
 			{
 				"visible"	"0"

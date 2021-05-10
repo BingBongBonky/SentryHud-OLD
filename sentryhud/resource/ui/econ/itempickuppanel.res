@@ -16,21 +16,20 @@
 		"tabPosition"		"0"
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"	"G_MenuBg"
-		"infocus_bgcolor_override" "G_MenuBg"
-		"outoffocus_bgcolor_override" "G_MenuBg"
+		"bgcolor_override"	"46 43 42 255"
+		"infocus_bgcolor_override" "46 43 42 255"
+		"outoffocus_bgcolor_override" "46 43 42 255"
 		
 		"modelpanels_spacing"		"40"
 		"modelpanels_width"			"500"
 		"modelpanels_height"		"260"
 		"modelpanels_ypos"			"110"
 		
+		
 		"modelpanelskv"	
 		{
-			"PaintBackgroundType"	"0"
-			"paintborder"			"0"
-			"border"				"NoBorder"
-			"paintbackground"		"0"
+			"PaintBackgroundType"	"2"
+			"paintborder"			"1"
 			"bgcolor_override"		"0 0 0 0"
 			
 			"model_xpos"	"0"
@@ -57,7 +56,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"classimageoutline"
-		"xpos"			"c207"
+		"xpos"			"c208"
 		"ypos"			"115"
 		"zpos"			"6"
 		"wide"			"36"
@@ -70,7 +69,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"classimage"
-		"xpos"			"c210"
+		"xpos"			"c211"
 		"ypos"			"118"
 		"zpos"			"7"
 		"wide"			"30"
@@ -85,7 +84,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ItemsFoundLabel"
-		"font"			"G_FontItemPickup"
+		"font"			"HudFontMediumBigBold"
 		"labelText"		"#NewItemsAcquired"
 		"textAlignment"	"center"
 		"xpos"			"0"
@@ -97,7 +96,6 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"G_MenuText"
 	}
 	
 	"SelectedItemFoundMethodLabel"
@@ -108,7 +106,7 @@
 		"labelText"		""
 		"textAlignment"	"center"
 		"xpos"			"0"
-		"ypos"			"60"
+		"ypos"			"75"
 		"zpos"			"1"
 		"wide"			"f0"
 		"tall"			"35"
@@ -116,7 +114,6 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"G_MenuText"
 	}
 	
 	"ItemCountLabel"
@@ -135,13 +132,12 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"G_MenuText"
 	}
 	"SelectedItemNumberLabel"
 	{
-		"ControlName"	"CExLabel"
+		"ControlName"		"CExLabel"
 		"fieldName"		"SelectedItemNumberLabel"
-		"font"			"G_FontItemPickup_2"
+		"font"			"HudFontMediumBigBold"
 		"labelText"		"#SelectedItemNumber"
 		"textAlignment"	"north-west"
 		"xpos"			"c-245"
@@ -153,7 +149,6 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"G_MenuText"
 	}
 	
 	"NextButton"
@@ -218,7 +213,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#CloseItemPanel"
-		"font"			"G_FontSmallBold"
+		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -242,7 +237,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"%loadouttext%"
-		"font"			"G_FontSmallBold"
+		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -255,18 +250,18 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"DiscardButton"
-		"xpos"			"c210"
+		"xpos"			"c224"
 		"ypos"			"155"
 		"zpos"			"10"
-		"wide"			"30"
-		"tall"			"30"
+		"wide"			"20"
+		"tall"			"20"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		""
-		"font"			"G_FontSmallBold"
+		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -302,8 +297,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"DiscardButtonTooltip"
-		"xpos"			"c175"
-		"ypos"			"186"
+		"xpos"			"c180"
+		"ypos"			"175"
 		"zpos"			"11"
 		"wide"			"100"
 		"tall"			"50"
@@ -315,7 +310,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TipLabel"
-			"font"			"G_FontSmallBold"
+			"font"			"HudFontSmallestBold"
 			"labelText"		"#DiscardItem"
 			"textAlignment"	"center"
 			"xpos"			"12"
@@ -335,7 +330,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"DiscardedLabel"
-		"font"			"G_FontMedium"
+		"font"			"HudFontMediumBold"
 		"labelText"		"#Discarded"
 		"textAlignment"	"center"
 		"xpos"			"c-215"
@@ -348,7 +343,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"fgcolor_override" "200 80 60 255"
-		"bgcolor_override"	"G_MenuBg"
+		"bgcolor_override"	"46 43 42 255"
 	}
 	
 	"ScoreEntry"
@@ -374,22 +369,5 @@
 		"bgcolor_override"	"0 0 0 255"
 		"labelText"			"Enter Score Here"
 		"textAlignment"		"center"
-	}
-	
-	"Wall"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"Wall"
-		"xpos"			"0"
-		"ypos"			"101"
-		"zpos"			"-5"		
-		"wide"			"f0"
-		"tall"			"280"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"paintbackground"	"1"
-		"bgcolor_override"	"G_MenuShader"
 	}
 }

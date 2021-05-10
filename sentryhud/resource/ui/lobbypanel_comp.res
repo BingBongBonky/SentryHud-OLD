@@ -17,7 +17,7 @@
 		"tabPosition"	"0"
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"		"G_MenuBg"
+		"bgcolor_override"	"46 43 42 255"
 		"proportionaltoparent"	"1"
 	}
 
@@ -29,7 +29,7 @@
 		"ypos"			"0"
 		"zpos"			"-1"
 		"wide"			"f0"
-		"tall"			"f0"
+		"tall"			"p0.8"
 		"visible"		"0"
 		"enabled"		"1"
 		"mouseinputenabled" "0"
@@ -128,7 +128,6 @@
 				"border"		"InnerShadowBorder"
 				"proportionaltoparent"	"1"
 				"mouseinputenabled"	"0"
-
 			}
 
 			"MatchHistoryCategories"
@@ -137,7 +136,7 @@
 				"fieldName"		"MatchHistoryCategories"
 				"xpos"			"cs-0.5"
 				"ypos"			"25"
-				"zpos"			"10"
+				"zpos"		"10"
 				"wide"			"p0.95"
 				"tall"			"20"
 				"visible"		"1"

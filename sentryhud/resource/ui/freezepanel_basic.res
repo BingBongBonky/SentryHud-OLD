@@ -4,9 +4,10 @@
 	{
 		"ControlName"	"CTFFreezePanel"
 		"fieldName"		"FreezePanel"
-		"screenshot_move_panel_to_corner"	"0"
+
+		"screenshot_move_panel_to_corner"	"1"
 	}
-	
+
 	"FreezePanelBase"	[$X360]
 	{
 		"ControlName"	"EditablePanel"
@@ -19,10 +20,13 @@
 
 		"NemesisSubPanel"
 		{
-			"ControlName"	"EditablePanel"
+			"ControlName"		"EditablePanel"
 			"fieldName"		"NemesisSubPanel"
 			"xpos"			"c46"
+			"xpos_hidef"	"c109"
 			"ypos"			"223"
+			"ypos_hidef"		"223"
+			"ypos_lodef"		"193"
 			"zpos"			"4"
 			"wide"			"166"
 			"tall"			"38"
@@ -30,7 +34,7 @@
 
 			"NemesisPanelBG"
 			{
-				"ControlName"	"ImagePanel"
+				"ControlName"		"ImagePanel"
 				"fieldName"		"NemesisPanelBG"
 				"xpos"			"0"
 				"ypos"			"0"
@@ -40,7 +44,7 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"image"			"../hud/freezecam_black_bg"
-				"scaleImage"	"1"	
+				"scaleImage"		"1"	
 			}
 			"NemesisIcon"
 			{
@@ -58,64 +62,76 @@
 			}		
 			"NemesisLabel"
 			{	
-				"ControlName"	"Label"
+				"ControlName"		"Label"
 				"fieldName"		"NemesisLabel"
 				"font"			"HudFontMediumSmall"
 				"xpos"			"44"
 				"ypos"			"10"
+				"ypos_hidef"		"11"
+				"ypos_lodef"		"13"
 				"zpos"			"6"
 				"wide"			"112"
 				"tall"			"18"
-				"autoResize"	"0"
+				"tall_hidef"		"24"
+				"autoResize"		"0"
 				"pinCorner"		"0"
 				"visible"		"1"
 				"enabled"		"1"
 				"labelText"		"%nemesisname%"
-				"textAlignment"	"west"
+				"textAlignment"		"west"
 			}
 		}
 		"FreezePanelBG"
 		{
-			"ControlName"	"CTFImagePanel"
+			"ControlName"		"CTFImagePanel"
 			"fieldName"		"FreezePanelBG"
 			"xpos"			"c-38"
+			"xpos_hidef"		"c25"
 			"ypos"			"245"
+			"ypos_hidef"		"245"
+			"ypos_lodef"		"215"
 			"zpos"			"0"
 			"wide"			"266"
 			"tall"			"48"
 			"visible"		"1"
 			"enabled"		"1"
 			"image"			"../hud/color_panel_blu"
-			"scaleImage"	"1"	
+			"scaleImage"		"1"	
 		}
 
 		"FreezeLabel"
 		{	
-			"ControlName"	"Label"
+			"ControlName"		"Label"
 			"fieldName"		"FreezeLabel"
 			"font"			"DefaultSmall"
 			"xpos"			"c2"
+			"xpos_hidef"		"c65"
 			"ypos"			"255"
+			"ypos_hidef"		"256"
+			"ypos_lodef"		"225"
 			"zpos"			"1"
 			"wide"			"252"
 			"tall"			"9"
-			"autoResize"	"0"
+			"autoResize"		"0"
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
 			"labelText"		"#FreezePanel_Killer"
-			"textAlignment"	"Left"
+			"textAlignment"		"Left"
 			"dulltext"		"0"
-			"brighttext"	"0"
+			"brighttext"		"0"
 		}
 
 		"FreezeLabelKiller"
 		{	
-			"ControlName"	"Label"
+			"ControlName"		"Label"
 			"fieldName"		"FreezeLabelKiller"
 			"font"			"HudFontSmall"
-			"xpos"			"c6"
+			"xpos"			"c6"			// No avatar image on X360
+			"xpos_hidef"		"c69"
 			"ypos"			"266"
+			"ypos_hidef"		"266"
+			"ypos_lodef"		"236"
 			"zpos"			"1"
 			"wide"			"252"
 			"tall"			"18"
@@ -129,10 +145,13 @@
 
 		"FreezePanelHealth"
 		{
-			"ControlName"	"EditablePanel"
+			"ControlName"		"EditablePanel"
 			"fieldName"		"FreezePanelHealth"
 			"xpos"			"c-30"
+			"xpos_hidef"		"c35"
 			"ypos"			"253"
+			"ypos_hidef"		"253"
+			"ypos_lodef"		"223"
 			"zpos"			"1"
 			"wide"			"31"
 			"tall"			"31"
@@ -150,17 +169,14 @@
 	{
 		"ControlName"	"CItemModelPanel"
 		"fieldName"		"itempanel"
-		"xpos"			"r180"
+		"xpos"			"r200"
 		"ypos"			"0"
 		"zpos"			"10"
-		"wide"			"170"
+		"wide"			"190"
 		"tall"			"100"
 		"visible"		"0"
+		"bgcolor_override"		"255 255 255 0"
 		"PaintBackgroundType"	"0"
-		"paintborder"		"1"
-		"border"		"G_TargetBorder"
-		"paintbackground"	"1"
-		"bgcolor_override"	"G_PanelBg"
 		
 		"model_ypos"		"10"
 		"model_center_x"	"1"
@@ -169,7 +185,7 @@
 		
 		"text_xpos"		"10"
 		"text_ypos"		"10"
-		"text_wide"		"150"
+		"text_wide"		"170"
 		"text_center"	"1"
 		
 		"max_text_height"	"100"
@@ -203,46 +219,46 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 		}
-	}	
+	}		
 	
 	"FreezePanelBase"	[$WIN32]
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"FreezePanelBase"
-		"xpos"			"r200"
-		"ypos"			"150"
-		"wide"			"310"		
-		"tall"			"300"		
+		"xpos"			"r270"
+		"ypos"			"93"		
+		"wide"			"267"		
+		"tall"			"200"		
 		"visible"		"1"
 
 		"FreezePanelBG"
 		{
 			"ControlName"		"CTFImagePanel"
 			"fieldName"		"FreezePanelBG"
-			"xpos"			"20"
-			"ypos"			"100"
+			"xpos"			"8"
+			"ypos"			"160"
 			"zpos"			"0"
-			"wide"			"203"
-			"tall"			"28"
+			"wide"			"256"
+			"tall"			"33"
 			"visible"		"1"
 			"enabled"		"1"
 			"image"			"../hud/color_panel_blu"
-			"scaleImage"			"1"	
-			"paintborder"			"1"
-			"border"				"G_TargetBorder"
-			"src_corner_height"		"23"
+			"scaleImage"		"1"	
+			
+			"src_corner_height"		"23"				// pixels inside the image
 			"src_corner_width"		"23"
-			"draw_corner_width"		"0"
-			"draw_corner_height" 	"0"	
+				
+			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"5"	
 		}
 		
 		"FreezeLabel"
 		{	
 			"ControlName"		"Label"
 			"fieldName"		"FreezeLabel"
-			"font"			"DefaultVerySmall"
-			"xpos"			"48"
-			"ypos"			"103"
+			"font"			"DefaultSmall"
+			"xpos"			"40"
+			"ypos"			"162"
 			"zpos"			"1"
 			"wide"			"252"
 			"tall"			"12"
@@ -254,41 +270,34 @@
 			"textAlignment"		"North-West"
 			"dulltext"		"0"
 			"brighttext"		"0"
-			"fgcolor_override"	"G_White"
 		}
 		
 		"FreezePanelHealth"		[$WIN32]
 		{
 			"ControlName"	"CTFFreezePanelHealth"
-			"fieldName"		"FreezePanelHealth"	
-			"xpos"			"23" // 1 CTHB
-			"xpos_minmode"	"23" // 1 CTHB
-			"ypos"			"103" // 2 CTHB
-			"ypos_minmode"	"103" // 2 CTHB
-			"zpos"			"0"
-			"wide"			"23" // 3 CTHB
-			"tall"			"23" // 3 CTHB
+			"fieldName"		"FreezePanelHealth"
+			"xpos"			"8"
+			"ypos"			"160"
+			"zpos"			"1"
+			"wide"			"31"
+			"tall"			"31"
 			"visible"		"1"
 			"enabled"		"1"	
-			"HealthBonusPosAdj"			"0" // 4 CTHB
-			"HealthDeathWarning"		"0.49"
-			"TFFont"					"G_FontTiny"
+			"HealthBonusPosAdj"	"9"
+			"HealthDeathWarning"	"0.49"
+			"TFFont"		"HudFontSmall"
 			"HealthDeathWarningColor"	"HUDDeathWarning"
-			"TextColor"					"G_White"
-			"paintborder"				"1" // 5 CTHB
-			"paintbackground"			"1" // 5 CTHB
-			"border"					"G_HealthBorder"
-			"bgcolor_override"			"G_HealthBarBg"
+			"TextColor"		"HudOffWhite"
 		}	
 
 		"FreezeLabelKiller"
 		{	
 			"ControlName"	"Label"
 			"fieldName"		"FreezeLabelKiller"
-			"font"			"G_FontSmall_2"
-			"xpos"			"66"
-			"ypos"			"110"
-			"zpos"			"1"
+			"font"			"HudFontSmall"
+			"xpos"			"61"
+			"ypos"			"173"
+			"zpos"			"5"
 			"wide"			"252"
 			"tall"			"18"
 			"autoResize"	"0"
@@ -297,23 +306,22 @@
 			"enabled"		"1"
 			"labelText"		"%killername%"
 			"textAlignment"		"Left"
-			"fgcolor_override"	"G_White"
 		}
 
 		"AvatarImage"
 		{
-			"ControlName"	"CAvatarImagePanel"
+			"ControlName"		"CAvatarImagePanel"
 			"fieldName"		"AvatarImage"
 			"xpos"			"49"
-			"ypos"			"111"
+			"ypos"			"174"
 			"zpos"			"0"
-			"wide"			"15"
-			"tall"			"15"
+			"wide"			"14"
+			"tall"			"14"
 			"visible"		"1"
 			"enabled"		"1"
 			"image"			""
-			"scaleImage"	"1"	
-			"color_outline"	"0 0 0 255"
+			"scaleImage"		"1"	
+			"color_outline"		"52 48 45 255"
 		}	
 		
 		"NemesisSubPanel"
@@ -321,79 +329,77 @@
 			"ControlName"		"EditablePanel"
 			"fieldName"		"NemesisSubPanel"
 			"xpos"			"0"		// FIXME
-			"ypos"			"133"
+			"ypos"			"130"
 			"zpos"			"4"
-			"wide"			"300"
-			"tall"			"14"
+			"wide"			"306"
+			"tall"			"38"
 			"visible"		"1"
 
 			"NemesisPanelBG"
 			{
 				"ControlName"		"ScalableImagePanel"
 				"fieldName"		"NemesisPanelBG"
-				"xpos"			"20"
-				"ypos"			"0"
+				"xpos"			"95"
+				"ypos"			"4"
 				"zpos"			"5"
-				"wide"			"314"
-				"tall"			"14"
+				"wide"			"161"
+				"tall"			"30"
 				"visible"		"1"
 				"enabled"		"1"
 				"image"			"../hud/color_panel_brown"
-				"scaleImage"		"1"			
-				"src_corner_height"		"23"
+				"scaleImage"		"1"	
+				
+				"src_corner_height"		"23"				// pixels inside the image
 				"src_corner_width"		"23"
-				"draw_corner_width"		"0"	
-				"draw_corner_height" 	"0"	
-				"paintborder"	"1"
-				"border"		"G_TargetBorder"
+					
+				"draw_corner_width"		"6"				// screen size of the corners ( and sides ), proportional
+				"draw_corner_height" 	"6"	
 			}
 			"NemesisIcon"
 			{
 				"ControlName"	"ImagePanel"
 				"fieldName"		"NemesisIcon"
-				"xpos"			"23"
-				"ypos"			"0"
+				"xpos"			"95"
+				"ypos"			"-1"
 				"zpos"			"6"
-				"wide"			"16"
-				"tall"			"16"
+				"wide"			"36"
+				"tall"			"36"
 				"visible"		"1"
 				"enabled"		"1"
-				"image"			"../hud/leaderboard_nemesis"
+				"image"			"../hud/leaderboard_nemesis_freezecam"
 				"scaleImage"	"1"	
 			}		
 			"NemesisLabel"
 			{	
 				"ControlName"		"Label"
 				"fieldName"		"NemesisLabel"
-				"font"			"G_FontSmall_2"
-				"xpos"			"40"
-				"ypos"			"2"
+				"font"			"HudFontMediumSmall"
+				"xpos"			"134"
+				"ypos"			"10"
 				"zpos"			"6"
-				"wide"			"140"
-				"tall"			"10"
+				"wide"			"112"
+				"tall"			"18"
 				"autoResize"		"0"
 				"pinCorner"		"0"
 				"visible"		"1"
 				"enabled"		"1"
 				"labelText"		"%nemesisname%"
 				"textAlignment"		"west"
-				"fgcolor_override"	"TanLight"
-				"textinsetx"		"5"
 			}
 			"NemesisLabel2"
 			{	
 				"ControlName"		"Label"
 				"fieldName"		"NemesisLabel2"
 				"font"			"DefaultSmall"
-				"xpos"			"0"
-				"ypos"			"0"
+				"xpos"			"134"
+				"ypos"			"10"
 				"zpos"			"6"
 				"wide"			"112"
 				"tall"			"18"
 				"autoResize"		"0"
 				"pinCorner"		"0"
 				"visible"		"0"
-				"enabled"		"0"
+				"enabled"		"1"
 				"labelText"		"%nemesisadvice%"
 				"textAlignment"		"west"
 			}

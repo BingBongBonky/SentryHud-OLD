@@ -6,8 +6,8 @@
 	{
 		"ControlName"	"CQuestLogPanel"
 		"fieldName"		"QuestLog"
-		"xpos"			"r350"
-		"ypos"			"55"
+		"xpos"			"c5"
+		"ypos"			"65"
 		"zpos"			"1"
 		"wide"			"300"
 		"tall"			"350"
@@ -19,13 +19,13 @@
 
 	"MainContainer"
 	{
-		"border"		"SharpBlackContainer"
+		"border"		"MainMenuBGBorder"
 
 		"QuestLogTitle"
 		{
 			"font"			"HudFontSmallBold"
 			"labelText"		"#QuestLog_Title_Halloween"
-			"fgcolor"		"245 240 230 255"
+			"fgcolor"		"TanLight"
 		}
 
 		"QuestList"
@@ -33,6 +33,19 @@
 			"no_quests"		"#QuestLog_NoQuests_Halloween"
 			"need_a_pass"	"#QuestLog_NeedPassForContracts_Halloween"
 			"not_possible"	"#QuestLog_NoContractsPossible_Halloween"
+		}
+	}
+
+	"ProgressPanel"
+	{
+		"ContractMeterContainer"
+		{
+			"bgcolor_override"	"0 0 0 0"
+
+			"ContractsCompletedProgressMeter"
+			{	
+				"visible"		"0"
+			}
 		}
 	}
 }

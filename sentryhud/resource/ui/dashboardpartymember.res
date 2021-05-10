@@ -63,7 +63,7 @@
 		"proportionaltoparent"	"1"
 		"drawcolor"	"255 0 0 255"
 	}
-	
+
 	"OutOfDateIcon"
 	{
 		"ControlName"	"ImagePanel"
@@ -145,7 +145,7 @@
 		"defaultBgColor_override"	"235 226 202 2"
 		"armedBgColor_override"	"94 150 49 20"
 
-		"border_default"	"NoBorder"
+		"border_default"	"QuickplayBorder"
 		"border_armed"		"FriendHighlightBorderThick"
 	}
 

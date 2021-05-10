@@ -9,12 +9,12 @@
 		"ypos"					"-5"
 		"zpos"					"10001"
 		"wide"					"f0"
-		"tall"					"30"
+		"tall"					"35"
 		"keyboardinputenabled"	"0"
 
 		"collapsed_height"	"0"
-		"expanded_height"	"30"
-		"resize_time"		"0.1"
+		"expanded_height"	"35"
+		"resize_time"		"0.2"
 	}
 
 	"TopBar"
@@ -25,7 +25,7 @@
 		"ypos"			"0"
 		"zpos"			"1"
 		"wide"			"f0"
-		"tall"			"30"
+		"tall"			"35"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
 
@@ -41,13 +41,13 @@
 			"wide"		"p0.5"
 			"tall"		"f6"
 			"zpos"	"0"
-			"visible"		"0"
-			"enabled"		"0"
+			"visible"		"1"
+			"enabled"		"1"
 			"rotation"		"2"
 			"proportionaltoparent"	"1"
 			"scaleimage"	"1"
 			"mouseinputenabled"	"0"
-			"alpha"		"0"
+			"alpha"		"100"
 
 			"image"		"gradient_pure_black"
 		}
@@ -60,10 +60,10 @@
 			"ypos"			"0"
 			"zpos"			"-1"
 			"wide"			"p1.1"
-			"tall"			"25"
+			"tall"			"f5"
 			"visible"		"1"
-			"bgcolor_override"	"G_Footer"
-			"PaintBackgroundType"	"0"
+			"PaintBackgroundType"	"2"
+			"border"		"ReplayDefaultBorder"
 			"proportionaltoparent"	"1"
 		}
 
@@ -76,11 +76,10 @@
 			"zpos"			"-2"
 			"wide"			"p1.1"
 			"tall"			"p1"
-			"visible"		"0"
+			"visible"		"1"
 			"PaintBackgroundType"	"2"
 			"border"		"OuterShadowBorder"
 			"proportionaltoparent"	"1"
-			"alpha"			"0"
 		}
 
 		"ToggleChatButton"
@@ -90,14 +89,14 @@
 			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"100"
-			"wide"			"30"
-			"tall"			"25"
+			"wide"			"40"
+			"tall"			"f6"
 			"autoResize"	"0"
 			"pinCorner"		"3"
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
-			"font"			"G_FontSmall"
+			"font"			"HudFontSmallestBold"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -112,15 +111,15 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
-			"image_drawcolor"	"214 206 200 255" // Button icon color
-			"image_armedcolor"	"255 255 255 255" // Button icon hover color
+			"image_drawcolor"	"TanLight"
+			"image_armedcolor"	"TanLight"
 
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
 				"fieldName"		"SubImage"
 				"xpos"			"cs-0.5"
-				"ypos"			"5"
+				"ypos"			"rs1-2"
 				"zpos"			"1"
 				"wide"			"20"
 				"tall"			"20"
@@ -136,11 +135,11 @@
 		{
 			"ControlName"	"CDashboardPartyMember"
 			"fieldName"		"PartySlot0"
-			"xpos"			"30"
-			"ypos"			"5"
+			"xpos"			"40"
+			"ypos"			"rs1-6"
 			"zpos"			"100"
 			"wide"			"o1"
-			"tall"			"20"
+			"tall"			"24"
 			"autoResize"	"0"
 			"pinCorner"		"3"
 			"visible"		"1"
@@ -157,11 +156,11 @@
 		{
 			"ControlName"	"CDashboardPartyMember"
 			"fieldName"		"PartySlot1"
-			"xpos"			"50"
-			"ypos"			"5"
+			"xpos"			"64"
+			"ypos"			"rs1-6"
 			"zpos"			"100"
 			"wide"			"o1"
-			"tall"			"20"
+			"tall"			"24"
 			"autoResize"	"0"
 			"pinCorner"		"3"
 			"visible"		"1"
@@ -178,11 +177,11 @@
 		{
 			"ControlName"	"CDashboardPartyMember"
 			"fieldName"		"PartySlot2"
-			"xpos"			"70"
-			"ypos"			"5"
+			"xpos"			"88"
+			"ypos"			"rs1-6"
 			"zpos"			"100"
 			"wide"			"o1"
-			"tall"			"20"
+			"tall"			"24"
 			"autoResize"	"0"
 			"pinCorner"		"3"
 			"visible"		"1"
@@ -199,11 +198,11 @@
 		{
 			"ControlName"	"CDashboardPartyMember"
 			"fieldName"		"PartySlot3"
-			"xpos"			"90"
-			"ypos"			"5"
+			"xpos"			"112"
+			"ypos"			"rs1-6"
 			"zpos"			"100"
 			"wide"			"o1"
-			"tall"			"20"
+			"tall"			"24"
 			"autoResize"	"0"
 			"pinCorner"		"3"
 			"visible"		"1"
@@ -220,11 +219,11 @@
 		{
 			"ControlName"	"CDashboardPartyMember"
 			"fieldName"		"PartySlot4"
-			"xpos"			"110"
-			"ypos"			"5"
+			"xpos"			"136"
+			"ypos"			"rs1-6"
 			"zpos"			"100"
 			"wide"			"o1"
-			"tall"			"20"
+			"tall"			"24"
 			"autoResize"	"0"
 			"pinCorner"		"3"
 			"visible"		"1"
@@ -241,11 +240,11 @@
 		{
 			"ControlName"	"CDashboardPartyMember"
 			"fieldName"		"PartySlot5"
-			"xpos"			"130"
-			"ypos"			"5"
+			"xpos"			"160"
+			"ypos"			"rs1-6"
 			"zpos"			"100"
 			"wide"			"o1"
-			"tall"			"20"
+			"tall"			"24"
 			"autoResize"	"0"
 			"pinCorner"		"3"
 			"visible"		"1"
@@ -279,8 +278,9 @@
 				"zpos"			"-1"
 				"wide"			"f0"
 				"tall"			"f0"
-				"visible"		"0"
+				"visible"		"1"
 				"proportionaltoparent"	"1"
+
 				"border"		"OuterShadowBorderThin"
 			}
 
@@ -295,10 +295,10 @@
 				"tall"			"f4"
 				"visible"		"1"
 				"proportionaltoparent"	"1"
-				"bgcolor_override"	"G_Footer"
-				"border"		"G_MenuBorder"
+
+				"border"		"ReplayDefaultBorder"
 			}
-			
+
 			"QueueLogoButton"
 			{
 				"ControlName"	"Button"
@@ -326,24 +326,24 @@
 			
 				"paintbackground"	"0"
 				"paintborder"		"0"				
-			}
+			}		
 
 			"CTFLogoPanel"
 			{
 				"ControlName"	"CTFLogoPanel"
 				"fieldname"		"CTFLogoPanel"
 				"xpos"			"0"
-				"ypos"			"0"
+				"ypos"			"1"
 				"zpos"			"5"
 				"wide"			"o1"
 				"tall"			"f0"
 				"visible"		"1"
 				"proportionaltoparent"	"1"
 
-				"radius"		"8"
+				"radius"		"10"
 				"velocity"		"100"
 
-				"fgcolor_override"	"G_Highlight"
+				"fgcolor_override"	"TFOrange"
 			}
 
 			"QueueText"
@@ -358,7 +358,7 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"font"			"HudFontSmallestBold"
-				"fgcolor_override"	"G_FooterText"
+				"fgcolor_override"	"TanLight"
 				"textAlignment"	"west"
 				"labelText"		"%queue_state%"
 				"proportionaltoparent"	"1"
@@ -380,7 +380,7 @@
 					}
 				}
 			}
-			
+
 			"MultiQueuesManageButton"
 			{
 				"ControlName"	"CExImageButton"
@@ -435,8 +435,8 @@
 			{
 				"ControlName"	"CExImageButton"
 				"fieldName"		"CloseButton"
-				"xpos"			"rs1-12"
-				"ypos"			"8"
+				"xpos"			"rs1-6"
+				"ypos"			"11"
 				"zpos"			"10"
 				"wide"			"14"
 				"tall"			"14"
@@ -459,13 +459,12 @@
 			
 				"paintbackground"	"0"
 			
-				"defaultFgColor_override" "214 206 200 255" // Button text color
-				"armedFgColor_override"   "192 28 0 255"
-				"depressedFgColor_override" "192 28 0 255"
+				"defaultFgColor_override" "46 43 42 255"
+				"armedFgColor_override" "235 226 202 255"
+				"depressedFgColor_override" "46 43 42 255"
 			
 				"image_drawcolor"	"117 107 94 255"
 				"image_armedcolor"	"200 80 60 255"
-				
 				"SubImage"
 				{
 					"ControlName"	"ImagePanel"
@@ -592,13 +591,13 @@
 			"ypos"			"0"
 			"zpos"			"100"
 			"wide"			"30"
-			"tall"			"25"
+			"tall"			"f6"
 			"autoResize"	"0"
 			"pinCorner"		"3"
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
-			"font"			"G_FontSmall"
+			"font"			"HudFontSmallBold"
 			"textAlignment"	"west"
 			"textinsetx"	"0"
 			"dulltext"		"0"
@@ -614,21 +613,21 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
-			"armedBgColor_override"		"192 28 0 255"
-			"defaultBgColor_override"	"154 22 0 255"
+			"armedBgColor_override"		"192 28 0 150"
+			"defaultBgColor_override"	"192 28 0 50"
 
-			"defaultFgColor_override" "255 228 225 255"
-			"armedFgColor_override" "255 255 255 255"
-			
-			"image_drawcolor"	"255 228 225 255"
-			"image_armedcolor"	"255 255 255 255"
+			"defaultFgColor_override" "TanLight"
+			"armedFgColor_override" "TanLight"
+
+			"image_drawcolor"	"TanLight"
+			"image_armedcolor"	"TanLight"
 
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
 				"fieldName"		"SubImage"
 				"xpos"			"cs-0.5"
-				"ypos"			"8"
+				"ypos"			"rs1-5"
 				"zpos"			"1"
 				"wide"			"14"
 				"tall"			"14"
@@ -637,7 +636,7 @@
 				"scaleImage"	"1"
 				"proportionaltoparent"	"1"
 				"image"			"glyph_quit"
-				"drawcolor_override" "255 255 255 255"
+				"drawcolor_override" "TanLight"
 			}
 		}
 
@@ -649,13 +648,13 @@
 			"ypos"			"0"
 			"zpos"			"100"
 			"wide"			"110"
-			"tall"			"25"
+			"tall"			"f6"
 			"autoResize"	"0"
 			"pinCorner"		"3"
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
-			"font"			"G_FontSmall"
+			"font"			"HudFontSmallBold"
 			"textAlignment"	"west"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -667,27 +666,27 @@
 			"actionsignallevel"	"2"
 			"RoundedCorners"	"0"
 			"textinsety"	"5"
-			"textinsetx"	"25"
+			"textinsetx"	"22"
 			"use_proportional_insets"	"1"
 
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
-			"armedBgColor_override"		"192 28 0 255"
-			"defaultBgColor_override"	"154 22 0 255"
+			"armedBgColor_override"		"192 28 0 150"
+			"defaultBgColor_override"	"192 28 0 50"
 
-			"defaultFgColor_override" "255 228 225 255"
-			"armedFgColor_override" "255 255 255 255"
-			
-			"image_drawcolor"	"255 228 225 255"
-			"image_armedcolor"	"255 255 255 255"
+			"defaultFgColor_override" "TanLight"
+			"armedFgColor_override" "TanLight"
+
+			"image_drawcolor"	"TanLight"
+			"image_armedcolor"	"TanLight"
 
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
 				"fieldName"		"SubImage"
 				"xpos"			"6"
-				"ypos"			"8"
+				"ypos"			"rs1-5"
 				"zpos"			"1"
 				"wide"			"14"
 				"tall"			"14"
@@ -696,6 +695,7 @@
 				"scaleImage"	"1"
 				"proportionaltoparent"	"1"
 				"image"			"glyph_disconnect"
+				"drawcolor_override" "TanLight"
 			}
 		}
 
@@ -706,14 +706,14 @@
 			"xpos"			"rs1-31-131"
 			"ypos"			"0"
 			"zpos"			"100"
-			"wide"			"120"
-			"tall"			"25"
+			"wide"			"90"
+			"tall"			"f6"
 			"autoResize"	"0"
 			"pinCorner"		"3"
 			"visible"		"0"
 			"enabled"		"1"
 			"tabPosition"	"0"
-			"font"			"G_FontSmall"
+			"font"			"HudFontSmallBold"
 			"textAlignment"	"west"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -725,24 +725,26 @@
 			"actionsignallevel"	"2"
 			"roundedcorners"	"1"
 			"textinsety"	"5"
-			"textinsetx"	"25"
+			"textinsetx"	"22"
 			"use_proportional_insets"	"1"
 
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
-			"defaultFgColor_override" "214 206 200 255" // Button text color
-			"armedFgColor_override" "255 255 255 255" // Button hover text color
-			
-			"image_drawcolor"	"214 206 200 255" // Button icon color
-			"image_armedcolor"	"255 255 255 255" // Button icon hover color
+		//	"armedBgColor_override"		"CreditsGreen"
+		//	"defaultBgColor_override"	"GreenSolid"
+
+			"defaultFgColor_override" "TanLight"
+			"armedFgColor_override" "TanLight"
+			"image_drawcolor"	"235 226 202 255"
+			"image_armedcolor"	"235 226 202 255"
 
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
 				"fieldName"		"SubImage"
 				"xpos"			"6"
-				"ypos"			"8"
+				"ypos"			"10"
 				"zpos"			"1"
 				"wide"			"14"
 				"tall"			"14"
@@ -751,8 +753,7 @@
 				"scaleImage"	"1"
 				"proportionaltoparent"	"1"
 				"image"			"icon_resume"
-				"image_drawcolor_override"	"214 206 200 255" // Button icon color
-				"image_armedcolor_override"	"255 255 255 255" // Button icon hover color
+				"drawcolor_override" "TanLight"
 			}
 		}
 
@@ -764,13 +765,13 @@
 			"ypos"			"0"
 			"zpos"			"100"
 			"wide"			"115"
-			"tall"			"25"
+			"tall"			"f6"
 			"autoResize"	"0"
 			"pinCorner"		"3"
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
-			"font"			"G_FontSmall"
+			"font"			"HudFontSmallBold"
 			"textAlignment"	"west"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -788,20 +789,20 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
-			"defaultBgColor_override"	"GreenSolid"
 			"armedBgColor_override"		"CreditsGreen"
+			"defaultBgColor_override"	"GreenSolid"
 
-			"defaultFgColor_override" "242 249 231 255"
-			"armedFgColor_override" "255 255 255 255"
-			"image_drawcolor"	"242 249 231 255"
-			"image_armedcolor"	"255 255 255 255"
+			"defaultFgColor_override" "TanLight"
+			"armedFgColor_override" "TanLight"
+			"image_drawcolor"	"235 226 202 255"
+			"image_armedcolor"	"235 226 202 255"
 
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
 				"fieldName"		"SubImage"
 				"xpos"			"6"
-				"ypos"			"8"
+				"ypos"			"10"
 				"zpos"			"1"
 				"wide"			"14"
 				"tall"			"14"
@@ -810,6 +811,7 @@
 				"scaleImage"	"1"
 				"proportionaltoparent"	"1"
 				"image"			"glyph_multiplayer"
+				"drawcolor_override" "TanLight"
 			}
 		}
 	}

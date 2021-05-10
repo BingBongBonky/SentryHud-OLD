@@ -7,11 +7,6 @@
 		"labelText"		"#TF_Object_tele_exit_360"
 	}
 	
-	"BuildingIcon"	
-	{
-		"icon"			"hud_menu_tele_exit_build"
-	}
-	
 	"NumberLabel"
 	{	
 		"labelText"		"4"
