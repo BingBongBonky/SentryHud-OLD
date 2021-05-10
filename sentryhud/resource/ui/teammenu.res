@@ -205,7 +205,7 @@
 		"paintborder"	"0"
 		"command"		"jointeam spectate"
 		"associated_model"	"spectate"	
-		"font"			"MenuMainTitle"
+		"font"			"G_FontMedium"
 		"fgcolor_override"		"0 0 0 0"
 	}
 	
@@ -252,7 +252,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"command"		"cancelmenu"
-		"font"			"MenuSmallFont"
+		"font"			"G_FontMedium"
 	}
 	
 	"TeamMenuSelect"

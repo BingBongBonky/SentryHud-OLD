@@ -6,11 +6,11 @@ Scheme
 	{
 	
 		"G_ActiveWindow"			"30 30 30 255" // Active window bg color
-		"G_InctiveWindow"			"40 34 30 255" // Inactive window bg color
+		"G_InctiveWindow"			"25 25 25 255" // Inactive window bg color
 		"G_TitleBg"					"45 121 221 255" // Title bg color
 		"G_TitleText"				"255 255 255 255" // Title text color
 		"G_Highlight"				"45 121 221 255" // Highlight color
-		"G_ConsoleBg"				"28 23 19 255" // Console bg color
+		"G_ConsoleBg"				"20 20 20 255" // Console bg color
 		"G_ListBg"					"13 13 13 255" // List bg color
 		"G_Border"					"0 0 0 0" // Border color
 		"G_Text"					"228 228 228 255" // Text color

@@ -99,3 +99,4 @@
 		"subimage"	"replay/thumbnails/glyphs/glyph_sentryhud"
 		"tooltip"	"SentryHUD v0.6 by Healing Sentry"
 	}
+}

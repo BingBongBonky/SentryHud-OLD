@@ -394,7 +394,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"BlueTeamPlayerCount"
-		"font"				"G_FontMedium_2"
+		"font"				"G_FontScoreboard"
 		"labelText"			"%blueteamplayercount%"
 		"textAlignment"		"west"
 		"xpos"				"150"
@@ -486,7 +486,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"RedTeamPlayerCount"
-		"font"			"G_FontMedium_2"
+		"font"			"G_FontScoreboard"
 		"labelText"		"%redteamplayercount%"
 		"textAlignment"	"east"
 		"xpos"			"350"
@@ -880,7 +880,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"mapname"
-		"font"			"G_FontMedium_2"
+		"font"			"G_FontScoreboardMap"
 		"labelText"		"%mapname%"
 		"textAlignment"	"center"
 		"xpos"			"513"

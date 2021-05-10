@@ -77,7 +77,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"		"#TF_Item_SelectStyle"
-			"font"			"HudFontSmallBold"
+			"font"			"G_FontBackpackTiny"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"

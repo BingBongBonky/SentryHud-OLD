@@ -30,8 +30,8 @@
 		"enabled" 				"1"
 		"xpos" 					"5"
 		"ypos" 					"395"
-		"wide"					"290"
-		"wide_minmode" 			"258"
+		"wide"					"235"
+		"wide_minmode" 			"395"
 		"tall" 					"2"
 		"PaintBackgroundType" 	"0"
 	}

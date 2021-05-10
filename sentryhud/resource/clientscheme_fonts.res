@@ -123,8 +123,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"ToonHUD Montserrat" [$WINDOWS] // Primary font
-				"name"			"ToonHUD Montserrat" [!$WINDOWS] // Primary font
+				"name"			"Keep Calm Medium" [$WINDOWS] // Primary font
+				"name"			"Keep Calm Medium" [!$WINDOWS] // Primary font
 				"tall"			"60" [$WINDOWS] // Size Huge Primary
 				"tall"			"50" [!$WINDOWS] // Size Huge Primary
 				"weight"		"0"
@@ -137,9 +137,22 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"ToonHUD Montserrat" [$WINDOWS] // Primary font
-				"name"			"ToonHUD Montserrat" [!$WINDOWS] // Primary font
+				"name"			"Keep Calm Medium" [$WINDOWS] // Primary font
+				"name"			"Keep Calm Medium" [!$WINDOWS] // Primary font
 				"tall"			"40" // Size Big Primary
+				"weight"		"0"
+				"additive"		"0"
+				"antialias"		"1"
+			}
+		}
+
+		"G_FontMediumBig"
+		{
+			"1"
+			{
+				"name"			"Keep Calm Medium" [$WINDOWS] // Primary font
+				"name"			"Keep Calm Medium" [!$WINDOWS] // Primary font
+				"tall"			"30" // Size Big Primary
 				"weight"		"0"
 				"additive"		"0"
 				"antialias"		"1"
@@ -150,8 +163,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"ToonHUD Montserrat" [$WINDOWS] // Primary font
-				"name"			"ToonHUD Montserrat" [!$WINDOWS] // Primary font
+				"name"			"Keep Calm Medium" [$WINDOWS] // Primary font
+				"name"			"Keep Calm Medium" [!$WINDOWS] // Primary font
 				"tall"			"25" [$WINDOWS] // Size Medium Primary
 				"tall"			"20" [!$WINDOWS] // Size Medium Primary
 				"weight"		"0"
@@ -164,11 +177,25 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"ToonHUD Montserrat" [$WINDOWS] // Primary font
-				"name"			"ToonHUD Montserrat" [!$WINDOWS] // Primary font
+				"name"			"Keep Calm Medium" [$WINDOWS] // Primary font
+				"name"			"Keep Calm Medium" [!$WINDOWS] // Primary font
 				"tall"			"14" [$WINDOWS] // Size Small Primary
 				"tall"			"14" [!$WINDOWS] // Size Small Primary
 				"weight"		"0"
+				"additive"		"0"
+				"antialias" 	"1"
+			}
+		}
+
+		"G_FontSmallBold"
+		{
+			"1"
+			{
+				"name"			"Hakuna Sans" [$WINDOWS] // Primary font
+				"name"			"Hakuna Sans" [!$WINDOWS] // Primary font
+				"tall"			"14" [$WINDOWS] // Size Small Primary
+				"tall"			"14" [!$WINDOWS] // Size Small Primary
+				"weight"		"500"
 				"additive"		"0"
 				"antialias" 	"1"
 			}
@@ -178,9 +205,9 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"ToonHUD Montserrat" [$WINDOWS] // Primary font
-				"name"			"ToonHUD Montserrat" [!$WINDOWS] // Primary font
-				"tall"			"14" [$WINDOWS] // Size Tiny Primary
+				"name"			"Keep Calm Medium" [$WINDOWS] // Primary font
+				"name"			"Keep Calm Medium" [!$WINDOWS] // Primary font
+				"tall"			"11" [$WINDOWS] // Size Tiny Primary
 				"tall"			"11" [!$WINDOWS] // Size Tiny Primary
 				"weight"		"0"
 				"additive"		"0"
@@ -188,79 +215,12 @@ Scheme
 			}
 		}
 		
-		
-		"G_FontHuge_2"
-		{
-			"1"
-			{
-				"name"			"Montserrat" [$WINDOWS] // Secondary font
-				"name"			"Montserrat" [!$WINDOWS] // Secondary font
-				"tall"			"25" // Size Huge Secondary
-				"weight"		"0"
-				"additive"		"0"
-				"antialias" 	"1"
-			}
-		}
-		
-		"G_FontBig_2"
-		{
-			"1"
-			{
-				"name"			"Montserrat" [$WINDOWS] // Secondary font
-				"name"			"Montserrat" [!$WINDOWS] // Secondary font
-				"tall"			"19" // Size Big Secondary
-				"weight"		"0"
-				"additive"		"0"
-				"antialias" 	"1"
-			}
-		}
-		
-		"G_FontMedium_2"
-		{
-			"1"
-			{
-				"name"			"Montserrat" [$WINDOWS] // Secondary font
-				"name"			"Montserrat" [!$WINDOWS] // Secondary font
-				"tall"			"16" // Size Medium Secondary
-				"weight"		"0"
-				"additive"		"0"
-				"antialias" 	"1"
-			}
-		}
-		
-		"G_FontSmall_2"
-		{
-			"1"
-			{
-				"name"			"Montserrat" [$WINDOWS] // Secondary font
-				"name"			"Montserrat" [!$WINDOWS] // Secondary font
-				"tall"			"11" // Size Small Secondary
-				"weight"		"0"
-				"additive"		"0"
-				"antialias" 	"1"
-			}
-		}
-		
-		"G_FontTiny_2"
-		{
-			"1"
-			{
-				"name"			"Montserrat" [$WINDOWS] // Secondary font
-				"name"			"Montserrat" [!$WINDOWS] // Secondary font
-				"tall"			"10" // Size Tiny Secondary
-				"weight"		"0"
-				"additive"		"0"
-				"antialias" 	"1"
-				"dropshadow"	"0"
-			}
-		}
-		
 		"G_FontHealth"
 		{
 			"1"
 			{
-				"name"			"ToonHUD Montserrat" [$WINDOWS] // Health Font | Primary font
-				"name"			"ToonHUD Montserrat" [!$WINDOWS] // Health Font | Primary font
+				"name"			"Keep Calm Medium" [$WINDOWS] // Health Font | Primary font
+				"name"			"Keep Calm Medium" [!$WINDOWS] // Health Font | Primary font
 				"tall"			"60" // Size Huge Primary - Font Size Health
 				"weight"		"0"
 				"additive"		"0"
@@ -272,12 +232,80 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"ToonHUD Montserrat" [$WINDOWS] // Ammo Font | Primary font
-				"name"			"ToonHUD Montserrat" [!$WINDOWS] // Ammo Font | Primary font
+				"name"			"Keep Calm Medium" [$WINDOWS] // Ammo Font | Primary font
+				"name"			"Keep Calm Medium" [!$WINDOWS] // Ammo Font | Primary font
 				"tall"			"60" // Size Huge Primary - Font Size Ammo
 				"weight"		"0"
 				"additive"		"0"
 				"antialias"		"1"
+			}
+		}
+
+		"G_FontBackpack"
+		{
+			"1"
+			{
+				"name"			"Hakuna Sans" [$WINDOWS] // Ammo Font | Primary font
+				"name"			"Hakuna Sans" [!$WINDOWS] // Ammo Font | Primary font
+				"tall"			"14" [$WINDOWS] // Size Small Primary
+				"tall"			"14" [!$WINDOWS] // Size Small Primary
+				"weight"		"0"
+				"additive"		"0"
+				"antialias"		"1"
+			}
+		}
+
+		"G_FontBackpackPage"
+		{
+			"1"
+			{
+				"name"			"Keep Calm Medium" [$WINDOWS] // Primary font
+				"name"			"Keep Calm Medium" [!$WINDOWS] // Primary font
+				"tall"			"12" [$WINDOWS] // Font Size Main Menu
+				"tall"			"12" [!$WINDOWS] // Font Size Main Menu
+				"weight"		"0"
+				"additive"		"0"
+				"antialias" 	"1"
+			}
+		}
+
+		"G_FontItemPickup"
+		{
+			"1"
+			{
+				"name"			"Hakuna Sans" [$WINDOWS] // Primary font
+				"name"			"Hakuna Sans" [!$WINDOWS] // Primary font
+				"tall"			"30" // Size Big Primary
+				"weight"		"0"
+				"additive"		"0"
+				"antialias"		"1"
+			}
+		}
+
+		"G_FontItemPickup_2"
+		{
+			"1"
+			{
+				"name"			"Keep Calm Medium" [$WINDOWS] // Primary font
+				"name"			"Keep Calm Medium" [!$WINDOWS] // Primary font
+				"tall"			"30" // Size Big Primary
+				"weight"		"0"
+				"additive"		"0"
+				"antialias"		"1"
+			}
+		}
+
+		"G_FontBackpackTiny"
+		{
+			"1"
+			{
+				"name"			"Hakuna Sans" [$WINDOWS] // Primary font
+				"name"			"Hakuna Sans" [!$WINDOWS] // Primary font
+				"tall"			"13" [$WINDOWS] // Size Tiny Primary
+				"tall"			"13" [!$WINDOWS] // Size Tiny Primary
+				"weight"		"0"
+				"additive"		"0"
+				"antialias" 	"1"
 			}
 		}
 		
@@ -285,8 +313,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"ToonHUD Montserrat" [$WINDOWS] // Primary font
-				"name"			"ToonHUD Montserrat" [!$WINDOWS] // Primary font
+				"name"			"Hakuna Sans" [$WINDOWS] // Primary font
+				"name"			"Hakuna Sans" [!$WINDOWS] // Primary font
 				"tall"			"20" [$WINDOWS] // Font Size Big Main Menu
 				"tall"			"10" [!$WINDOWS] // Font Size Big Main Menu
 				"weight"		"0"
@@ -299,8 +327,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"ToonHUD Montserrat" [$WINDOWS] // Primary font
-				"name"			"ToonHUD Montserrat" [!$WINDOWS] // Primary font
+				"name"			"Hakuna Sans" [$WINDOWS] // Primary font
+				"name"			"Hakuna Sans" [!$WINDOWS] // Primary font
 				"tall"			"12" [$WINDOWS] // Font Size Main Menu
 				"tall"			"12" [!$WINDOWS] // Font Size Main Menu
 				"weight"		"0"
@@ -309,13 +337,41 @@ Scheme
 			}
 		}
 		
+		"G_FontMainMenuItemTiny"
+		{
+			"1"
+			{
+				"name"			"Hakuna Sans" [$WINDOWS] // Primary font
+				"name"			"Hakuna Sans" [!$WINDOWS] // Primary font
+				"tall"			"8" [$WINDOWS] // Font Size Main Menu
+				"tall"			"8" [!$WINDOWS] // Font Size Main Menu
+				"weight"		"0"
+				"additive"		"0"
+				"antialias" 	"1"
+			}
+		}
+
+		"G_FontMainMenuNotificationCount" // Small
+		{
+			"1"
+			{
+				"name"			"Keep Calm Medium" [$WINDOWS] // Primary font
+				"name"			"Keep Calm Medium" [!$WINDOWS] // Primary font
+				"tall"			"12" [$WINDOWS] // Font Size Notification Count
+				"tall"			"12" [!$WINDOWS] // Font Size Notification Count
+				"weight"		"0"
+				"additive"		"0"
+				"antialias" 	"1"
+			}
+		}
+
 		"G_FontDamage"
 		{
 			"1"
 			{
-				"name"			"ToonHUD Montserrat" [$WINDOWS] // Damage font | Primary font
-				"name"			"ToonHUD Montserrat" [!$WINDOWS] // Damage font | Primary font
-				"tall"			"20" // Damage size
+				"name"			"Keep Calm Medium" [$WINDOWS] // Damage font | Primary font
+				"name"			"Keep Calm Medium" [!$WINDOWS] // Damage font | Primary font
+				"tall"			"18" // Damage size
 				"weight"		"0"
 				"additive"		"0"
 				"antialias"		"1"
@@ -327,9 +383,9 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"ToonHUD Montserrat" [$WINDOWS] // Crit damage font | Primary font
-				"name"			"ToonHUD Montserrat" [!$WINDOWS] // Crit damage font | Primary font
-				"tall"			"22" // Crit damage size
+				"name"			"Keep Calm Medium" [$WINDOWS] // Crit damage font | Primary font
+				"name"			"Keep Calm Medium" [!$WINDOWS] // Crit damage font | Primary font
+				"tall"			"20" // Crit damage size
 				"weight"		"0"
 				"additive"		"0"
 				"antialias"		"1"
@@ -337,13 +393,26 @@ Scheme
 			}
 		}
 		
+		"G_FontTargetID"
+		{
+			"1"
+			{
+				"name"			"Keep Calm Medium" [$WINDOWS] // Target ID health font | Primary font
+				"name"			"Keep Calm Medium" [!$WINDOWS] // Target ID health font | Primary font
+				"tall"			"12" // Target ID health text size
+				"weight"		"0"
+				"additive"		"0"
+				"antialias" 	"1"
+			}
+		}
+
 		"G_FontTargetIDHealth"
 		{
 			"1"
 			{
-				"name"			"ToonHUD Montserrat" [$WINDOWS] // Target ID health font | Primary font
-				"name"			"ToonHUD Montserrat" [!$WINDOWS] // Target ID health font | Primary font
-				"tall"			"14" // Target ID health text size
+				"name"			"Keep Calm Medium" [$WINDOWS] // Target ID health font | Primary font
+				"name"			"Keep Calm Medium" [!$WINDOWS] // Target ID health font | Primary font
+				"tall"			"12" // Target ID health text size
 				"weight"		"0"
 				"additive"		"0"
 				"antialias" 	"1"
@@ -354,7 +423,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Verdana"
+				"name"			"Keep Calm Medium"
 				"tall"			"9"
 				"weight"		"500"
 				"antialias" 	"1"
@@ -365,8 +434,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"ToonHUD Montserrat" [$WINDOWS] // Primary font
-				"name"			"ToonHUD Montserrat" [!$WINDOWS] // Primary font
+				"name"			"Keep Calm Medium" [$WINDOWS] // Primary font
+				"name"			"Keep Calm Medium" [!$WINDOWS] // Primary font
 				"tall"			"25" // Size Medium Primary
 				"weight"		"0"
 				"additive"		"0"
@@ -379,8 +448,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"ToonHUD Montserrat" [$WINDOWS] // Primary font
-				"name"			"ToonHUD Montserrat" [!$WINDOWS] // Primary font
+				"name"			"Keep Calm Medium" [$WINDOWS] // Primary font
+				"name"			"Keep Calm Medium" [!$WINDOWS] // Primary font
 				"tall"			"14" [$WINDOWS] // Size Small Primary
 				"tall"			"14" [!$WINDOWS] // Size Small Primary
 				"weight"		"0"
@@ -394,7 +463,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Verdana"
+				"name"			"Keep Calm Medium"
 				"tall"			"1"
 				"weight"		"100"
 				"additive"		"0"
@@ -979,7 +1048,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Hakuna Sans"
 				"tall"		"18"
 				"weight"	"500"
 				"additive"	"0"
@@ -1085,7 +1154,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Hakuna Sans"
 				"tall"		"10"
 				"weight"	"400"
 				"additive"	"0"
@@ -1813,6 +1882,34 @@ Scheme
 			}
 		}
 		
+		"G_FontScoreboard"
+		{
+			"1"
+			{
+				"name"			"Keep Calm Medium" [$WINDOWS] // Primary font
+				"name"			"Keep Calm Medium" [!$WINDOWS] // Primary font
+				"tall"			"14" [$WINDOWS] // Font Size Main Menu
+				"tall"			"14" [!$WINDOWS] // Font Size Main Menu
+				"weight"		"0"
+				"additive"		"0"
+				"antialias" 	"1"
+			}
+		}
+
+		"G_FontScoreboardMap"
+		{
+			"1"
+			{
+				"name"			"Hakuna Sans" [$WINDOWS] // Primary font
+				"name"			"Hakuna Sans" [!$WINDOWS] // Primary font
+				"tall"			"14" [$WINDOWS] // Font Size Main Menu
+				"tall"			"14" [!$WINDOWS] // Font Size Main Menu
+				"weight"		"0"
+				"additive"		"0"
+				"antialias" 	"1"
+			}
+		}
+		
 		"MatchSummaryTeamScores"
 		{
 			"1"
@@ -2366,7 +2463,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Hakuna Sans"
 				"tall"		"8"
 				"weight"	"500"
 				"additive"	"0"
@@ -2377,7 +2474,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Hakuna Sans"
 				"tall"		"9"
 				"weight"	"500"
 				"additive"	"0"
@@ -2388,7 +2485,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Hakuna Sans"
 				"tall"		"12"
 				"weight"	"500"
 				"additive"	"0"
@@ -2399,7 +2496,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Hakuna Sans"
 				"tall"		"18"
 				"weight"	"500"
 				"additive"	"0"
@@ -2410,7 +2507,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Keep Calm Medium"
 				"tall"		"7"
 				"weight"	"500"
 				"additive"	"0"
@@ -2421,7 +2518,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"Keep Calm Medium"
 				"tall"		"8"
 				"antialias" "1"
 				"weight"	"500"
@@ -2431,7 +2528,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Keep Calm Medium"
 				"tall"		"8"
 				"weight"	"500"
 				"additive"	"0"
@@ -2442,7 +2539,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Keep Calm Medium"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -2453,7 +2550,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Keep Calm Medium"
 				"tall"		"14"
 				"weight"	"500"
 				"additive"	"0"
@@ -2989,7 +3086,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Hakuna Sans"
 				"tall"		"14"
 				"weight"	"500"
 				"additive"	"0"
@@ -3000,8 +3097,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
-				"tall"		"24"
+				"name"		"Hakuna Sans"
+				"tall"		"22"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -3265,13 +3362,20 @@ Scheme
 				"range" "0x0000 0x007E"
 			}
 		}
-		"8" "resource/fonts/ToonHUD Icons.ttf"
-		"9" "resource/fonts/ToonHUD Montserrat.ttf"
-		"10" "resource/fonts/Montserrat.ttf"
+		"8" 
+		{
+			"font"	"resource/fonts/KeepCalm-Medium.ttf"
+			"name"	"Keep Calm Medium"
+		}
+		"9"
+		{
+			"font"	"resource/fonts/Hakuna-Sans.ttf"
+			"name"	"Hakuna Sans"
+		}
+		"10"
+		{
+			"font"	"resource/fonts/ToonHUD Icons.ttf"
+			"name"	"ToonHUD Icons"
+		}
 	}
 }
-
-
-
-
-

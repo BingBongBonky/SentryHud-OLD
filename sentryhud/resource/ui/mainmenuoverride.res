@@ -240,30 +240,51 @@
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"			"TFLogoImage"
-		"xpos"				"c-280"
-		"ypos"				"32"
-		"zpos"				"1"
+		"xpos"				"9999"
+		"ypos"				"9999"
+		"zpos"				"-9999"
+		"wide"				"170"
+		"tall"				"40"
+		"visible"			"0"
+		"enabled"			"0"
+		"image"				"../logo/new_tf2_logo"
+		"scaleImage"		"1"
+		"mouseinputenabled"	"0"
+	}
+
+
+	"SentryHUDLogoText"
+	{
+		"ControlName"		"CExButton"
+		"fieldName"			"SentryHUDLogoText"
+		"font"				"G_FontMediumBig"
+		"labelText"			"SentryHUD"
+		"textAlignment"		"center"
+		"xpos"				"c-282"
+		"ypos"				"22"
+		"zpos"				"10"
 		"wide"				"170"
 		"tall"				"40"
 		"visible"			"1"
 		"enabled"			"1"
-		"image"				"../logo/new_tf2_logo"
-		"scaleImage"		"1"
 		"mouseinputenabled"	"0"
+		"paintbackground"	"0"
+		"paintborder"		"0"
+		"border"			"NoBorder"
 	}
 	
 	"TFCharacterImage"
 	{
 		// "ControlName"	"ImagePanel"
 		"fieldName"		"TFCharacterImage"
-		"xpos"			"c-160" // 1 RMMC
-		"ypos"			"-80" // 1 RMMC
-		"zpos"			"-99"
-		"wide"			"600" // 2 RMMC
-		"tall"			"600" // 2 RMMC
-		"visible"		"1" // 2 RMMC
-		"enabled"		"1" // 2 RMMC
-		"scaleImage"	"1"
+		"xpos"			"9999" // 1 RMMC
+		"ypos"			"9999" // 1 RMMC
+		"zpos"			"-9999"
+		"wide"			"0" // 2 RMMC
+		"tall"			"0" // 2 RMMC
+		"visible"		"0" // 2 RMMC
+		"enabled"		"0" // 2 RMMC
+		"scaleImage"	"0"
 	}
 	
 	"RankModelPanel"
@@ -441,8 +462,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"G_MenuPanel"
-		"xpos"			"c-275"
-		"ypos"			"80"
+		"xpos"			"c-277"
+		"ypos"			"60"
 		"wide"			"160"
 		"tall"			"125"
 		"zpos"			"5"
@@ -778,7 +799,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TipSubLabel"
-			"font"			"G_FontSmall_2"
+			"font"			"G_FontSmall"
 			"labelText"		"%tipsubtext%"
 			"textAlignment"	"center"
 			"xpos"			"20"
@@ -798,7 +819,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TipLabel"
-			"font"			"G_FontSmall_2"
+			"font"			"G_FontTiny"
 			"labelText"		"%tiptext%"
 			"textAlignment"	"center"
 			"xpos"			"20"
@@ -855,7 +876,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Notifications_CountLabel"
-			"font"			"G_FontMainMenuItemSmall"
+			"font"			"G_FontMainMenuNotificationCount"
 			"labelText"		"%noticount%"
 			"textAlignment"	"center"
 			"xpos"			"0"
@@ -1691,11 +1712,11 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"G_Wall"
-		"xpos"			"c-310"
+		"xpos"			"c-277"
 		"ypos"			"0"
-		"zpos"			"-55"
+		"zpos"			"0"
 		"wide"			"160"
-		"tall"			"f0"
+		"tall"			"500"
 		"pinCorner"		"0"
 		"autoResize"	"0"
 		"visible"		"1"
@@ -1741,7 +1762,7 @@
 		"ypos"			"0"
 		"zpos"			"6"
 		"wide"			"160"
-		"tall"			"105" // FLPH (195, 155, 130, 105)
+		"tall"			"120" // FLPH (195, 155, 130, 105)
 		"visible"		"1"	// HFLFMM
 		"enabled"		"1"	// HFLFMM
 		"border"		"NoBorder"
@@ -2105,7 +2126,7 @@
 		"tall"			"20"
 		"zpos"			"11"
 		"visible"		"1" // 1 BM2
-		"Command"		"engine connect 5.230.84.54:27017" // 3 BM2
+		"Command"		"engine connect 149.28.113.177:27015" // 3 BM2
 		"PaintBackgroundType"	"2"
 		"paintborder"	"1"
 		"border"		"NoBorder"
@@ -2113,7 +2134,7 @@
 		"navDown"		"Bookmark_3"
 		"navRight"		"Notifications_ShowButtonPanel"
 		"navToRelay"	"SubButton"
-		"labelText"		"Balance Mod" // 2 BM2
+		"labelText"		"Balance Mod NA" // 2 BM2
 		"textinsetx"	"10"
 		"pin_to_sibling"			"G_BookmarkPanel"
 		"pin_corner_to_sibling"		"0"

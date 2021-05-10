@@ -800,7 +800,7 @@
 		"labelText"		"#EditLoadout"
 		"textAlignment"	"center"
 		"Command"		"openloadout"
-		"font"			"HudFontSmallBold"
+		"font"			"G_FontBackpack"
 	}
 
 	"ResetButton" [$WIN32] 
@@ -820,7 +820,7 @@
 		"labelText"		"#TF_ClassMenu_Reset"
 		"textAlignment"	"center"
 		"Command"		"resetclass"
-		"font"			"HudFontSmallBold"
+		"font"			"G_FontBackpackTiny"
 	}
 
 	"ClassMenuSelect"

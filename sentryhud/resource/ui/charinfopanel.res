@@ -113,7 +113,7 @@
 		"tabskv"
 		{
 			"textinsetx"		"20"
-			"font"				"G_FontTiny"
+			"font"				"G_FontBackpackTiny"
 			"selectedcolor"		"255 255 255 255"
 			"unselectedcolor"	"G_MenuText"	
 			"defaultBgColor_override"	"46 43 42 255"
@@ -138,7 +138,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#TF_BackCarat"
-		"font"			"HudFontSmallBold"
+		"font"			"G_FontBackpack"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
