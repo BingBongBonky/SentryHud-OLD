@@ -31,22 +31,22 @@
 		"radius"		"8"
 		"velocity"		"100"
 
-		"fgcolor_override"	"TFOrange"
+		"fgcolor_override"	"G_Highlight"
 	}
 
 	"QueueText"
 	{
 		"ControlName"	"Label"
 		"fieldName"		"QueueText"
-		"xpos"			"rs1-18"
+		"xpos"			"rs1-22"
 		"ypos"			"cs-0.5"
 		"wide"			"f35"
 		"zpos"			"100"
 		"tall"			"f0"
 		"visible"		"1"
 		"enabled"		"1"
-		"font"			"AchievementTracker_Name"
-		"fgcolor_override"	"TanLight"
+		"font"			"G_FontSmall_2"
+		"fgcolor_override"	"G_White"
 		"textAlignment"	"east"
 		"labelText"		"%queue_state%"
 		"proportionaltoparent"	"1"

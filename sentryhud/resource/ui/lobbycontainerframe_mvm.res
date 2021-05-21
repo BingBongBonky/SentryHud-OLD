@@ -6,7 +6,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"OptionsButton"
-		"visible"	"0"
+		"visible"		"0"
 	}
 	
 	"LearnMoreButton"
@@ -43,7 +43,7 @@
 		"ControlName"	"CExButton"
 		"fieldName"		"PlayNowButton"
 		"xpos"			"c-295"
-		"ypos"			"303"
+		"ypos"			"300"
 		"zpos"			"20"
 		"wide"			"180"
 		"tall"			"40"
@@ -72,9 +72,9 @@
 		"border_armed"		"MainMenuButtonArmed"
 		"paintbackground"	"0"
 			
-		"defaultFgColor_override" "46 43 42 255"
-		"armedFgColor_override" "235 226 202 255"
-		"depressedFgColor_override" "46 43 42 255"
+		"defaultFgColor_override" 	"G_ButtonText"
+		"armedFgColor_override" 	"G_ButtonHoverText"
+		"depressedFgColor_override" "G_ButtonHoverText"
 	}
 
 	"PracticeButton"
@@ -82,7 +82,7 @@
 		"ControlName"	"CExButton"
 		"fieldName"		"PracticeButton"
 		"xpos"			"c-95"
-		"ypos"			"303"
+		"ypos"			"300"
 		"zpos"			"20"
 		"wide"			"180"
 		"tall"			"40"
@@ -111,9 +111,9 @@
 		"border_armed"		"MainMenuButtonArmed"
 		"paintbackground"	"0"
 			
-		"defaultFgColor_override" "46 43 42 255"
-		"armedFgColor_override" "235 226 202 255"
-		"depressedFgColor_override" "46 43 42 255"
+		"defaultFgColor_override" 	"G_ButtonText"
+		"armedFgColor_override" 	"G_ButtonHoverText"
+		"depressedFgColor_override" "G_ButtonHoverText"
 	}
 
 	"PlayWithFriendsExplanation"

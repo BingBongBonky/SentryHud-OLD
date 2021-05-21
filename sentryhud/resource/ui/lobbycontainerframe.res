@@ -20,7 +20,7 @@
 		"outoffocus_bgcolor_override"	"46 43 42 0"
 		
 		"title"			"#CharInfoAndSetup"
-		"title_font"	"HudFontMediumBold"
+		"title_font"	"G_FontNone"
 		"titletextinsetX"	"40"
 		"titletextinsetY"	"0"
 		"titlebarfgcolor_override"				"200 187 161 255"
@@ -28,93 +28,100 @@
 		"titlebarbgcolor_override"				"46 43 42 255"
 		
 		"clientinsetx_override"			"0"
-		"sheetinset_bottom"				"40"
+		"sheetinset_bottom"				"32"
 
 		"NavToRelay"			"BackButton"
 	}
 	
 	"BackgroundHeader"
 	{
-		"ControlName"	"ImagePanel"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"BackgroundHeader"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"-2"
 		"wide"			"f0"
-		"tall"			"120"
+		"tall"			"44"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"loadout_header"
-		"tileImage"		"1"
-	}				
+		"paintbackground"	"1"
+		"bgcolor_override"	"G_Footer"
+		"paintborder"	"1"
+		"border"		"G_MenuHeader"
+	}		
+	
 	"BackgroundFooter"
 	{
-		"ControlName"	"ImagePanel"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"BackgroundFooter"
 		"xpos"			"0"
-		"ypos"			"420"
-		"zpos"			"1"
+		"ypos"			"r46"
+		"zpos"			"0"
 		"wide"			"f0"
-		"tall"			"60"
+		"tall"			"50"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"loadout_bottom_gradient"
-		"tileImage"		"1"
-	}				
+		"paintbackground"	"1"
+		"bgcolor_override"	"G_Footer"
+	}	
+	
 	"FooterLine"
 	{
-		"ControlName"	"ImagePanel"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"FooterLine"
 		"xpos"			"0"
-		"ypos"			"420"
-		"zpos"			"2"
+		"ypos"			"r46"
+		"zpos"			"1"
 		"wide"			"f0"
-		"tall"			"10"
+		"tall"			"2"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"loadout_solid_line"
-		"scaleImage"	"1"
-	}				
+		"paintbackground"	"1"
+		"bgcolor_override"	"G_Highlight"
+	}
 	
 	"Sheet"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"Sheet"
-		"tabxindent"	"80"
+		"tabxindent"	"50"
 		"tabxdelta"		"10"
 		"tabwidth"		"240"
-		"tabheight"		"34"
+		"tabheight"		"30"
 		"transition_time" "0"
 		
 		"HeaderLine"
 		{
-			"ControlName"	"ImagePanel"
+			"ControlName"	"EditablePanel"
 			"fieldName"		"HeaderLine"
 			"xpos"			"0"
-			"ypos"			"32"
-			"zpos"			"5"
+			"ypos"			"29"
+			"zpos"			"2"
 			"wide"			"f0"
-			"tall"			"10"
+			"tall"			"2"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"loadout_solid_line"
-			"scaleImage"	"1"
-		}				
+			"paintbackground"	"1"
+			"bgcolor_override"	"G_Highlight"
+		}			
 		
 		"tabskv"
 		{
-			"textinsetx"		"40"
-			"font"				"HudFontMediumBold"
-			"selectedcolor"		"200 187 161 255"
-			"unselectedcolor"	"130 120 104 255"	
-			"defaultBgColor_override"	"46 43 42 255"
+			"textinsety"		"-3"
+			"textinsetx"		"5"
+			"font"				"G_FontMedium"
+			"selectedcolor"		"G_FooterText"
+			"unselectedcolor"	"G_DimmFooterText"
+			"defaultBgColor_override"	"0 0 0 0"
+			"selectedBgColor_override"	"0 0 0 0"
+			"activeBgColor_override"	"0 0 0 0"
 			"paintbackground"	"0"
-			"activeborder_override"	"OutlinedGreyBox"
-			"normalborder_override" "OutlinedDullGreyBox"
-			"mouseinputenabled"	"0"
+			"paintborder"		"0"
+			"activeborder_override"	""
+			"normalborder_override" ""
 		}
 	}
-
+	
 	"OptionsButton"
 	{
 		"ControlName"	"CExImageButton"
@@ -139,8 +146,9 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 
-		"image_drawcolor"	"235 226 202 255"
-		"image_armedcolor"	"235 226 202 255"
+		"image_drawcolor"	"G_ButtonText"
+		"image_armedcolor"	"G_ButtonHoverText"
+		
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -161,10 +169,10 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"BackButton"
-		"xpos"			"c-305"
-		"ypos"			"437"
+		"xpos"			"c-288"
+		"ypos"			"r35"
 		"zpos"			"2"
-		"wide"			"180"
+		"wide"			"184"
 		"tall"			"25"
 		"autoResize"	"0"
 		"pinCorner"		"3"
@@ -182,6 +190,29 @@
 
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+	}
+	
+	"BackButtonQKey"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"BackButtonQKey"
+		"xpos"			"-9999"
+		"ypos"			"-9999"
+		"zpos"			"-9999"
+		"wide"			"0"
+		"tall"			"0"
+		"autoResize"	"0"
+		"pinCorner"		"3"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		"&Q"
+		"font"			"HudFontSmallBold"
+		"textAlignment"	"center"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"default"		"0"
+		"Command"		"back"
 	}
 
 	"NotificationsPresentPanel"
@@ -231,15 +262,14 @@
 		}
 	}
 
-
 	"NextButton"
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"NextButton"
-		"xpos"			"c+120"
-		"ypos"			"437"
+		"xpos"			"c+104"
+		"ypos"			"r35"
 		"zpos"			"2"
-		"wide"			"180"
+		"wide"			"184"
 		"tall"			"25"
 		"autoResize"	"0"
 		//"pinCorner"		"3"

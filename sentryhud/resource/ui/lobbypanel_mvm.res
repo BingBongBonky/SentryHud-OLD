@@ -7,7 +7,7 @@
 		"ControlName"	"Frame"
 		"fieldName"		"LobbyPanel"
 		"xpos"			"0"
-		"ypos"			"50"
+		"ypos"			"40"
 		"wide"			"f0"
 		"tall"			"480"
 		"autoResize"	"0"
@@ -17,12 +17,12 @@
 		"tabPosition"	"0"
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"	"46 43 42 255"
+		"bgcolor_override"	"G_MenuBg"
 
 		"NavToRelay"	"MvMTourOfDutyGroupBox"
 		"NavDown"		"MvMEconItemsGroupBox"
 	}
-
+	
 	"criteria"
 	{
 		"fieldname"	"criteria"
@@ -35,3 +35,4 @@
 		"enabled"	"1"
 	}
 }
+

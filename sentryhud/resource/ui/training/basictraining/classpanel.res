@@ -34,10 +34,10 @@
 		"border_armed"		"MainMenuButtonArmed"
 		"border_disabled"	"MainMenuButtonDisabled"
 		"paintbackground"	"0"
-		
-		"defaultFgColor_override" "46 43 42 255"
-		"armedFgColor_override" "235 226 202 255"
-		"depressedFgColor_override" "46 43 42 255"
+	
+		"defaultFgColor_override" 	"G_ButtonText"
+		"armedFgColor_override" 	"G_ButtonHoverText"
+		"depressedFgColor_override" "G_ButtonHoverText"
 	}
 	
 	"ProgressLabel"

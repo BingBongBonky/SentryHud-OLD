@@ -23,13 +23,26 @@
 		"xpos"		"60"
 		"ypos"		"320"
 		"wide"		"330"
-		"tall"		"15"
+		"tall"		"40"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"		"0"
-		"bgcolor_override"	"40 37 37 255"
+		"bgcolor_override"	"G_MenuBg"
+	}
+	
+	"G_GradientPanel"
+	{
+		"ControlName"	"EditablePanel"
+		"FieldName"		"G_GradientPanel"
+		"xpos"			"60"
+		"ypos"			"145"
+		"zpos"			"1"
+		"wide"			"330"
+		"tall"			"40"
+		"visible"		"1"
+		"bgcolor_override"	"0 0 0 150"
 	}
 	
 	"GradientPanel"
@@ -41,7 +54,7 @@
 		"zpos"			"1"
 		"wide"			"330"
 		"tall"			"80"
-		"visible"		"1"
+		"visible"		"0"
 		"tileImage"		"0"
 		"scaleImage"	"1"
 		"image"			"training/gradient_black"
@@ -167,9 +180,9 @@
 		"border_armed"		"MainMenuButtonArmed"
 		"paintbackground"	"0"
 		
-		"defaultFgColor_override" "46 43 42 255"
-		"armedFgColor_override" "235 226 202 255"
-		"depressedFgColor_override" "46 43 42 255"
+		"defaultFgColor_override" 	"G_ButtonText"
+		"armedFgColor_override" 	"G_ButtonHoverText"
+		"depressedFgColor_override" "G_ButtonHoverText"
 	}
 	
 	"DifficultyLabel"
@@ -188,7 +201,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"0"
-		"fgcolor_override"	"246 237 211 255"
+		"fgcolor_override"	"G_MenuText"
 	}
 	
 	"DifficultyComboBox"
@@ -239,7 +252,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"0"
-		"fgcolor_override"	"246 237 211 255"
+		"fgcolor_override"	"G_MenuText"
 	}
 	
 	"NumPlayersTextEntry"
@@ -286,6 +299,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"0"
-		"fgcolor_override"	"116 105 92 255"
+		"fgcolor_override"	"G_MenuText"
 	}
 }

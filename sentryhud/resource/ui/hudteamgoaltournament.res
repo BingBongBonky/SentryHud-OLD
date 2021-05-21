@@ -1,159 +1,154 @@
-"Resource/UI/HudTeamGoalTournament.res"
+"Resource/UI/HudTeamGoal.res"
 {
 	"HudStopWatchObjective"
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"			"HudStopWatchObjective"
-		"xpos"				"15"
-		"ypos"				"105"
+		"xpos"				"0"
+		"ypos"				"0"
 		"zpos"				"1"
-		"wide"				"275"
-		"tall"				"190"
+		"wide"				"200"
+		"tall"				"100"
 		"visible"			"0"
 		"enabled"			"1"
-
+		
 		if_comp
 		{
-			"ypos"	"120"
+			"ypos"		"32"
 		}
 
 		"HudStopWatchObjectiveBG"
 		{
-			"ControlName"		"ScalableImagePanel"
+			"ControlName"	"ScalableImagePanel"
 			"fieldName"		"HudStopWatchObjectiveBG"
 			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"-1"
-			"wide"			"275"
-			"tall"			"170"
-			"autoResize"		"0"
+			"wide"			"200"
+			"tall"			"80"
+			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
 			"image"			"../HUD/color_panel_browner"
-	
-	
-			"src_corner_height"	"23"				// pixels inside the image
+			"src_corner_height"	"23"
 			"src_corner_width"	"23"
-		
-			"draw_corner_width"	"7"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"7"	
+			"draw_corner_width"		"0"
+			"draw_corner_height" 	"0"
+			"paintborder"			"1"
+			"border"				"G_TargetBorder"
 		}
 		"HudStopWatchObjectiveBGSmall"
 		{
-			"ControlName"		"ScalableImagePanel"
+			"ControlName"	"ScalableImagePanel"
 			"fieldName"		"HudStopWatchObjectiveBGSmall"
 			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"-1"
-			"wide"			"275"
-			"tall"			"100"
-			"autoResize"		"0"
+			"wide"			"200"
+			"tall"			"60"
+			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"0"
 			"enabled"		"1"
 			"image"			"../HUD/color_panel_browner"
-	
-	
-			"src_corner_height"	"23"				// pixels inside the image
+			"src_corner_height"	"23"
 			"src_corner_width"	"23"
-		
-			"draw_corner_width"	"7"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"7"	
+			"draw_corner_width"		"0"
+			"draw_corner_height" 	"0"
+			"paintborder"			"1"
+			"border"				"G_TargetBorder"
 		}
+		
 		"HudStopWatchObjectiveLabel"
 		{	
-			"ControlName"		"Label"
+			"ControlName"	"Label"
 			"fieldName"		"HudStopWatchObjectiveLabel"
-			"font"			"HudFontSmallBoldShadow"
-			"xpos"			"25"
-			"ypos"			"15"
+			"font"			"Default"
+			"xpos"			"5"
+			"ypos"			"5"
 			"zpos"			"1"
-			"wide"			"275"
+			"wide"			"200"
 			"tall"			"15"
-			"autoResize"		"0"
+			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
 			"labelText"		"%objectivelabel%"
-			"textAlignment"		"west"
+			"textAlignment"	"west"
 		}
 		"HudStopWatchObjectiveText1"
 		{
-			"ControlName"		"CExRichText"
+			"ControlName"	"CExRichText"
 			"fieldName"		"HudStopWatchObjectiveText1"
-			"xpos"			"25"
-			"ypos"			"35"
-			"wide"			"225"
+			"xpos"			"5"
+			"ypos"			"25"
+			"wide"			"190"
 			"tall"			"150"
 			"wrap"			"1"
-			"autoResize"		"1"
+			"autoResize"	"1"
 			"pinCorner"		"1"
 			"visible"		"1"
 			"enabled"		"1"
-			"labelText"		""
-			"textAlignment"		"west"
-			"font"			"HudFontSmallestShadow"
+			"labelText"		"They got 3 points in just 20 minutes 43 seconds."
+			"textAlignment"	"west"
+			"font"			"DefaultVerySmall"
 			"maxchars"		"-1"
 		}
 
 		"HudStopWatchObjectiveShadedBar"
 		{
-			"ControlName"		"ImagePanel"
+			"ControlName"	"ImagePanel"
 			"fieldName"		"HudStopWatchObjectiveShadedBar"
-			"xpos"			"25"
-			"ypos"			"65"
+			"xpos"			"-9999"
+			"ypos"			"-9999"
 			"zpos"			"2"
-			"wide"			"225"
-			"tall"			"2"
+			"wide"			"0"
+			"tall"			"0"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
+			"visible"		"0"
+			"enabled"		"0"
 			"tabPosition"	"0"	
-			"fillcolor"		"125 125 125 125"
+			"fillcolor"		"125 125 125 0"
 			"PaintBackgroundType"	"0"
 		}
 
 		"HudStopWatchObjectiveText2"
 		{
-			"ControlName"		"CExRichText"
+			"ControlName"	"CExRichText"
 			"fieldName"		"HudStopWatchObjectiveText2"
-			"xpos"			"25"	[$WIN32]
-			"ypos"			"75"	[$WIN32]
-			"wide"			"225"
-			"tall"			"165"
+			"xpos"			"5"	[$WIN32]
+			"ypos"			"45"	[$WIN32]
+			"wide"			"200"
+			"tall"			"150"
 			"wrap"			"1"
-			"autoResize"		"1"
+			"autoResize"	"1"
 			"pinCorner"		"1"
 			"visible"		"1"
 			"enabled"		"1"
 			"labelText"		""
-			"textAlignment"		"west"
-			"font"			"HudFontSmallestShadow"
+			"textAlignment"	"west"
+			"font"			"DefaultVerySmall"
 			"maxchars"		"-1"
 		}
 	}	
 
 	"HudStopWatchObjectiveArrow"
 	{
-		"ControlName"		"ScalableImagePanel"
+		"ControlName"	"ScalableImagePanel"
 		"fieldName"		"HudStopWatchObjectiveArrow"
 		"xpos"			"25"
 		"ypos"			"30"
 		"zpos"			"-1"
 		"wide"			"80"
 		"tall"			"80"
-		"autoResize"		"0"
+		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
-		"enabled"		"1"
+		"enabled"		"0"
 		"image"			"../HUD/arrow_big"
-
-		if_comp
-		{
-			"ypos"	"45"
-		}
+		"Alpha"			"0"
 	}
 }

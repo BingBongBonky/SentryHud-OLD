@@ -8,8 +8,8 @@
 		"presetbutton_kv"
 		{
 			"zpos"			"20"
-			"wide"			"25"
-			"tall"			"25"
+			"wide"			"44"
+			"tall"			"18"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"0"

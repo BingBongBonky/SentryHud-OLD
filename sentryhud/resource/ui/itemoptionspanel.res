@@ -1,4 +1,4 @@
-"Resource/UI/LoadoutParticleSlider.res"
+"Resource/UI/ItemOptionsPanel.res"
 {
 	"PanelListPanel"
 	{
@@ -60,7 +60,7 @@
 			"visible"		"0"
 			"enabled"		"1"
 			"tabPosition"		"0"
-			"fgcolor_override" "TanLight"
+			"fgcolor_override" "G_White"
 		}
 
 		"SetStyleButton"
@@ -77,7 +77,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"		"#TF_Item_SelectStyle"
-			"font"			"HudFontSmallBold"
+			"font"			"G_FontBackpackTiny"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"

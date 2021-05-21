@@ -5,14 +5,14 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"SplashContainer"
 		"xpos"			"c-150"
-		"ypos"			"c-20"
+		"ypos"			"c-10"
 		"wide"			"300"
 		"tall"			"300"
 		"visible"		"1"
 		
 		"SplashBackground"
 		{
-			"ControlName"		"ScalableImagePanel"
+			"ControlName"	"ScalableImagePanel"
 			"fieldName"		"SplashBackground"
 			"xpos"			"25"
 			"ypos"			"0"
@@ -20,37 +20,38 @@
 			"tall"			"70"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
+			"visible"		"0"
+			"enabled"		"0"
 			"image"			"../hud/ammo_red_bg"
+			"Alpha"			"0"
 		}
 		
 		"SplashLabelShadow"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"SplashLabelShadow"
-			"font"			"HudFontGiantBold"
-			"labelText"		"#TF_MVM_Victory"
+			"font"			"G_FontHuge"
+			"labelText"		"Victory!"
 			"textAlignment" "center"
 			"xpos"			"2"
-			"ypos"			"14"
+			"ypos"			"12"
 			"wide"			"300"
 			"tall"			"50"
-			"fgcolor"		"black"
+			"fgcolor"		"G_Shadow"
 		}
 		
 		"SplashLabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"SplashLabel"
-			"font"			"HudFontGiantBold"
-			"labelText"		"#TF_MVM_Victory"
+			"font"			"G_FontHuge"
+			"labelText"		"Victory!"
 			"textAlignment" "center"
 			"xpos"			"0"
-			"ypos"			"12"
+			"ypos"			"10"
 			"wide"			"300"
 			"tall"			"50"
-			"fgcolor"		"tanlight"
+			"fgcolor"		"G_White"
 		}
 	}
 }

@@ -32,7 +32,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"WaveFailHeaderShadow"
-		"font"			"HudFontMediumBold"
+		"font"			"G_FontMedium"
 		"labelText"		"%waveheader%"
 		"textAlignment" "center"
 		"xpos"			"c-274"
@@ -46,7 +46,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"HeaderLabel"
-		"font"			"HudFontMediumBold"
+		"font"			"G_FontMedium"
 		"labelText"		"%waveheader%"
 		"textAlignment" "center"
 		"xpos"			"c-275"

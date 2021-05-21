@@ -4,11 +4,11 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"background"
-		"xpos"			"c-100"
-		"ypos"			"130"
+		"xpos"			"0"
+		"ypos"			"69"
 		"zpos"			"1"
 		"wide"			"20"
-		"tall"			"100"
+		"tall"			"31"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -17,20 +17,23 @@
 		"scaleImage"	"1"	
 		"teambg_2"		"../hud/color_panel_red"
 		"teambg_3"		"../hud/color_panel_blu"
+		"paintborder"	"1"
+		"border"		"G_TargetBorder"
 			
 		"src_corner_height"		"23"			// pixels inside the image
 		"src_corner_width"		"23"
 				
-		"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"5"	
+		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"0"	
 	}
+
 	
 	"localPlayerBG"
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"localPlayerBG"
 		"xpos"			"0"
-		"ypos"			"140"
+		"ypos"			"40"
 		"zpos"			"2"
 		"wide"			"45"
 		"tall"			"80"
@@ -38,16 +41,18 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../hud/color_panel_clear"
+		"image"			"../hud/color_panel_brown"
 		"scaleImage"	"1"	
-		"teambg_2"		"../hud/color_panel_clear"
-		"teambg_3"		"../hud/color_panel_clear"
+		"teambg_2"		"../hud/color_panel_brown"
+		"teambg_3"		"../hud/color_panel_brown"
+		"paintborder"	"1"
+		"border"		"G_TargetBorder"
 			
 		"src_corner_height"		"23"			// pixels inside the image
 		"src_corner_width"		"23"
 				
-		"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"5"	
+		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"0"	
 	}
 	
 	"title"
@@ -55,7 +60,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"title"
 		"xpos"			"c-200"
-		"ypos"			"107"
+		"ypos"			"7"
 		"zpos"			"6"
 		"wide"			"400"
 		"tall"			"20"
@@ -63,17 +68,17 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"font"			"HudFontMediumBold"
+		"font"			"G_FontMedium"
 		"labelText"		"#TF_Arena_Team_Layout"
 		"textAlignment"	"center"
-		"fgcolor"		"TanLight"
+		"fgcolor"		"G_White"
 	}
 	"titleShadow"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"titleShadow"
 		"xpos"			"c-199"
-		"ypos"			"108"
+		"ypos"			"8"
 		"zpos"			"5"
 		"wide"			"400"
 		"tall"			"20"
@@ -81,10 +86,10 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"font"			"HudFontMediumBold"
+		"font"			"G_FontMedium"
 		"labelText"		"#TF_Arena_Team_Layout"
 		"textAlignment"	"center"
-		"fgcolor"		"Black"
+		"fgcolor"		"G_Shadow"
 	}
 		
 	"changeLabel"
@@ -92,7 +97,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"changeLabel"
 		"xpos"			"c-220"
-		"ypos"			"230"
+		"ypos"			"130"
 		"zpos"			"6"
 		"wide"			"440"
 		"tall"			"20"
@@ -100,17 +105,17 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"font"			"HudFontSmallBold"
+		"font"			"G_FontTiny_2"
 		"labelText"		"#TF_Arena_F4_ChangeClass"
 		"textAlignment"	"center"
-		"fgcolor"		"TanLight"
+		"fgcolor"		"G_White"
 	}
 	"changeLabelShadow"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"changeLabelShadow"
 		"xpos"			"c-219"
-		"ypos"			"231"
+		"ypos"			"131"
 		"zpos"			"5"
 		"wide"			"440"
 		"tall"			"20"
@@ -118,10 +123,10 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"font"			"HudFontSmallBold"
+		"font"			"G_FontTiny_2"
 		"labelText"		"#TF_Arena_F4_ChangeClass"
 		"textAlignment"	"center"
-		"fgcolor"		"Black"
+		"fgcolor"		"G_Shadow"
 	}
 	
 	"classImage0"
@@ -129,7 +134,7 @@
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"classImage0"
 		"xpos"			"0"
-		"ypos"			"125"
+		"ypos"			"25"
 		"zpos"			"3"
 		"wide"			"45"
 		"tall"			"90"

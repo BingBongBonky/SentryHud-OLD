@@ -2,186 +2,226 @@
 {
 	"TargetIDBG"
 	{
-		"ControlName"		"CTFImagePanel"
-		"fieldName"		"TargetIDBG"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"-1"
-		"wide"			"252"
-		"tall"	 		"50"
-		"autoResize"		"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../hud/color_panel_brown"
-		"scaleImage"		"1"
-		"teambg_1"		"../hud/color_panel_brown"
-		"teambg_2"		"../hud/color_panel_red"
-		"teambg_2_lodef"	"../hud/color_panel_red"
-		"teambg_3"		"../hud/color_panel_blu"
-		"teambg_3_lodef"	"../hud/color_panel_blu"
-		
-		"src_corner_height"		"23"				// pixels inside the image
+		"ControlName"			"CTFImagePanel"
+		"fieldName"				"TargetIDBG"
+		"xpos"					"0"
+		"ypos"					"0" // 1 CTID
+		"zpos"					"-1" // 2 CTID
+		"wide"					"252"
+		"tall"	 				"50"
+		"autoResize"			"0"
+		"pinCorner"				"0"
+		"visible"				"1"
+		"enabled"				"1"
+		"image"					"../hud/color_panel_brown"
+		"scaleImage"			"1"
+		"teambg_1"				"../hud/color_panel_brown"
+		"teambg_2"				"../hud/color_panel_red"
+		"teambg_3"				"../hud/color_panel_blu"
+		"paintborder"			"1" // 2 CTID
+		"border"				"G_TargetBorder"
+		"src_corner_height"		"23"
 		"src_corner_width"		"23"
-			
-		"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"5"	
+		"draw_corner_width"		"0"
+		"draw_corner_height" 	"0"	
 	}
+	
+	"TargetIDShader"
+	{
+		"ControlName"			"EditablePanel"
+		"fieldName"				"TargetIDShader"
+		"xpos"					"0"
+		"ypos"					"0"
+		"zpos"					"-1"
+		"wide"					"f0"
+		"tall"	 				"40"
+		"autoResize"			"0"
+		"pinCorner"				"0"
+		"visible"				"0" // 3 CTID
+		"enabled"				"1"
+		"paintbackground"		"1"
+		"bgcolor_override"		"G_CustomTargetID"
+	}
+	
 	"TargetIDBG_Spec_Blue"
 	{
-		"ControlName"		"ScalableImagePanel"
+		"ControlName"	"ScalableImagePanel"
 		"fieldName"		"TargetIDBG_Spec_Blue"
 		"xpos"			"0"
-		"ypos"			"0"
+		"ypos"			"0" // 1 CTID
 		"zpos"			"-1"
 		"wide"			"252"
 		"tall"	 		"30"
-		"autoResize"		"0"
+		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/color_panel_blu"
-		"image_lodef"	"../hud/color_panel_blu"
-		
-		"src_corner_height"		"23"				// pixels inside the image
+		"paintborder"	"1" // 2 CTID
+		"border"		"G_TargetBorder"
+		"src_corner_height"		"23"
 		"src_corner_width"		"23"
-			
-		"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"5"
+		"draw_corner_width"		"0"
+		"draw_corner_height" 	"0"
 	}
 	"TargetIDBG_Spec_Red"
 	{
-		"ControlName"		"ScalableImagePanel"
+		"ControlName"	"ScalableImagePanel"
 		"fieldName"		"TargetIDBG_Spec_Red"
 		"xpos"			"0"
-		"ypos"			"0"
+		"ypos"			"0" // 1 CTID
 		"zpos"			"-1"
 		"wide"			"252"
 		"tall"	 		"30"
-		"autoResize"		"0"
+		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/color_panel_red"
-		"image_lodef"	"../hud/color_panel_red"
-		
-		"src_corner_height"		"23"				// pixels inside the image
+		"paintborder"	"1" // 2 CTID
+		"border"		"G_TargetBorder"
+		"src_corner_height"		"23"
 		"src_corner_width"		"23"
-			
-		"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"5"
+		"draw_corner_width"		"0"
+		"draw_corner_height" 	"0"
 	}
 	
 	"TargetNameLabel"
 	{	
 		"ControlName"		"Label"
-		"fieldName"		"TargetNameLabel"
-		"font"			"HudFontSmall"
-		"font_minmode"	"TFFontLarge"
-		"xpos"			"8"
-		"xpos_minmode"	"30"
-		"ypos"			"5"
-		"ypos_minmode"	"5"
-		"zpos"			"1"
-		"wide"			"640"
-		"tall"			"24"
+		"fieldName"			"TargetNameLabel"
+		"font"				"G_FontTargetID"
+		"xpos"				"30"
+		"ypos"				"6"
+		"zpos"				"1"
+		"wide"				"640"
+		"tall"				"12"
 		"autoResize"		"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"%targetname%"
+		"pinCorner"			"0"
+		"visible"			"1"
+		"enabled"			"1"
+		"labelText"			"%targetname%"
 		"textAlignment"		"North-West"
-		"dulltext"		"0"
+		"dulltext"			"0"
 		"brighttext"		"0"
+		"fgcolor_override"	"G_White"
+		"textinsetx"		"1"
 	}
-	"TargetDataLabel"
+	
+	"TargetNameLabelShadow" // This is broken for some reason
 	{	
 		"ControlName"		"Label"
+		"fieldName"			"TargetNameLabelShadow"
+		"font"				"G_FontTargetID"
+		"xpos"				"30"
+		"ypos"				"7"
+		"zpos"				"1"
+		"wide"				"640"
+		"tall"				"12"
+		"autoResize"		"0"
+		"pinCorner"			"0"
+		"visible"			"0"
+		"enabled"			"0"
+		"labelText"			"%targetname%"
+		"textAlignment"		"North-West"
+		"dulltext"			"0"
+		"brighttext"		"0"
+		"fgcolor_override"	"G_Shadow"
+		"textinsetx"		"1"
+	}
+	
+	"TargetDataLabel"
+	{	
+		"ControlName"	"Label"
 		"fieldName"		"TargetDataLabel"
-		"font"			"FontStoreOriginalPrice"
-		"font_minmode"	"DefaultVerySmall"
-		"xpos"			"8"
-		"xpos_minmode"	"30"
-		"ypos"			"17"	[$WIN32]
-		"ypos_minmode"	"12"	[$WIN32]
-		"ypos"			"22"	[$X360]
-		"ypos_hidef"		"25"	[$X360]
+		"font"			"DefaultVerySmall"
+		"xpos"			"28"
+		"ypos"			"18"
 		"zpos"			"1"
 		"wide"			"280"
-		"tall"			"15"
-		"autoResize"		"0"
+		"tall"			"8"
+		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%targetdata%"
-		"textAlignment"		"Left"
+		"textAlignment"	"North-West"
 		"dulltext"		"0"
-		"brighttext"		"0"
+		"brighttext"	"0"
+		"textinsetx"		"6"
+		"fgcolor_override"	"G_White"
 	}
+	
+
 	"SpectatorGUIHealth"
 	{
-		"ControlName"		"EditablePanel"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"SpectatorGUIHealth"
-		"xpos"			"3"
-		"xpos_minmode"	"0"
-		"ypos"			"2"
-		"ypos_minmode"	"0"
-		"wide"			"32"
-		"tall"			"32"
-		"visible"		"0"
-		"enabled"		"0"	
-		"HealthBonusPosAdj"	"10"
-		"HealthDeathWarning"	"0.49"
-		"TFFont"		"HudFontSmall"
+		"xpos"			"3" // 1 CTHB
+		"ypos"			"3" // 2 CTHB
+		"wide"			"23" // 3 CTHB
+		"tall"			"23" // 3 CTHB
+		"visible"		"1"
+		"enabled"		"1"	
+		"HealthBonusPosAdj"			"0" // 4 CTHB
+		"HealthDeathWarning"		"0.49"
+		"TFFont"					"G_FontTiny"
 		"HealthDeathWarningColor"	"HUDDeathWarning"
-		"TextColor"		"HudOffWhite"
+		"TextColor"					"G_White"
+		"paintborder"				"1" // 5 CTHB
+		"paintbackground"			"1" // 5 CTHB
+		"border"					"G_HealthBorder"
+		"bgcolor_override"			"G_HealthBarBg"
 	}	
 	
 	"AmmoIcon"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"AmmoIcon"
-		"xpos"			"40"
-		"xpos_minmode"	"38"
-		"ypos"			"20"
-		"ypos_minmode"	"16"
+		"xpos"			"35" // 6 CTHB
+		"ypos"			"19"
 		"zpos"			"12"
-		"wide"			"8"
-		"tall"			"8"
+		"wide"			"6"
+		"tall"			"6"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			"../hud/leaderboard_class_heavy"
 		"scaleImage"	"1"
+		"image"			"../hud/hud_obj_status_ammo_64"
+		"drawcolor"		"G_White"
 	}
 	
 	"KillStreakIcon"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"KillStreakIcon"
-		"xpos"			"10"
-		"xpos_minmode"	"30"
-		"ypos"			"20"
-		"ypos_minmode"	"16"
+		"xpos"			"35" // 6 CTHB
+		"ypos"			"19"
 		"zpos"			"12"
-		"wide"			"8"
-		"tall"			"8"
+		"wide"			"6"
+		"tall"			"6"
 		"visible"		"0"
 		"enabled"		"1"
+		"scaleImage"	"1"
 		"image"			"../hud/leaderboard_streak"
 		"scaleImage"	"1"
+		"drawcolor"		"G_White"
 	}
 	
 	"MoveableSubPanel"
 	{
-		"ControlName"		"EditablePanel"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"MoveableSubPanel"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"-5"
-		"wide"			"32"
-		"tall"			"36"
-		"visible"		"1"
-		"enabled"		"1"	
+		"xpos"					"-999"
+		"ypos"					"0"
+		"zpos"					"5"
+		"wide"					"32"
+		"tall"					"36"
+		"visible"				"1"
+		"enabled"				"1"	
+		"paintbackground"		"1" // 2 CTID
+		"paintborder"			"1" // 2 CTID
+		"border"				"G_TargetBorder"
+		"bgcolor_override"		"G_Grey"
 		
 		"MoveableIconBG"
 		{
@@ -192,8 +232,8 @@
 			"zpos"			"0"
 			"wide"			"10"
 			"tall"			"36"
-			"visible"		"1"
-			"enabled"		"1"
+			"visible"		"0"
+			"enabled"		"0"
 			"icon"			"obj_status_alert_background_tall_nocolor"
 			"iconColor"		"HudBlack"
 			"scaleImage"	"1"
@@ -204,12 +244,12 @@
 			"ControlName"	"CIconPanel"
 			"fieldName"		"MoveableIcon"
 			"xpos"			"5"
-			"ypos"			"7"
+			"ypos"			"-3"
 			"zpos"			"11"
 			"wide"			"14"
 			"tall"			"14"
-			"visible"		"1"
-			"enabled"		"1"
+			"visible"		"0"
+			"enabled"		"0"
 			"icon"			"obj_status_sentrygun_1"
 			"drawcolor"		"ProgressOffWhite"
 			"scaleImage"	"1"
@@ -219,7 +259,7 @@
 			"ControlName"	"ImagePanel"
 			"fieldName"		"MoveableSymbolIcon"
 			"xpos"			"16"
-			"ypos"			"-2"
+			"ypos"			"-3"
 			"zpos"			"12"
 			"wide"			"16"
 			"tall"			"8"
@@ -232,25 +272,25 @@
 
 		"MoveableKeyLabel"
 		{	
-			"ControlName"		"Label"
+			"ControlName"	"Label"
 			"fieldName"		"MoveableKeyLabel"
-			"font"			"TFFontMedium"
-			"font_minmode"	"DefaultVerySmall"
+			"font"			"DefaultVerySmall"
 			"xpos"			"0"
-			"ypos"			"22"
+			"ypos"			"20"
 			"zpos"			"1"
 			"wide"			"640"
 			"tall"			"24"
-			"autoResize"		"0"
+			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
 			"labelText"		"%movekey%"
-			"textAlignment"		"North"
+			"textAlignment"	"North"
 			"dulltext"		"0"
-			"brighttext"		"0"
-		}	
+			"brighttext"	"0"
+		}
 	}
+	
 	"AvatarImage"
 	{
 		"ControlName"	"CAvatarImagePanel"

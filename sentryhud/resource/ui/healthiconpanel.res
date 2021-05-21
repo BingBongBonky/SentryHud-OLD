@@ -1,35 +1,25 @@
 "Resource/UI/HealthIconPanel.res"
 {
-	"HealthIcon"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"HealthIcon"
-		"xpos"			"0"
-		"xpos_minmode"	"0"
-		"ypos"			"0"
-		"ypos_minmode"	"0"
-		"wide"			"32"
-		"tall"			"32"
-		"visible"		"1"
-		"enabled"		"1"	
-		"TFFont"		"HudFontSmall"
-		"TextColor"		"HudOffWhite"
-		"autoResize"	"1"
-	}
 	"SpectatorGUIHealth"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"SpectatorGUIHealth"
-		"xpos"			"0"
-		"xpos_minmode"	"0"
-		"ypos"			"0"
+		"xpos"			"17"
+		"xpos_minmode"	"0" // 1 CTHB
+		"ypos"			"30" // 2 CTHB
 		"ypos_minmode"	"0"
-		"wide"			"128"
-		"tall"			"128"
+		"wide"			"23" // 3 CTHB
+		"tall"			"23" // 3 CTHB
 		"visible"		"1"
 		"enabled"		"1"	
-		"TFFont"		"HudFontSmall"
-		"TextColor"		"HudOffWhite"
-		"autoResize"	"1"
+		"TFFont"		"G_FontTiny"
+		"TextColor"		"G_White"
+		"paintborder"		"1" // 2 CTHB
+		"paintbackground"	"1" // 2 CTHB
+		"border"			"G_HealthBorder"
+		"bgcolor_override"	"G_HealthBarBg"
+		"HealthBonusPosAdj"			"0" // 4 CTHB
+		"HealthDeathWarning"		"0.49"
+		"HealthDeathWarningColor"	"HUDDeathWarning"
 	}	
 }

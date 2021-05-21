@@ -5,12 +5,11 @@
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"125"	[$WIN32]
-		"xpos_minmode"	"r52"	[$WIN32]
-		"ypos"			"r62"	[$WIN32]
-		"ypos_minmode"	"r74"	[$WIN32]
-		"wide"			"100"
-		"tall"			"50"
+		"xpos"			"c-60"
+		"ypos"			"r105" // CIM
+		"ypos_minmode"	"r105"
+		"wide"			"140"
+		"tall"			"30"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
 	}
@@ -24,9 +23,8 @@
 		"zpos"			"0"
 		"wide"			"100"
 		"tall"			"50"
-		"visible"		"1"
-		"visible_minmode"	"0"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"image"			"../hud/misc_ammo_area_horiz1_blue"
 		"scaleImage"	"1"	
 		"teambg_2"		"../hud/misc_ammo_area_horiz1_red"
@@ -39,25 +37,23 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterLabel"
-		"xpos"					"42"
-		"ypos"					"30"
+		"xpos"					"0"
+		"ypos"					"0"
 		"zpos"					"2"
-		"wide"					"41"
-		"tall"					"15"
+		"wide"					"120"
+		"tall"					"6"
 		"autoResize"			"1"
 		"pinCorner"				"2"
-		"visible"				"1"
-		"visible_minmode"		"1"
-		"ypos_minmode"			"0"
-		"xpos_minmode"			"0"
-		"textAlignment_minmode"			"west"
+		"visible"				"0" // Show label
 		"enabled"				"1"
 		"tabPosition"			"0"
 		"labelText"				"#TF_Ball"
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"TFFontSmall"
+		"font"					"DefaultVerySmall"
+		"fgcolor_override"		"180 180 180 200"
+		"textinsety"			"-1"
 	}
 
 	"ItemEffectMeter"
@@ -65,14 +61,11 @@
 		"ControlName"			"ContinuousProgressBar"
 		"fieldName"				"ItemEffectMeter"
 		"font"					"Default"
-		"xpos"					"47"
-		"ypos"					"28"
-		"ypos_minmode"			"0"
-		"xpos_minmode"			"0"
+		"xpos"					"0"
+		"ypos"					"0"
 		"zpos"					"2"
-		"wide"					"30"
-		"wide_minmode"			"50"
-		"tall"					"5"				
+		"wide"					"120"
+		"tall"					"6"				
 		"autoResize"			"0"
 		"pinCorner"				"0"
 		"visible"				"1"
@@ -80,5 +73,24 @@
 		"textAlignment"			"Left"
 		"dulltext"				"0"
 		"brighttext"			"0"
-	}					
+		"paintborder"			"0"
+		"bgcolor_override"		"226 92 26 255" // Orange
+	}
+
+	"Borders"
+	{	
+		"ControlName"			"EditablePanel"
+		"fieldName"				"Borders"
+		"xpos"					"0"
+		"ypos"					"0"
+		"zpos"					"5"
+		"wide"					"120"
+		"tall"					"6"				
+		"visible"				"1"
+		"enabled"				"1"
+		"dulltext"				"0"
+		"brighttext"			"0"
+		"paintborder"			"1"
+		"border"				"G_MeterBorder"
+	}		
 }

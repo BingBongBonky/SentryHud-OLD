@@ -7,11 +7,12 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"1"
-		"wide"			"150"
+		"wide"			"100"
 		"tall"			"50"
 		"visible"		"1"
 		"enabled"		"1"
-		"border"		"TFFatLineBorderOpaque"
+		"border"				"G_TargetBorder"
+		"bgcolor_override"		"G_PanelBg"
 	}
 
 
@@ -23,7 +24,7 @@
 		"xpos"			"5"
 		"ypos"			"0"
 		"zpos"			"2"
-		"wide"			"140"
+		"wide"			"90"
 		"tall"			"38"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -32,7 +33,7 @@
 		"wrap"			"1"
 		"labelText"		""
 		"textAlignment"	"North"
-		"font"			"TFFontSmall"
+		"font"			"DefaultVerySmall"
 		"textinsetx"	"2"
 		"textinsety"	"7"
 	}

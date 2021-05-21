@@ -15,9 +15,9 @@
 		"tabPosition"	"0"
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"	"46 43 42 255"
-		"infocus_bgcolor_override" "46 43 42 255"
-		"outoffocus_bgcolor_override" "46 43 42 255"
+		"bgcolor_override"	"G_MenuBg"
+		"infocus_bgcolor_override" "G_MenuBg"
+		"outoffocus_bgcolor_override" "G_MenuBg"
 		
 		"max_cart_model_panels"	"10"
 		
@@ -32,17 +32,17 @@
 		"item_controls_xoffset"	"2"
 		"item_controls_yoffset"	"2"
 
-		"show_item_backdrop"				"1"
-		"item_backdrop_color"				"24 22 20 255"
+		"show_item_backdrop"				"0"
+		"item_backdrop_color"				"0 0 0 0"
 		"item_backdrop_left_margin"			"11"
 		"item_backdrop_right_margin"		"11"
 		"item_backdrop_top_margin"			"9"
 		"item_backdrop_bottom_margin"		"42"
 		"item_backdrop_paintbackgroundtype"	"2"
 		
-		"item_panel_bgcolor"			"51 47 46 255"
-		"item_panel_bgcolor_mouseover"	"156 146 128 255"
-		"item_panel_bgcolor_selected"	"176 166 148 255"
+		"item_panel_bgcolor"			"G_LoadoutItemBg"
+		"item_panel_bgcolor_mouseover"	"G_LoadoutItemBg"
+		"item_panel_bgcolor_selected"	"G_LoadoutItemBg"
 		
 		"classicon_xdelta"		"5"
 
@@ -53,7 +53,7 @@
 			"ypos"			"270"
 			"zpos"			"5"
 			"wide"			"111"
-			"tall"			"62"
+			"tall"			"74"
 			"visible"		"0"
 			"bgcolor_override"		"0 0 0 255"
 			"noitem_textcolor"		"117 107 94 255"
@@ -61,7 +61,7 @@
 			"paintborder"	"0"
 						
 			"model_xpos"	"24"
-			"model_ypos"	"6"
+			"model_ypos"	"13"
 			"model_wide"	"71"
 			"model_tall"	"47"
 			"text_wide"		"140"
@@ -157,11 +157,11 @@
 
 	"NameFilterTextEntry"
 	{
-		"ControlName"		"TextEntry"
+		"ControlName"	"TextEntry"
 		"fieldName"		"NameFilterTextEntry"
-		"xpos"		"c-70"
-		"ypos"		"30"
-		"wide"		"90"
+		"xpos"		"c193"
+		"ypos"		"16"
+		"wide"		"100"
 		"tall"		"19"
 		"autoResize"		"0"
 		"pinCorner"		"0"
@@ -171,10 +171,27 @@
 		"textHidden"		"0"
 		"editable"		"1"
 		"unicode"		"1"
-		"fgcolor_override"	"117 107 94 255"
-		"bgcolor_override"	"251 235 202 255"
+		"fgcolor_override"	"G_InputText"
+		"bgcolor_override"	"G_MenuText"
 		"paintbackgroundtype" "2"
-		"font"		"HudFontSmall"
+		"font"		"HudFontSmallestBold"
+	}
+	
+	"SearchIcon"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"SearchIcon"
+		"xpos"			"c274"
+		"ypos"			"16"
+		"wide"			"19"
+		"tall"			"19"
+		"zpos"			"10"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"
+		"mouseinputenabled" "0"
+		"image"				"replay/thumbnails/search"
+		"drawcolor"			"G_MenuBg"
 	}
 	
 	"SubcategoryFilterComboBox"
@@ -182,10 +199,10 @@
 		"ControlName"		"ComboBox"
 		"fieldName"			"SubcategoryFilterComboBox"
 		"Font"				"HudFontSmallestBold"
-		"xpos"				"c30"
-		"ypos"				"30"
+		"xpos"				"c3"
+		"ypos"				"16"
 		"zpos"				"1"
-		"wide"				"112"
+		"wide"				"80"
 		"tall"				"19"
 		"autoResize"		"0"
 		"pinCorner"			"0"
@@ -200,20 +217,20 @@
 		"border_override"	"ButtonBorder"
 		"paintborder"		"1"
 		
-		"fgcolor_override"	"117 107 94 255"
-		"bgcolor_override"	"251 235 202 255"
-		"disabledFgColor_override" "117 107 94 255"
-		"disabledBgColor_override" "251 235 202 255"
-		"selectionColor_override" "251 235 202 255"
-		"selectionTextColor_override" "117 107 94 255"
-		"defaultSelectionBG2Color_override" "251 235 202 255"
+		"fgcolor_override"	"G_InputText"
+		"bgcolor_override"	"G_MenuText"
+		"disabledFgColor_override" "G_DimmInputText"
+		"disabledBgColor_override" "G_MenuText"
+		"selectionColor_override" "0 0 0 0"
+		"selectionTextColor_override" "G_InputText"
+		"defaultSelectionBG2Color_override" "0 0 0 0"
 		
 		"Button"
 		{
-			"defaultFgColor_override"	"118 107 94 255"
-			"defaultBgColor_override"	"251 235 202 255"
-			"armedFgColor_override"	"138 127 114 255"
-			"armedBgColor_override"	"251 235 202 255"
+			"defaultFgColor_override"	"0 0 0 240"
+			"defaultBgColor_override"	"0 0 0 0"
+			"armedFgColor_override"	"0 0 0 240"
+			"armedBgColor_override"	"0 0 0 0"
 			"paintbackgroundtype"	"2"
 		}
 	}
@@ -223,10 +240,10 @@
 		"ControlName"		"ComboBox"
 		"fieldName"			"SortFilterComboBox"
 		"Font"				"HudFontSmallestBold"
-		"xpos"				"c152"
-		"ypos"				"30"
+		"xpos"				"c88"
+		"ypos"				"16"
 		"zpos"				"1"
-		"wide"				"142"
+		"wide"				"100"
 		"tall"				"19"
 		"autoResize"		"0"
 		"pinCorner"			"0"
@@ -241,20 +258,20 @@
 		"border_override"	"ButtonBorder"
 		"paintborder"		"1"
 		
-		"fgcolor_override"	"117 107 94 255"
-		"bgcolor_override"	"251 235 202 255"
-		"disabledFgColor_override" "117 107 94 255"
-		"disabledBgColor_override" "251 235 202 255"
-		"selectionColor_override" "251 235 202 255"
-		"selectionTextColor_override" "117 107 94 255"
-		"defaultSelectionBG2Color_override" "251 235 202 255"
+		"fgcolor_override"	"G_InputText"
+		"bgcolor_override"	"G_MenuText"
+		"disabledFgColor_override" "G_DimmInputText"
+		"disabledBgColor_override" "G_MenuText"
+		"selectionColor_override" "0 0 0 0"
+		"selectionTextColor_override" "0 0 0 240"
+		"defaultSelectionBG2Color_override" "0 0 0 0"
 		
 		"Button"
 		{
-			"defaultFgColor_override"	"118 107 94 255"
-			"defaultBgColor_override"	"251 235 202 255"
-			"armedFgColor_override"	"138 127 114 255"
-			"armedBgColor_override"	"251 235 202 255"
+			"defaultFgColor_override"	"0 0 0 240"
+			"defaultBgColor_override"	"0 0 0 0"
+			"armedFgColor_override"	"0 0 0 240"
+			"armedBgColor_override"	"0 0 0 0"
 			"paintbackgroundtype"	"2"
 		}
 	}
@@ -327,18 +344,18 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"PrevPageButton"
-		"xpos"			"c190"
-		"ypos"			"280"
+		"xpos"			"c213"
+		"ypos"			"344"
 		"zpos"			"5"
 		"wide"			"20"
 		"tall"			"20"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labelText"		"<"
-		"font"			"HudFontSmallBold"
+		"labelText"		"&A"
+		"font"			"G_MenuArrowSmall"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -354,8 +371,8 @@
 		"font"			"HudFontSmallBold"
 		"labelText"		"%backpackpage%"
 		"textAlignment"	"center"
-		"xpos"			"c220"
-		"ypos"			"280"
+		"xpos"			"c233"
+		"ypos"			"344"
 		"zpos"			"5"
 		"wide"			"40"
 		"tall"			"20"
@@ -370,18 +387,18 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"NextPageButton"
-		"xpos"			"c270"
-		"ypos"			"280"
+		"xpos"			"c273"
+		"ypos"			"344"
 		"zpos"			"5"
 		"wide"			"20"
 		"tall"			"20"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labelText"		">"
-		"font"			"HudFontSmallBold"
+		"labelText"		"&D"
+		"font"			"G_MenuArrowSmall"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -417,16 +434,17 @@
 		"font"			"HudFontSmallestBold"
 		"labelText"		"#Store_NameFilterLabel"
 		"textAlignment"	"west"
-		"xpos"			"c-70"
-		"ypos"			"12"
+		"xpos"			"-9999"
+		"ypos"			"-9999"
 		"zpos"			"1"
 		"wide"			"90"
 		"tall"			"20"
 		"autoResize"	"1"
 		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"fgcolor"		"StoreDarkTan"
+		"Alpha"			"0"
 	}
 	
 	"SubcategoryFiltersLabel"
@@ -436,16 +454,17 @@
 		"font"			"HudFontSmallestBold"
 		"labelText"		"#Store_ItemTypeFilterLabel"
 		"textAlignment"	"west"
-		"xpos"			"c30"
-		"ypos"			"12"
+		"xpos"			"-9999"
+		"ypos"			"-9999"
 		"zpos"			"1"
 		"wide"			"100"
 		"tall"			"20"
 		"autoResize"	"1"
 		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"fgcolor"		"StoreDarkTan"
+		"Alpha"			"0"
 	}
 	
 	"SortFilterLabel"
@@ -455,16 +474,17 @@
 		"font"			"HudFontSmallestBold"
 		"labelText"		"#Store_SortByLabel"
 		"textAlignment"	"west"
-		"xpos"			"c152"
-		"ypos"			"12"
+		"xpos"			"-9999"
+		"ypos"			"-9999"
 		"zpos"			"1"
 		"wide"			"150"
 		"tall"			"20"
 		"autoResize"	"1"
 		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"fgcolor"		"StoreDarkTan"
+		"Alpha"			"0"
 	}
 	
 	"ClassFilterLabel"
@@ -474,27 +494,28 @@
 		"font"			"HudFontSmallestBold"
 		"labelText"		"#Store_ClassFilterLabel"
 		"textAlignment"	"west"
-		"xpos"			"c-300"
-		"ypos"			"12"
+		"xpos"			"-9999"
+		"ypos"			"-9999"
 		"zpos"			"1"
 		"wide"			"60"
 		"tall"			"20"
 		"autoResize"	"1"
 		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"fgcolor"		"StoreDarkTan"
+		"Alpha"			"0"
 	}
 	
 	"ClassFilterNavPanel"
 	{
 		"ControlName"		"CNavigationPanel"
 		"fieldName"			"ClassFilterNavPanel"
-		"xpos"				"c-300"
-		"ypos"				"30"
+		"xpos"				"c-295"
+		"ypos"				"14"
 		"zpos"				"1"
-		"wide"				"225"
-		"tall"				"19"
+		"wide"				"270"
+		"tall"				"23"
 		"autoResize"		"0"
 		"pinCorner"			"0"
 		"visible"			"1"
@@ -695,9 +716,11 @@
 		"fieldName"		"BackpackSpaceLabel"
 		"font"			"HudFontSmallestBold"
 		"labelText"		"%freebackpackspace%"
+		"fgcolor"			"G_MenuText"
+		"fgcolor_override"	"G_MenuText"
 		"textAlignment"	"west"
-		"xpos"			"c-300"
-		"ypos"			"315"
+		"xpos"			"c-292"
+		"ypos"			"311"
 		"zpos"			"0"
 		"wide"			"200"
 		"tall"			"20"
@@ -714,8 +737,8 @@
 		"font"			"HudFontSmallBold"
 		"labelText"		"%storecart%"
 		"textAlignment"	"east"
-		"xpos"			"c-300"
-		"ypos"			"334"
+		"xpos"			"c-292"
+		"ypos"			"342"
 		"zpos"			"12"
 		"wide"			"56"
 		"tall"			"24"
@@ -734,8 +757,8 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"CartImage"
-		"xpos"			"c-295"
-		"ypos"			"336"
+		"xpos"			"c-291"
+		"ypos"			"344"
 		"zpos"			"13"
 		"wide"			"24"
 		"tall"			"20"
@@ -743,6 +766,7 @@
 		"enabled"		"1"
 		"image"			"store_cart"
 		"scaleImage"	"1"
+		"drawcolor"		"G_ButtonText"
 	}
 	
 	"CartFeaturedItemSymbol"
@@ -764,15 +788,15 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"ReloadSchemeButton"
-		"xpos"			"c0"
-		"ypos"			"330"
+		"xpos"			"0"
+		"ypos"			"0"
 		"zpos"			"25"
 		"wide"			"100"
 		"tall"			"15"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
-		"enabled"		"1"
+		"enabled"		"0"
 		"tabPosition"	"0"
 		"labelText"		"RELOADSCHEME"
 		"font"			"HudFontSmallestBold"
@@ -849,7 +873,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
-			"fgcolor_override" "46 43 42 255"
+			"fgcolor_override" "G_MenuBg"
 		}
 		
 		"TextLabel"
@@ -868,7 +892,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
-			"fgcolor_override" "46 43 42 255"
+			"fgcolor_override" "G_MenuBg"
 		}
 		
 		"CloseButton"
@@ -897,9 +921,9 @@
 			
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "46 43 42 255"
+			"defaultFgColor_override" "G_MenuBg"
 			"armedFgColor_override" "200 80 60 255"
-			"depressedFgColor_override" "46 43 42 255"
+			"depressedFgColor_override" "G_MenuBg"
 			
 			"image_drawcolor"	"117 107 94 255"
 			"image_armedcolor"	"200 80 60 255"
@@ -962,9 +986,9 @@
 			
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "46 43 42 255"
+			"defaultFgColor_override" "G_MenuBg"
 			"armedFgColor_override" "200 80 60 255"
-			"depressedFgColor_override" "46 43 42 255"
+			"depressedFgColor_override" "G_MenuBg"
 			
 			"image_drawcolor"	"235 226 202 255"
 			"image_armedcolor"	"255 255 255 255"
@@ -1024,7 +1048,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
-			"fgcolor_override" "46 43 42 255"
+			"fgcolor_override" "G_MenuBg"
 		}
 		
 		"TextLabel"
@@ -1043,7 +1067,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
-			"fgcolor_override" "46 43 42 255"
+			"fgcolor_override" "G_MenuBg"
 		}
 		
 		"CloseButton"
@@ -1072,9 +1096,9 @@
 			
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "46 43 42 255"
+			"defaultFgColor_override" "G_MenuBg"
 			"armedFgColor_override" "200 80 60 255"
-			"depressedFgColor_override" "46 43 42 255"
+			"depressedFgColor_override" "G_MenuBg"
 			
 			"image_drawcolor"	"117 107 94 255"
 			"image_armedcolor"	"200 80 60 255"
@@ -1119,9 +1143,9 @@
 			
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "46 43 42 255"
+			"defaultFgColor_override" "G_MenuBg"
 			"armedFgColor_override" "200 80 60 255"
-			"depressedFgColor_override" "46 43 42 255"
+			"depressedFgColor_override" "G_MenuBg"
 			
 			"image_drawcolor"	"235 226 202 255"
 			"image_armedcolor"	"255 255 255 255"
@@ -1184,9 +1208,9 @@
 			
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "46 43 42 255"
+			"defaultFgColor_override" "G_MenuBg"
 			"armedFgColor_override" "200 80 60 255"
-			"depressedFgColor_override" "46 43 42 255"
+			"depressedFgColor_override" "G_MenuBg"
 			
 			"image_drawcolor"	"235 226 202 255"
 			"image_armedcolor"	"255 255 255 255"
@@ -1246,7 +1270,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
-			"fgcolor_override" "46 43 42 255"
+			"fgcolor_override" "G_MenuBg"
 		}
 		
 		"TextLabel"
@@ -1265,7 +1289,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
-			"fgcolor_override" "46 43 42 255"
+			"fgcolor_override" "G_MenuBg"
 		}
 		
 		"CloseButton"
@@ -1294,9 +1318,9 @@
 			
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "46 43 42 255"
+			"defaultFgColor_override" "G_MenuBg"
 			"armedFgColor_override" "200 80 60 255"
-			"depressedFgColor_override" "46 43 42 255"
+			"depressedFgColor_override" "G_MenuBg"
 			
 			"image_drawcolor"	"117 107 94 255"
 			"image_armedcolor"	"200 80 60 255"
@@ -1341,9 +1365,9 @@
 			
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "46 43 42 255"
+			"defaultFgColor_override" "G_MenuBg"
 			"armedFgColor_override" "200 80 60 255"
-			"depressedFgColor_override" "46 43 42 255"
+			"depressedFgColor_override" "G_MenuBg"
 			
 			"image_drawcolor"	"235 226 202 255"
 			"image_armedcolor"	"255 255 255 255"
@@ -1388,9 +1412,9 @@
 			
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "46 43 42 255"
+			"defaultFgColor_override" "G_MenuBg"
 			"armedFgColor_override" "200 80 60 255"
-			"depressedFgColor_override" "46 43 42 255"
+			"depressedFgColor_override" "G_MenuBg"
 			
 			"image_drawcolor"	"235 226 202 255"
 			"image_armedcolor"	"255 255 255 255"
@@ -1468,7 +1492,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
-			"fgcolor_override" "46 43 42 255"
+			"fgcolor_override" "G_MenuBg"
 		}
 		
 		"TextLabel"
@@ -1487,7 +1511,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
-			"fgcolor_override" "46 43 42 255"
+			"fgcolor_override" "G_MenuBg"
 		}
 		
 		"CloseButton"
@@ -1516,9 +1540,9 @@
 			
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "46 43 42 255"
+			"defaultFgColor_override" "G_MenuBg"
 			"armedFgColor_override" "200 80 60 255"
-			"depressedFgColor_override" "46 43 42 255"
+			"depressedFgColor_override" "G_MenuBg"
 			
 			"image_drawcolor"	"117 107 94 255"
 			"image_armedcolor"	"200 80 60 255"
@@ -1563,9 +1587,9 @@
 			
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "46 43 42 255"
+			"defaultFgColor_override" "G_MenuBg"
 			"armedFgColor_override" "200 80 60 255"
-			"depressedFgColor_override" "46 43 42 255"
+			"depressedFgColor_override" "G_MenuBg"
 			
 			"image_drawcolor"	"235 226 202 255"
 			"image_armedcolor"	"255 255 255 255"
@@ -1610,9 +1634,9 @@
 			
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "46 43 42 255"
+			"defaultFgColor_override" "G_MenuBg"
 			"armedFgColor_override" "200 80 60 255"
-			"depressedFgColor_override" "46 43 42 255"
+			"depressedFgColor_override" "G_MenuBg"
 			
 			"image_drawcolor"	"235 226 202 255"
 			"image_armedcolor"	"255 255 255 255"
@@ -1690,7 +1714,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
-			"fgcolor_override" "46 43 42 255"
+			"fgcolor_override" "G_MenuBg"
 		}
 		
 		"TextLabel"
@@ -1709,7 +1733,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
-			"fgcolor_override" "46 43 42 255"
+			"fgcolor_override" "G_MenuBg"
 		}
 		
 		"CloseButton"
@@ -1738,9 +1762,9 @@
 			
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "46 43 42 255"
+			"defaultFgColor_override" "G_MenuBg"
 			"armedFgColor_override" "200 80 60 255"
-			"depressedFgColor_override" "46 43 42 255"
+			"depressedFgColor_override" "G_MenuBg"
 			
 			"image_drawcolor"	"117 107 94 255"
 			"image_armedcolor"	"200 80 60 255"
@@ -1785,9 +1809,9 @@
 			
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "46 43 42 255"
+			"defaultFgColor_override" "G_MenuBg"
 			"armedFgColor_override" "200 80 60 255"
-			"depressedFgColor_override" "46 43 42 255"
+			"depressedFgColor_override" "G_MenuBg"
 			
 			"image_drawcolor"	"235 226 202 255"
 			"image_armedcolor"	"255 255 255 255"
@@ -1832,9 +1856,9 @@
 			
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "46 43 42 255"
+			"defaultFgColor_override" "G_MenuBg"
 			"armedFgColor_override" "200 80 60 255"
-			"depressedFgColor_override" "46 43 42 255"
+			"depressedFgColor_override" "G_MenuBg"
 			
 			"image_drawcolor"	"235 226 202 255"
 			"image_armedcolor"	"255 255 255 255"
@@ -1912,7 +1936,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
-			"fgcolor_override" "46 43 42 255"
+			"fgcolor_override" "G_MenuBg"
 		}
 		
 		"TextLabel"
@@ -1931,7 +1955,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
-			"fgcolor_override" "46 43 42 255"
+			"fgcolor_override" "G_MenuBg"
 		}
 		
 		"CloseButton"
@@ -1960,9 +1984,9 @@
 			
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "46 43 42 255"
+			"defaultFgColor_override" "G_MenuBg"
 			"armedFgColor_override" "200 80 60 255"
-			"depressedFgColor_override" "46 43 42 255"
+			"depressedFgColor_override" "G_MenuBg"
 			
 			"image_drawcolor"	"117 107 94 255"
 			"image_armedcolor"	"200 80 60 255"
@@ -2007,9 +2031,9 @@
 			
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "46 43 42 255"
+			"defaultFgColor_override" "G_MenuBg"
 			"armedFgColor_override" "200 80 60 255"
-			"depressedFgColor_override" "46 43 42 255"
+			"depressedFgColor_override" "G_MenuBg"
 			
 			"image_drawcolor"	"235 226 202 255"
 			"image_armedcolor"	"255 255 255 255"
@@ -2054,9 +2078,9 @@
 			
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "46 43 42 255"
+			"defaultFgColor_override" "G_MenuBg"
 			"armedFgColor_override" "200 80 60 255"
-			"depressedFgColor_override" "46 43 42 255"
+			"depressedFgColor_override" "G_MenuBg"
 			
 			"image_drawcolor"	"235 226 202 255"
 			"image_armedcolor"	"255 255 255 255"
@@ -2134,7 +2158,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
-			"fgcolor_override" "46 43 42 255"
+			"fgcolor_override" "G_MenuBg"
 		}
 		
 		"TextLabel"
@@ -2153,7 +2177,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
-			"fgcolor_override" "46 43 42 255"
+			"fgcolor_override" "G_MenuBg"
 		}
 		
 		"CloseButton"
@@ -2182,9 +2206,9 @@
 			
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "46 43 42 255"
+			"defaultFgColor_override" "G_MenuBg"
 			"armedFgColor_override" "200 80 60 255"
-			"depressedFgColor_override" "46 43 42 255"
+			"depressedFgColor_override" "G_MenuBg"
 			
 			"image_drawcolor"	"117 107 94 255"
 			"image_armedcolor"	"200 80 60 255"
@@ -2229,9 +2253,9 @@
 			
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "46 43 42 255"
+			"defaultFgColor_override" "G_MenuBg"
 			"armedFgColor_override" "200 80 60 255"
-			"depressedFgColor_override" "46 43 42 255"
+			"depressedFgColor_override" "G_MenuBg"
 			
 			"image_drawcolor"	"235 226 202 255"
 			"image_armedcolor"	"255 255 255 255"
@@ -2276,9 +2300,9 @@
 			
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "46 43 42 255"
+			"defaultFgColor_override" "G_MenuBg"
 			"armedFgColor_override" "200 80 60 255"
-			"depressedFgColor_override" "46 43 42 255"
+			"depressedFgColor_override" "G_MenuBg"
 			
 			"image_drawcolor"	"235 226 202 255"
 			"image_armedcolor"	"255 255 255 255"
@@ -2356,7 +2380,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
-			"fgcolor_override" "46 43 42 255"
+			"fgcolor_override" "G_MenuBg"
 		}
 		
 		"TextLabel"
@@ -2375,7 +2399,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
-			"fgcolor_override" "46 43 42 255"
+			"fgcolor_override" "G_MenuBg"
 		}
 		
 		"CloseButton"
@@ -2404,9 +2428,9 @@
 			
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "46 43 42 255"
+			"defaultFgColor_override" "G_MenuBg"
 			"armedFgColor_override" "200 80 60 255"
-			"depressedFgColor_override" "46 43 42 255"
+			"depressedFgColor_override" "G_MenuBg"
 			
 			"image_drawcolor"	"117 107 94 255"
 			"image_armedcolor"	"200 80 60 255"
@@ -2451,9 +2475,9 @@
 			
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "46 43 42 255"
+			"defaultFgColor_override" "G_MenuBg"
 			"armedFgColor_override" "200 80 60 255"
-			"depressedFgColor_override" "46 43 42 255"
+			"depressedFgColor_override" "G_MenuBg"
 			
 			"image_drawcolor"	"235 226 202 255"
 			"image_armedcolor"	"255 255 255 255"
@@ -2498,9 +2522,9 @@
 			
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "46 43 42 255"
+			"defaultFgColor_override" "G_MenuBg"
 			"armedFgColor_override" "200 80 60 255"
-			"depressedFgColor_override" "46 43 42 255"
+			"depressedFgColor_override" "G_MenuBg"
 			
 			"image_drawcolor"	"235 226 202 255"
 			"image_armedcolor"	"255 255 255 255"
@@ -2577,7 +2601,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
-			"fgcolor_override" "46 43 42 255"
+			"fgcolor_override" "G_MenuBg"
 		}
 		
 		"TextLabel"
@@ -2596,7 +2620,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
-			"fgcolor_override" "46 43 42 255"
+			"fgcolor_override" "G_MenuBg"
 		}
 		
 		"CloseButton"
@@ -2625,9 +2649,9 @@
 			
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "46 43 42 255"
+			"defaultFgColor_override" "G_MenuBg"
 			"armedFgColor_override" "200 80 60 255"
-			"depressedFgColor_override" "46 43 42 255"
+			"depressedFgColor_override" "G_MenuBg"
 			
 			"image_drawcolor"	"117 107 94 255"
 			"image_armedcolor"	"200 80 60 255"
@@ -2672,9 +2696,9 @@
 			
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "46 43 42 255"
+			"defaultFgColor_override" "G_MenuBg"
 			"armedFgColor_override" "200 80 60 255"
-			"depressedFgColor_override" "46 43 42 255"
+			"depressedFgColor_override" "G_MenuBg"
 			
 			"image_drawcolor"	"235 226 202 255"
 			"image_armedcolor"	"255 255 255 255"
@@ -2712,5 +2736,22 @@
 			"enabled"		"1"
 			"fgcolor_override" "200 80 60 255"
 		}
+	}
+	
+	"Wall"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"Wall"
+		"xpos"			"0"
+		"ypos"			"50"
+		"zpos"			"-5"		
+		"wide"			"f0"
+		"tall"			"280"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"paintbackground"	"1"
+		"bgcolor_override"	"G_MenuShader"
 	}
 }
