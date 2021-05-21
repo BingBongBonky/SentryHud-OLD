@@ -1,4 +1,4 @@
-"Resource/UI/Competitive.res"
+"Resource/UI/HudMatchStatus.res"
 {
 	"HudMatchStatus"
 	{
@@ -62,7 +62,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"CountdownLabel"
-		"font"			"G_FontMedium"
+		"font"			"HudFontGiant"
 		"xpos"			"cs-0.5"
 		"ypos"			"cs-0.1"
 		"wide"			"40"
@@ -76,7 +76,7 @@
 		"labelText"		"%countdown%"
 		"textAlignment"	"center"
 		"proportionaltoparent"	"1"
-		"fgcolor"		"G_White"
+		"fgcolor"		"TanLight"
 
 		if_readymode
 		{
@@ -89,7 +89,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"CountdownLabelShadow"
-		"font"			"G_FontMedium"
+		"font"			"HudFontGiant"
 		"xpos"			"cs-0.48"
 		"ypos"			"cs-0.08"
 		"wide"			"40"
@@ -102,7 +102,7 @@
 		"wrap"			"0"
 		"labelText"		"%countdown%"
 		"textAlignment"	"center"
-		"fgcolor"		"G_Shadow"
+		"fgcolor"		"Black"
 		"proportionaltoparent"	"1"
 
 	
@@ -215,17 +215,18 @@
 		"ypos"				"-5"
 		"zpos"				"0"
 		"wide"				"365"
-		"tall"				"0"
+		"tall"				"28"
 		"visible"			"0"
+
 		"proportionaltoaparent"	"1"
 		"border"			"TFFatLineBorder"
-		
+
 		if_match
 		{
 			"visible"		"1"
 		}
 	}
-	
+
 	"RankUpLabel"
 	{	
 		"ControlName"	"CExLabel"
@@ -276,63 +277,82 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"			"ObjectiveStatusTimePanel"
-		"xpos"				"c-30"
-		"ypos"				"0"
+		"xpos"				"c-55"
+		"xpos_hidef"		"c-150"
+		"xpos_lodef"		"c-150"
+		"ypos"				"0"	[$WIN32]
+		"ypos_minmode"		"-14"	[$WIN32]
+		"ypos"				"24"	[$X360]
 		"zpos"				"2"
 		"wide"				"110"
+		"wide_hidef"		"300"
+		"wide_lodef"		"300"
 		"tall"				"150"
 		"visible"			"0"
-		"enabled"			"0"
-		"delta_item_x"			"5"
-		"delta_item_start_y"	"24"
+		"enabled"			"1"
+		"delta_item_x"			"22"	[$WIN32]
+		"delta_item_x"			"115"	[$X360]
+		"delta_item_start_y"	"50"
 		"delta_item_end_y"		"70"
 		"PositiveColor"			"0 255 0 255"
 		"NegativeColor"			"255 0 0 255"
 		"delta_lifetime"		"1.5"
-		"delta_item_font"			"G_FontMedium"
+		"delta_item_font"		"HudFontMedium"
 
 		if_match
 		{
-			"wide"					"76"
-			"xpos"					"c-38"
+			"xpos"					"cs-0.5"
+			"wide"					"130"
+			"ypos_minmode"			"0"
 			"delta_item_x"			"35"
 			"delta_item_start_y"	"12"
 			"delta_item_end_y"		"50"
 			"PositiveColor"			"0 255 0 255"
 			"NegativeColor"			"255 0 0 255"
 			"delta_lifetime"		"1.5"
-			"delta_item_font"		"G_FontSmall"
+			"delta_item_font"		"HudFontMediumSmall"
 		}
 		
 		"TimePanelValue"
 		{
-			"ControlName"	"CExLabel"
+			"ControlName"		"CExLabel"
 			"fieldName"		"TimePanelValue"
-			"font"			"G_FontMedium"
-			"fgcolor"		"G_White"
-			"xpos"			"0"
-			"ypos"			"0"
+			"font"			"HudFontMediumSmall"
+			"font_minmode"	"HudFontSmall"
+			"font_lodef"	"HudFontMedium"
+			"fgcolor"		"TanLight"
+			"xpos"			"23"
+			"xpos_minmode"	"39"
+			"xpos_hidef"	"114"
+			"xpos_lodef"	"114"
+			"ypos"			"11"
+			"ypos_minmode"	"6"
+			"ypos_hidef"	"15"
+			"ypos_lodef"	"18"
 			"zpos"			"3"
-			"wide"			"60"
-			"tall"			"21"
+			"wide"			"45"
+			"wide_minmode"	"30"
+			"wide_lodef"	"50"
+			"tall"			"31"
 			"visible"		"1"
 			"enabled"		"1"
-			"textAlignment"	"center"
+			"textAlignment"		"center"
 			"labelText"		"0:00"
 
 			if_match
 			{
 				"proportionaltoparent"	"1"
-				"bgcolor_override"	"0 0 0 0"
+
 				"xpos"			"cs-0.5"
-				"ypos"			"6"
-				"tall"			"15"
-				"wide"			"76"
-				"font"			"G_FontSmall"
+				"ypos"			"12"
+				"ypos_minmode"	"12"
+				"tall"			"10"
+				"font"			"HudFontSmall"
+				"font_minmode"	"HudFontSmall"
+				"font_lodef"	"HudFontSmall"
 			}
 		}	
 	}
-	
 	"TeamStatus"
 	{
 		"ControlName"	"CTFTeamStatus"
@@ -614,6 +634,7 @@
 			"ypos"			"65"
 			"tall"			"385"
 		}
+
 		"BlueTeamBG"
 		{
 			"ControlName"		"EditablePanel"
@@ -743,7 +764,7 @@
 		"zpos"			"50"
 		"wide"			"150"
 		"tall"			"260"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 
 		if_large
@@ -751,6 +772,7 @@
 			"ypos"			"65"
 			"tall"			"385"
 		}
+
 		"RedTeamBG"
 		{
 			"ControlName"		"EditablePanel"

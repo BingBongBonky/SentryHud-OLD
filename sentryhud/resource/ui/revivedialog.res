@@ -87,28 +87,23 @@
 			"depressedFgColor_override"	"Econ.Button.DepressedFgColor"
 		}
 
-		
 		"SpectatorGUIHealth"
 		{
-			"ControlName"				"EditablePanel"
-			"fieldName"					"SpectatorGUIHealth"
-			"xpos"						"175"
-			"ypos"						"42"
-			"zpos"						"20"
-			"wide"						"23" // 1 CTHB
-			"tall"						"23" // 1 CTHB
-			"visible"					"1"
-			"enabled"					"1"	
-			"HealthBonusPosAdj"			"0" // 2 CTHB
+			"ControlName"		"EditablePanel"
+			"fieldName"			"SpectatorGUIHealth"
+			"xpos"				"165"
+			"ypos"				"39"
+			"zpos"				"20"
+			"wide"				"48"
+			"tall"				"48"
+			"visible"			"1"
+			"enabled"			"1"	
+			"HealthBonusPosAdj"	"10"
 			"HealthDeathWarning"		"0.49"
-			"TFFont"					"G_FontTiny"
+			"TFFont"					"HudFontSmallest"
 			"HealthDeathWarningColor"	"HUDDeathWarning"
-			"TextColor"					"G_White"
-			"paintborder"				"1" // 3 CTHB
-			"paintbackground"			"1" // 3 CTHB
-			"border"					"G_HealthBorder"
-			"bgcolor_override"			"G_HealthBarBg"
-			"autoResize"				"0"
-		}	
+			"TextColor"					"HudOffWhite"
+			"autoResize"	"1"
+		}
 	}
 }

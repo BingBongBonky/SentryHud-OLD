@@ -3,7 +3,6 @@
 	"mouseoveritempanel"
 	{
 		"fieldName"				"mouseoveritempanel"
-		"collection_wide"		"500"
 		"collection_list_xpos"	"250"
 		"is_mouseover"			"1"
 		"text_xpos_collection"	"0"
@@ -48,7 +47,7 @@
 
 		"itemmodelpanel"
 		{
-			"ControlName"	"CEmbeddedItemModelPanel"
+			"ControlName"		"CEmbeddedItemModelPanel"
 			"fieldName"		"itemmodelpanel"
 	
 			"xpos"			"0"
@@ -56,17 +55,17 @@
 			"zpos"			"1"		
 			"wide"			"140"
 			"tall"			"100"
-			"autoResize"	"0"
+			"autoResize"		"0"
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"useparentbg"	"1"
+			"useparentbg"		"1"
 		
 			"inset_eq_x"	"2"
 			"inset_eq_y"	"2"
 
 			"fov"			"54"
-			"start_framed"	"1"
+			"start_framed"		"1"
 
 			"disable_manipulation"	"1"
 
@@ -75,7 +74,7 @@
 				"angles_x"		"10"
 				"angles_y"		"130"
 				"angles_z"		"0"
-				"spotlight"		"1"
+				"spotlight" "1"
 			}
 		}
 	
@@ -122,12 +121,12 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"equippedlabel"
-			"font"			"DefaultVerySmall"
-			"xpos"			"0"
-			"ypos"			"r11"
+			"font"			"ItemFontAttribSmall"
+			"xpos"			"37"
+			"ypos"			"28"
 			"zpos"			"2"
 			"wide"			"35"
-			"tall"			"8"
+			"tall"			"10"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
@@ -135,8 +134,8 @@
 			"labelText"		"#ItemPanelEquipped"
 			"textAlignment"	"center"
 			"fgcolor"		"200 80 60 255"
-			"bgcolor_override"		"0 0 0 0"
-			"PaintBackgroundType"	"0"
+			"bgcolor_override"		"0 0 0 255"
+			"PaintBackgroundType"	"2"
 		}
 	
 		"paint_icon"
@@ -146,8 +145,8 @@
 			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"2"
-			"wide"			"12"
-			"tall"			"12"
+			"wide"			"16"
+			"tall"			"16"
 			"visible"		"0"
 			"enabled"		"1"
 
@@ -157,7 +156,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"quantitylabel"
-			"font"			"DefaultVerySmall"
+			"font"			"ItemFontAttribSmall"
 			"xpos"			"4"
 			"ypos"			"4"
 			"zpos"			"2"
@@ -170,15 +169,15 @@
 			"labelText"		""
 			"textAlignment"	"center"
 			"fgcolor"		"200 80 60 255"
-			"bgcolor_override"		"0 0 0 100"
-			"PaintBackgroundType"	"0"
+			"bgcolor_override"		"0 0 0 255"
+			"PaintBackgroundType"	"2"
 		}
 
 		"serieslabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"serieslabel"
-			"font"			"DefaultVerySmall"
+			"font"			"ItemFontAttribSmall"
 			"xpos"			"4"
 			"ypos"			"4"
 			"zpos"			"2"
@@ -192,7 +191,7 @@
 			"textAlignment"	"center"
 			"fgcolor"		"200 180 60 255"
 			"bgcolor_override"		"0 40 30 255"
-			"PaintBackgroundType"	"0"
+			"PaintBackgroundType"	"2"
 		}
 
 		"matcheslabel"
@@ -225,8 +224,8 @@
 			"zpos"			"2"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"wide"			"12"
-			"tall"			"12"
+			"wide"			"16"
+			"tall"			"16"
 			"visible"		"0"
 			"enabled"		"1"
 			"scaleImage"	"1"
@@ -240,8 +239,8 @@
 			"zpos"			"2"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"wide"			"12"
-			"tall"			"12"
+			"wide"			"16"
+			"tall"			"16"
 			"visible"		"0"
 			"enabled"		"1"
 			"scaleImage"	"1"
@@ -255,8 +254,8 @@
 			"zpos"			"2"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"wide"			"12"
-			"tall"			"12"
+			"wide"			"16"
+			"tall"			"16"
 			"visible"		"0"
 			"enabled"		"1"
 			"scaleImage"	"1"
@@ -271,8 +270,8 @@
 			"zpos"			"2"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"wide"			"12"
-			"tall"			"12"
+			"wide"			"16"
+			"tall"			"16"
 			"visible"		"0"
 			"enabled"		"1"
 			"scaleImage"	"1"

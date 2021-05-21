@@ -17,18 +17,6 @@
 		"paintbackground"	"1"
 	}
 	
-	"G_GameModeImageBgPanel"
-	{
-		"ControlName"	"EditablePanel"
-		"FieldName"		"G_GameModeImageBgPanel"
-		"xpos"			"60"
-		"zpos"			"0"
-		"wide"			"330"
-		"tall"			"255"
-		"visible"		"1"
-		"border"		"MainMenuBrightContainer"
-	}
-
 	"GameModeImageBgPanel"
 	{
 		"ControlName"	"ImagePanel"
@@ -37,7 +25,7 @@
 		"zpos"			"0"
 		"wide"			"330"
 		"tall"			"255"
-		"visible"		"0"
+		"visible"		"1"
 		"tileImage"		"0"
 		"scaleImage"	"1"
 		"image"			"illustrations/bg"
@@ -178,9 +166,9 @@
 		"border_armed"		"MainMenuButtonArmed"
 		"paintbackground"	"0"
 		
-		"defaultFgColor_override" 	"G_ButtonText"
-		"armedFgColor_override" 	"G_ButtonHoverText"
-		"depressedFgColor_override" "G_ButtonHoverText"
+		"defaultFgColor_override" "46 43 42 255"
+		"armedFgColor_override" "235 226 202 255"
+		"depressedFgColor_override" "46 43 42 255"
 	}
 	
 }

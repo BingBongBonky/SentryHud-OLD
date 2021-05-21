@@ -52,13 +52,13 @@
 			"xpos"			"cs-0.5"
 			"ypos"			"cs-0.5"
 			"zpos"			"0"		
-			"wide"			"f0"
-			"tall"			"f0"
+			"wide"			"o1"
+			"tall"			"p0.12"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fov"			"75"
+			"fov"			"70"
 			"proportionaltoparent"	"1"
 
 			if_mini
@@ -186,10 +186,10 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"BGPanel"
 		"xpos"			"rs1"
-		"ypos"			"0"
+		"ypos"			"20"
 		"zpos"			"-1"
-		"wide"			"p1-90"
-		"tall"			"f0"
+		"wide"			"260"
+		"tall"			"f40"
 		"visible"		"1"
 		"PaintBackgroundType"	"2"
 		"proportionaltoparent"	"1"
@@ -206,19 +206,18 @@
 		{
 			"ControlName"	"Label"
 			"fieldName"		"NameLabel"
-			"xpos"			"rs1-5"
-			"ypos"			"3"
-			"wide"			"f40"
+			"xpos"			"65"
+			"ypos"			"5"
+			"wide"			"f0"
 			"zpos"			"100"
-			"tall"			"30"
+			"tall"			"20"
 			"visible"		"1"
 			"enabled"		"1"
-			"font"			"G_FontMedium"
-			"fgcolor_override"	"G_FooterText"
-			"textAlignment"	"west"
+			"font"			"HudFontSmallishBold"
+			"fgcolor_override"	"TanLight"
+			"textAlignment"	"north-west"
 			"labelText"		"%name%"
 			"proportionaltoparent"	"1"
-			"textinsetx"	"5"
 
 			if_mini
 			{
@@ -230,19 +229,18 @@
 		{
 			"ControlName"	"CAutoFittingLabel"
 			"fieldName"		"DescLine1"
-			"xpos"			"rs1+7"
-			"ypos"			"rs1-19"
-			"wide"			"f40"
+			"xpos"			"65"
+			"ypos"			"19"
+			"wide"			"195"
 			"zpos"			"100"
-			"tall"			"14"
+			"tall"			"20"
 			"visible"		"1"
 			"enabled"		"1"
-			"font"			"G_FontTiny_2"
-			"fgcolor_override"	"G_FooterText"
-			"textAlignment"	"west"
+			"font"			"HudFontSmallestBold"
+			"fgcolor_override"	"TanLight"
+			"textAlignment"	"north-west"
 			"labelText"		"%desc1%"
 			"proportionaltoparent"	"1"
-			"textinsetx"	"5"
 
 			if_mini
 			{
@@ -252,9 +250,9 @@
 
 			"fonts"
 			{
-				"0"		"G_FontTiny_2"
-				"1"		"G_FontTiny_2"
-				"2"		"G_FontTiny_2"
+				"0"		"HudFontSmallestBold"
+				"1"		"StorePromotionsTitle"
+				"2"		"FontStorePrice"
 			}
 		}
 
@@ -262,16 +260,16 @@
 		{
 			"ControlName"	"CAutoFittingLabel"
 			"fieldName"		"DescLine2"
-			"xpos"			"rs1-5"
-			"ypos"			"rs1-3"
-			"wide"			"f40"
+			"xpos"			"65"
+			"ypos"			"29"
+			"wide"			"195"
 			"zpos"			"100"
 			"tall"			"20"
 			"visible"		"1"
 			"enabled"		"1"
-			"font"			"DefaultVerySmall"
-			"fgcolor_override"	"G_FooterText"
-			"textAlignment"	"south"
+			"font"			"HudFontSmallestBold"
+			"fgcolor_override"	"TanLight"
+			"textAlignment"	"north-west"
 			"labelText"		"%desc2%"
 			"proportionaltoparent"	"1"
 
@@ -283,15 +281,15 @@
 
 			"fonts"
 			{
-				"0"		"DefaultVerySmall"
-				"1"		"DefaultVerySmall"
-				"2"		"DefaultVerySmall"
+				"0"		"HudFontSmallestBold"
+				"1"		"StorePromotionsTitle"
+				"2"		"FontStorePrice"
 			}
 
 			"colors"
 			{
-				"1"		"G_FooterText"
-				"2"		"G_FooterText"
+				"1"		"CreditsGreen"
+				"2"		"TanLight"
 			}
 		}
 
@@ -301,7 +299,7 @@
 			"fieldName"		"StatsContainer"
 			"xpos"			"rs1-5"
 			"ypos"			"0"
-			"wide"			"f40"
+			"wide"			"f70"
 			"tall"			"f0"
 			"proportionaltoparent"	"1"
 
@@ -322,6 +320,8 @@
 				"tall"			"30"
 				"proportionaltoparent"	"1"
 
+	
+
 				"CurrentXPLabel"
 				{
 					"ControlName"	"Label"
@@ -333,8 +333,8 @@
 					"tall"			"20"
 					"visible"		"1"
 					"enabled"		"1"
-					"font"			"DefaultVerySmall"
-					"fgcolor_override"	"G_FooterText"
+					"font"			"ItemFontAttribSmall"
+					"fgcolor_override"	"TanLight"
 					"textAlignment"	"south-west"
 					"labelText"		"%current_xp%"
 					"proportionaltoparent"	"1"
@@ -344,15 +344,15 @@
 				{
 					"ControlName"	"Label"
 					"fieldName"		"NextLevelXPLabel"
-					"xpos"			"rs1-2"
+					"xpos"			"rs1"
 					"ypos"			"rs1"
 					"zpos"			"0"
 					"wide"			"100"
 					"tall"			"20"
 					"visible"		"1"
 					"enabled"		"1"
-					"font"			"DefaultVerySmall"
-					"fgcolor_override"	"G_FooterText"
+					"font"			"ItemFontAttribSmall"
+					"fgcolor_override"	"TanLight"
 					"textAlignment"	"south-east"
 					"labelText"		"%next_level_xp%"
 					"proportionaltoparent"	"1"
@@ -364,7 +364,6 @@
 					"fieldName"		"ProgressBarsContainer"
 					"xpos"			"0"
 					"ypos"			"rs1-10"
-					"zpos"			"2"
 					"wide"			"p1"
 					"tall"			"7"
 					"proportionaltoparent"	"1"
@@ -396,7 +395,7 @@
 						"proportionaltoparent"	"1"
 						"progress"		"0"
 
-						"fgcolor_override"	"G_XPBar"
+						"fgcolor_override"	"CreditsGreen"
 					}
 
 					"Frame"

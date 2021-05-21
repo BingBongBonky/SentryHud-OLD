@@ -13,7 +13,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"
 		"PaintBackgroundType" "2"
-		"bgcolor_override"	"G_White"
+		"bgcolor_override"	"TanLight"
 	}
 	
 	"EnemyIcon"

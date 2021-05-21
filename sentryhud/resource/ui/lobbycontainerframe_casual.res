@@ -1024,8 +1024,8 @@
 				"scaleImage"	"1"
 			}				
 		}			
-	}
-	
+	}	
+
 	"Tooltip_CasualLobby"
 	{
 		"ControlName"	"EditablePanel"

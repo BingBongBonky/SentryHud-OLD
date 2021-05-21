@@ -2,7 +2,7 @@
 {
 	"TFAdvancedOptionsDialog"
 	{
-		"ControlName"	"EditablePanel"
+		"ControlName"		"EditablePanel"
 		"fieldName"		"TFAdvancedOptionsDialog"
 		"xpos"		"c-250"
 		"ypos"		"90"
@@ -13,12 +13,13 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"		"0"
-		"bgcolor_override"		"G_Footer"
+		"bgcolor_override"		"46 43 42 255"
 		"paintbackgroundtype"	"2"
 		"settitlebarvisible"	""
 		"paintborder"			"1"
-		"paintbackground"		"1"
-		"border"				"G_MenuBorder"
+		"paintbackground"		"0"
+		"border"				"GrayDialogBorder"
+		
 		"control_w"			"500"
 		"control_h"			"25"
 		"slider_w"			"500"
@@ -40,7 +41,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "G_FooterText"
+		"fgcolor_override" "200 80 60 255"
 	}
 	"CancelButton"
 	{
@@ -93,7 +94,7 @@
 	
 	"PanelListPanel"
 	{
-		"ControlName"	"CPanelListPanel"
+		"ControlName"		"CPanelListPanel"
 		"fieldName"		"PanelListPanel"
 		"xpos"		"10"
 		"ypos"		"40"
@@ -104,7 +105,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"		"0"
-		"bgcolor_override"	"G_MenuBg"
+		"bgcolor_override"	"0 0 0 0"
 	}
 	
 	"TooltipPanel"

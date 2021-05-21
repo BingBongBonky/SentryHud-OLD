@@ -6,10 +6,10 @@
 		"xpos"					"0"
 		"ypos"					"0"
 		"wide"					"f0"
-		"tall"					"38"
+		"tall"					"50"
 		"proportionaltoparent"	"1"
 
-		"collapsed_height"	"45"
+		"collapsed_height"	"57"
 		"resize_time"	"0.2"
 	
 	}
@@ -63,11 +63,11 @@
 		{
 			"ControlName"	"CExImageButton"
 			"fieldName"		"EntryToggleButton"
-			"xpos"			"r95"
-			"ypos"			"22"
-			"zpos"			"2"
-			"wide"			"95"
-			"tall"			"15"
+			"xpos"			"0"
+			"ypos"			"rs1"
+			"zpos"			"100"
+			"wide"			"f0"
+			"tall"			"9"
 			"proportionaltoparent"	"1"
 
 			"actionsignallevel"	"2"
@@ -75,16 +75,15 @@
 			"labeltext"		"#TF_Casual_ViewMaps"
 			"textAlignment"	"west"
 			"font"	"MMenuPlayListDesc"
-			"textinsetx"	"50"
-			
+			"textinsetx"	"40"
+
 			"stay_armed_on_click"	"1"
 
 			"border_default"	"NoBorder"
-			"defaultBgColor_override"	"0 0 0 0"
+			"defaultBgColor_override"	"235 226 202 20"
 
 			"border_armed"		"NoBorder"
-			
-			"armedBgColor_override"	"0 0 0 0"
+			"armedBgColor_override"	"LightOrange"
 			"selectedBGColor_override" "Orange"
 
 			"sound_armed"		"ui/item_info_mouseover.wav"
@@ -120,8 +119,9 @@
 			"ypos"				"0"
 			"zpos"				"0"
 			"wide"				"f0"
-			"tall"				"45"
+			"tall"				"57"
 			"mouseinputenabled"	"0"
+
 			"proportionaltoparent"	"1"
 			"bgcolor_override"	"0 0 0 0"
 		}
@@ -166,7 +166,6 @@
 			"mouseinputenabled"	"0"
 
 			"fgcolor"		"TanLight"
-
 		}	
 
 		"TitleShadow"
@@ -192,7 +191,6 @@
 			"mouseinputenabled"	"0"
 
 			"fgcolor_override"		"Black"
-
 		}
 
 		"DescLabel"
@@ -209,7 +207,7 @@
 			"tall"			"40"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"visible"		"0"
+			"visible"		"1"
 			"enabled"		"1"
 
 			"wrap"			"1"
@@ -232,7 +230,7 @@
 			"tall"			"40"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"visible"		"0"
+			"visible"		"1"
 			"enabled"		"1"
 
 			"wrap"			"1"

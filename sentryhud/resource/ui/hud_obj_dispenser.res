@@ -19,16 +19,16 @@
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"Background"
-		"xpos"			"-38"
-		"ypos"			"-10"
+		"xpos"			"0"
+		"ypos"			"0"
 		"zpos"			"-1"
-		"wide"			"320"
-		"tall"			"60"
-		"visible"		"0"
-		"enabled"		"0"
+		"wide"			"120"
+		"tall"			"31"
+		"visible"		"1"
+		"enabled"		"1"
 		"scaleImage"	"1"	
-		"icon" 			"obj_status_background_disabled"
-		"iconColor" 	"255 255 255 255"
+		"icon"			"obj_status_background_disabled"
+		"iconColor"		"255 255 255 255"
 	}
 	
 	"Icon_Dispenser"
@@ -37,7 +37,6 @@
 		"fieldName"		"Icon"
 		"xpos"			"24"
 		"ypos"			"1"
-		"zpos"			"1"
 		"wide"			"28"
 		"tall"			"28"
 		"visible"		"1"
@@ -68,33 +67,12 @@
 			"tall"			"31"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"visible"		"0"
-			"enabled"		"0"
+			"visible"		"1"
+			"enabled"		"1"
 			"labelText"		"#Building_hud_dispenser_not_built"
 			"textAlignment"	"Left"
 			"dulltext"		"0"
 			"brighttext"	"0"
-		}
-		
-		"NotBuiltBg"
-		{
-			"ControlName"	"CTFImagePanel"
-			"fieldName"		"NotBuiltBg"
-			"xpos"			"0"
-			"ypos"			"0"
-			"zpos"			"-1"
-			"wide"			"120"
-			"tall"			"31"
-			"visible"		"0"
-			"enabled"		"1"
-			"scaleImage"	"1"	
-			"image"					"../hud/color_panel_brown"	
-			"paintborder"			"1"
-			"border"				"G_TargetBorder"
-			"src_corner_height"		"23"
-			"src_corner_width"		"23"
-			"draw_corner_width"		"0"
-			"draw_corner_height" 	"0"	
 		}
 	}
 	
@@ -155,89 +133,45 @@
 			"icon"			"obj_status_upgrade_3"
 			"iconColor"		"255 255 255 255"
 		}
-		
-		"BuiltBgCustom"
-		{
-			"ControlName"	"EditablePanel"
-			"fieldName"		"BuiltBgCustom"
-			"xpos"			"0"
-			"ypos"			"0"
-			"zpos"			"-1"
-			"wide"			"120"
-			"tall"			"31"
-			"visible"		"1" // CBSBC1
-			"enabled"		"1"
-			"bgcolor_override"	"G_CustomBuildingStatusBg"
-		}
-		
-		"BuiltBg"
-		{
-			"ControlName"	"CTFImagePanel"
-			"fieldName"		"BuiltBg"
-			"xpos"			"0"
-			"ypos"			"0"
-			"zpos"			"-1"
-			"wide"			"120"
-			"tall"			"31"
-			"visible"		"0" // CBSBC2
-			"enabled"		"1"
-			"scaleImage"	"1"	
-			"image"					"../hud/color_panel_brown"
-			"teambg_1"				"../hud/color_panel_brown"
-			"teambg_2"				"../hud/eng_status_area_sentry_red"
-			"teambg_2_lodef"		"../hud/eng_status_area_sentry_red"
-			"teambg_3"				"../hud/eng_status_area_sentry_blue"
-			"teambg_3_lodef"		"../hud/eng_status_area_sentry_blue"
-			"paintborder"			"1"
-			"border"				"G_TargetBorder"
-			"src_corner_height"		"43"
-			"src_corner_width"		"43"
-			"draw_corner_width"		"0"
-			"draw_corner_height" 	"0"	
-		}
-		
+
 		"AlertTray"
 		{
-			"ControlName"	"CIconPanel"
+			"ControlName"	"CBuildingStatusAlertTray"
 			"fieldName"		"AlertTray"
-			"xpos"			"118"
-			"ypos"			"-1"
-			"zpos"			"-4000"
-			"wide"			"26"
-			"tall"			"33"
+			"xpos"			"113"
+			"ypos"			"0"
+			"wide"			"34"
+			"tall"			"31"
 			"visible"		"1"
 			"enabled"		"1"	
-			"icon"			"obj_status_alert_background_tall"
-			"paintborder"	"0"
+			"icon"			"obj_status_alert_background"
 		}
-
 
 		"WrenchIcon"
 		{
 			"ControlName"	"CIconPanel"
 			"fieldName"		"WrenchIcon"
-			"xpos"			"122"
-			"ypos"			"7"
-			"zpos"			"20"
-			"wide"			"16"
-			"tall"			"16"
+			"xpos"			"121"
+			"ypos"			"5"
+			"zpos"			"1"
+			"wide"			"19"
+			"tall"			"19"
 			"visible"		"0"
 			"enabled"		"1"
 			"scaleImage"	"1"	
 			"icon"			"obj_status_icon_wrench"
-			"iconColor"		"0 0 0 255"
+			"iconColor"		"255 255 255 255"
 		}
-		
 		
 		"SapperIcon"
 		{
 			"ControlName"	"CIconPanel"
 			"fieldName"		"SapperIcon"
-			"xpos"			"122"
-			"ypos"			"7"
-			"zpos"			"20"
-			"wide"			"17"
-			"tall"			"17"
+			"xpos"			"117"
+			"ypos"			"3"
+			"zpos"			"1"
+			"wide"			"25"
+			"tall"			"25"
 			"visible"		"0"
 			"enabled"		"1"
 			"scaleImage"	"1"	
@@ -250,7 +184,7 @@
 			"ControlName"	"CBuildingHealthBar"
 			"fieldName"		"Health"
 			"font"			"Default"
-			"xpos"			"6"
+			"xpos"			"13"
 			"ypos"			"3"
 			"wide"			"8"
 			"tall"			"24"
@@ -267,7 +201,7 @@
 		{
 			"ControlName"	"EditablePanel"
 			"fieldName"		"BuildingPanel"
-			"xpos"			"54"
+			"xpos"			"60"
 			"ypos"			"0"
 			"wide"			"100"
 			"tall"			"31"
@@ -277,6 +211,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"BuildingLabel"
+				"font"			"DefaultSmall"
 				"xpos"			"0"
 				"ypos"			"5"
 				"wide"			"200"
@@ -289,7 +224,6 @@
 				"textAlignment"	"Left"
 				"dulltext"		"0"
 				"brighttext"	"0"
-				"font"			"G_FontTiny_2"
 			}
 			
 			"BuildingProgress"
@@ -391,4 +325,3 @@
 		}
 	}
 }
-

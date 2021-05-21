@@ -42,7 +42,7 @@
 		"xpos"					"rs1"
 		"ypos"					"0"
 		"zpos"					"100"
-		"wide"					"f25"
+		"wide"					"f22"
 		"tall"					"10"
 		"textAlignment"			"north-west"
 		"visible"				"1"
@@ -51,7 +51,7 @@
 		"wrap"					"0"
 		"labelText"				"%name%"
 		"proportionaltoparent"	"1"
-		"font"					"G_FontTiny_2"
+		"font"					"ControlPointTimer"
 		"mouseinputenabled"		"0"
 	}
 
@@ -59,19 +59,19 @@
 	{
 		"fieldName"				"StatusLabel"
 		"xpos"					"rs1"
-		"ypos"					"10"
+		"ypos"					"8"
 		"zpos"					"100"
-		"wide"					"f25"
+		"wide"					"f22"
 		"tall"					"10"
-		"textAlignment"			"west"
+		"textAlignment"			"north-west"
 		"visible"				"1"
 		"enabled"				"1"
 		"proportionaltoparent"	"1"
 		"wrap"					"0"
 		"labelText"				"%status%"
 		"proportionaltoparent"	"1"
-		"font"					"DefaultVerySmall"
-		"fgcolor_override"		"TanDark"
+		"font"					"QuestObjectiveTracker_Desc"
+		"fgcolor_override"				"TanDark"
 		"mouseinputenabled"		"0"
 	}
 }

@@ -7,7 +7,7 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"wide"			"150"
-		"tall"			"40"
+		"tall"			"31"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -24,8 +24,8 @@
 		"zpos"			"-1"
 		"wide"			"120"
 		"tall"			"31"
-		"visible"		"0"
-		"enabled"		"0"
+		"visible"		"1"
+		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"obj_status_background_red"
 		"iconColor"		"255 255 255 255"
@@ -35,10 +35,10 @@
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"Icon"
-		"xpos"			"20"
-		"ypos"			"3"
-		"wide"			"24"
-		"tall"			"24"
+		"xpos"			"24"
+		"ypos"			"1"
+		"wide"			"28"
+		"tall"			"28"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
@@ -85,53 +85,13 @@
 		"wide"			"160"
 		"tall"			"43"
 		"visible"		"0"
-		
-		"BuiltBgCustom"
-		{
-			"ControlName"	"EditablePanel"
-			"fieldName"		"BuiltBgCustom"
-			"xpos"			"0"
-			"ypos"			"0"
-			"zpos"			"-1"
-			"wide"			"120"
-			"tall"			"28"
-			"visible"		"1" // CBSBC1
-			"enabled"		"1"
-			"bgcolor_override"	"G_CustomBuildingStatusBg"
-		}
-		
-		"BuiltBg"
-		{
-			"ControlName"	"CTFImagePanel"
-			"fieldName"		"BuiltBg"
-			"xpos"			"0"
-			"ypos"			"0"
-			"zpos"			"-1"
-			"wide"			"120"
-			"tall"			"28"
-			"visible"		"0" // CBSBC2
-			"enabled"		"1"
-			"scaleImage"	"1"	
-			"image"					"../hud/color_panel_brown"
-			"teambg_1"				"../hud/color_panel_brown"
-			"teambg_2"				"../hud/eng_status_area_sentry_red"
-			"teambg_2_lodef"		"../hud/eng_status_area_sentry_red"
-			"teambg_3"				"../hud/eng_status_area_sentry_blue"
-			"teambg_3_lodef"		"../hud/eng_status_area_sentry_blue"	
-			"paintborder"			"1"
-			"border"				"G_TargetBorder"
-			"src_corner_height"		"43"
-			"src_corner_width"		"43"
-			"draw_corner_width"		"0"
-			"draw_corner_height" 	"0"	
-		}
 
 		"Health"
 		{	
 			"ControlName"	"CBuildingHealthBar"
 			"fieldName"		"Health"
 			"font"			"Default"
-			"xpos"			"5"
+			"xpos"			"13"
 			"ypos"			"2"
 			"wide"			"8"
 			"tall"			"24"
@@ -158,7 +118,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"BuildingLabel"
-				"font"			"G_FontTiny_2"
+				"font"			"DefaultSmall"
 				"xpos"			"0"
 				"ypos"			"5"
 				"wide"			"200"
@@ -196,8 +156,8 @@
 		{
 			"ControlName"	"EditablePanel"
 			"fieldName"		"RunningPanel"
-			"xpos"			"53"
-			"ypos"			"-1"
+			"xpos"			"55"
+			"ypos"			"0"
 			"wide"			"100"
 			"tall"			"31"
 			"visible"		"0"
@@ -222,7 +182,7 @@
 				"ControlName"	"ContinuousProgressBar"
 				"fieldName"		"TargetHealth"
 				"font"			"Default"
-				"xpos"			"23"
+				"xpos"			"22"
 				"ypos"			"12"
 				"wide"			"35"
 				"tall"			"8"
@@ -237,4 +197,3 @@
 		}
 	}
 }
-

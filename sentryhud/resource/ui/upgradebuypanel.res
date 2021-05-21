@@ -52,8 +52,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 		
-		"PaintBackgroundType" "0"
-		"bgcolor_override"	"63 65 63 255"
+		"PaintBackgroundType" "2"
+		"bgcolor_override"	"97 94 85 255"
 	}
 	
 	"IconBorder"
@@ -64,14 +64,14 @@
 		"ypos"			"2"
 		"zpos"			"0"
 		"wide"			"30"
-		"tall"			"42"
+		"tall"			"30"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		
-		"PaintBackgroundType" "0"
-		"bgcolor_override"	"0 0 0 0"
+		"PaintBackgroundType" "2"
+		"bgcolor_override"	"235 226 202 255"
 	}
 	
 	"Icon"
@@ -99,9 +99,9 @@
 		"ControlName"	"Label"
 		"fieldName"		"PriceLabel"
 		"xpos"			"2"
-		"ypos"			"30"
+		"ypos"			"32"
 		"wide"			"30"
-		"tall"			"15"
+		"tall"			"13"
 		"zpos"			"25"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -111,9 +111,7 @@
 		
 		"labelText"		""
 		"textAlignment"	"center"
-		"fgcolor_override"	"121 195 58 255"
-		"font"				"G_FontTiny"
-		"bgcolor_override"	"0 200 0 0"
+		"font"			"HudFontSmall"
 	}
 	
 	"ShortDescriptionLabel"
@@ -134,8 +132,7 @@
 		
 		"labelText"		""
 		"textAlignment"	"center-west"
-		"fgcolor_override"	"247 231 198 255"
-		"font"				"G_FontSmall_2"
+		"font"			"HudFontSmallest"
 	}
 	
 	"BuySellBG"
@@ -152,15 +149,15 @@
 		"visible"		"1"
 		"enabled"		"1"
 		
-		"PaintBackgroundType" "0"
-		"bgcolor_override"	"0 0 0 0"
+		"PaintBackgroundType" "2"
+		"bgcolor_override"	"117 114 103 255"
 	}
 	
 	"IncrementButton"
 	{
 		"ControlName"	"CImageButton"
 		"fieldName"		"IncrementButton"
-		"xpos"			"135"
+		"xpos"			"137"
 		"ypos"			"4"
 		"wide"			"16"
 		"tall"			"16"
@@ -194,7 +191,7 @@
 	{
 		"ControlName"	"CImageButton"
 		"fieldName"		"DecrementButton"
-		"xpos"			"135"
+		"xpos"			"137"
 		"ypos"			"24"
 		"wide"			"16"
 		"tall"			"16"

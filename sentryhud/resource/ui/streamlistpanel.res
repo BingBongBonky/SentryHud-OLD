@@ -1,35 +1,33 @@
 "Resource/UI/StreamListPanel.res"
 {
-		
 	"HeaderContainer"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"HeaderContainer"
 		"xpos"			"0"
 		"ypos"			"0"
-		"zpos"			"1"
 		"wide"			"300"
-		"tall"			"24"
+		"tall"			"22"
 		"visible"		"1"
-
+			
 		"HeaderLabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"HeaderLabel"
 			"font"			"HudFontSmallBold"
-			"textAlignment"	"west"
-			"textinsetx"	"15"
+			"textAlignment"	"center"
 			"labelText"		"#MMenu_Stream_LiveStream"
 			"xpos"			"0"
 			"ypos"			"0"
-			"zpos"			"1"
 			"wide"			"300"
 			"tall"			"24"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override"	"255 255 255 255"
+			"PaintBackgroundType" "2"
+			"fgcolor_override"	"235 226 202 255"
+			"bgcolor_override"	"184 108 55 255"
 		}
 	}
 		
@@ -37,8 +35,8 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"CloseButton"
-		"xpos"			"281"
-		"ypos"			"5"
+		"xpos"			"282"
+		"ypos"			"4"
 		"zpos"			"10"
 		"wide"			"14"
 		"tall"			"14"
@@ -59,7 +57,7 @@
 
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		"Command"			"hide_streams"
+		"Command"		"hide_streams"
 			
 		"paintbackground"	"0"
 			
@@ -69,9 +67,8 @@
 		"armedFgColor_override" "235 226 202 255"
 		"depressedFgColor_override" "46 43 42 255"
 			
-		"image_drawcolor"	"60 35 100 255"
-		"image_armedcolor"	"51 31 85 255"
-		
+		"image_drawcolor"	"235 226 202 255"
+		"image_armedcolor"	"200 80 60 255"
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -101,8 +98,8 @@
 		"tall"			"20"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"0"
+		"visible"		"1"
+		"enabled"		"1"
 		"fgcolor"		"56 53 49 255"
 	}
 
@@ -111,7 +108,7 @@
 		"ControlName"	"CTFStreamPanel"
 		"fieldName"		"Stream1"
 		"xpos"			"0"
-		"ypos"			"29"
+		"ypos"			"50"
 		"wide"			"p1"
 		"tall"			"50"
 		"autoResize"	"1"
@@ -126,7 +123,7 @@
 		"ControlName"	"CTFStreamPanel"
 		"fieldName"		"Stream2"
 		"xpos"			"0"
-		"ypos"			"79"
+		"ypos"			"105"
 		"wide"			"p1"
 		"tall"			"50"
 		"autoResize"	"1"
@@ -141,7 +138,7 @@
 		"ControlName"	"CTFStreamPanel"
 		"fieldName"		"Stream3"
 		"xpos"			"0"
-		"ypos"			"129"
+		"ypos"			"160"
 		"wide"			"p1"
 		"tall"			"50"
 		"autoResize"	"1"
@@ -156,7 +153,7 @@
 		"ControlName"	"CTFStreamPanel"
 		"fieldName"		"Stream4"
 		"xpos"			"0"
-		"ypos"			"179"
+		"ypos"			"215"
 		"wide"			"p1"
 		"tall"			"50"
 		"autoResize"	"1"
@@ -171,7 +168,7 @@
 		"ControlName"	"CTFStreamPanel"
 		"fieldName"		"Stream5"
 		"xpos"			"0"
-		"ypos"			"229"
+		"ypos"			"270"
 		"wide"			"p1"
 		"tall"			"50"
 		"autoResize"	"1"
@@ -185,17 +182,17 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"Stream_URLButton"
-		"xpos"			"5"
-		"ypos"			"284"
-		"wide"			"290"
-		"tall"			"16"
+		"xpos"			"75"
+		"ypos"			"327"
+		"wide"			"150"
+		"tall"			"15"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#MMenu_Stream_ViewMore"
-		"textinsetx"	"0"
+		"textinsetx"	"20"
 		"use_proportional_insets" "1"
 		"font"			"HudFontSmallestBold"
 		"textAlignment"	"center"
@@ -206,11 +203,10 @@
 
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		
-		"border_default"	"NoBorder"
-		"border_armed"		"NoBorder"
-		
+			
 		"defaultFgColor_override" "235 226 202 255"
+		"defaultBgColor_override" "46 43 42 255"
 		"armedFgColor_override" "235 226 202 255"
+		"depressedFgColor_override" "235 226 202 255"
 	}	
 }

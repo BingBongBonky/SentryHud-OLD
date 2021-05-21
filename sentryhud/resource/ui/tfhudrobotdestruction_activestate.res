@@ -7,12 +7,12 @@
 		"xpos"					"0"
 		"ypos"					"0"
 		"zpos"					"5"
-		"wide"					"16"
-		"tall"					"16"
+		"wide"					"20"
+		"tall"					"20"
 		"scaleimage"			"1"
 		"visible"				"1"
-		"redimage"				""
-		"blueimage"				""
+		"redimage"				"../HUD/obj_circle_red"
+		"blueimage"				"../HUD/obj_circle_blue"
 
 		"Image"
 		{
@@ -21,10 +21,11 @@
 			"xpos"					"0"
 			"ypos"					"0"
 			"zpos"					"5"
-			"wide"					"16"
-			"tall"					"16"
+			"wide"					"f0"
+			"tall"					"f0"
 			"scaleimage"			"1"
 			"visible"				"1"
+			"proportionalToParent"	"1"
 		}
 
 		"GlowImage"
@@ -34,12 +35,13 @@
 			"xpos"					"0"
 			"ypos"					"0"
 			"zpos"					"5"
-			"wide"					"16"
-			"tall"					"16"
+			"wide"					"f0"
+			"tall"					"f0"
 			"scaleimage"			"1"
 			"visible"				"1"
 			"Image"					"../sprites/obj_icons/icon_obj_white"
 			"fgcolor"				"255 255 255 0"
+			"proportionalToParent"	"1"
 		}
 
 		"RobotImage"
@@ -49,11 +51,12 @@
 			"xpos"					"0"
 			"ypos"					"0"
 			"zpos"					"10"
-			"wide"					"16"
-			"tall"					"16"
+			"wide"					"f0"
+			"tall"					"f0"
 			"scaleimage"			"1"
 			"visible"				"1"
-			"Image"					"../HUD/hud_bot_worker_outline_blue"
+			"Image"					"../HUD/hud_bot_worker_outline_red"
+			"proportionalToParent"	"1"
 		}
 	}
 }

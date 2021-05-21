@@ -13,11 +13,11 @@
 		"proportionaltoparent"	"1"
 		"keyboardinputenabled"	"1"
 		"mouseinputenabled"		"1"
-		"border"				"QuickplayBorder"
+		"border"		"QuickplayBorder"
 
-		"log_font_small"			"GlobalChatFont"
-		"log_font_medium"			"GlobalChatFont"
-		"log_font_large"			"GlobalChatFont"
+		"log_font_small"			"HudFontSmall"
+		"log_font_medium"			"HudFontMediumSmallSecondary"
+		"log_font_large"			"HudFontMediumSecondary"
 
 		"chat_color_default"		"255 255 255 255"
 		"chat_color_player_name"	"255 255 0 255"
@@ -42,7 +42,7 @@
 		"visible"		"1"
 		"proportionaltoparent"	"1"
 		"RoundedCorners"	"0"
-		"font"			"GlobalChatFont"
+		"font"			"HudFontSmallest"
 		
 		"bgcolor_override"	"0 0 0 50"
 
@@ -83,10 +83,10 @@
 
 	"chatentry"
 	{
-		// "ControlName""TextEntry"
+		// "ControlName"	"TextEntry"
 		"fieldName"		"chatentry"
-		"xpos"			"6"
-		"ypos"			"rs1+14"
+		"xpos"					"6"
+		"ypos"					"rs1+19"
 		"zpos"			"1"
 		"wide"			"f2"
 		"tall"			"13"
@@ -94,7 +94,7 @@
 		"proportionaltoparent"	"1"
 		"bgcolor_override"	"0 0 0 255"
 		"RoundedCorners"	"0"
-		"font"			"GlobalChatInputFont"
+		"font"			"HudFontSmallest"
 		"alpha"			"0"
 		"mouseinputenabled"	"0"
 
