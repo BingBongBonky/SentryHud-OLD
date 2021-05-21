@@ -1,14 +1,15 @@
 # SentryHUD
 
-SentryHUD is a little project I'm doing since I got bored and really don't like how my old HUD worked. It is a HUD from Scratch. I won't have a proper release for a while but if you have an issue you can make one on [the issues page](https://github.com/BingBongBonky/SentryHud/issues/new) of this repository.
+
+This is a modified ToonHUD. I am no longer working on this, check out the new HUD [here](https://github.com/BingBongBonky/SentryHud).
 
 ## Installation
-1. Click [here](https://github.com/BingBongBonky/SentryHud/archive/refs/heads/release.zip) to download the file. 
-2. Extract or open up the zip and copy the folder inside named "sentryhud".
-4. Navigate to `[Drive Letter]:\Program Files (x86)\Steam\SteamApps\common\Team Fortress 2\tf\custom`
-5. Delete any other HUDs you may have installed.
-6. Paste the folder inside the custom folder.
-7. Ensure that the final file structure should resembles the following:
+1. Click [here](https://github.com/BingBongBonky/SentryHud-OLD/archive/refs/heads/release.zip) to download the file. 
+2. Extract or open up the zip and copy the folder inside named "sentryhud
+3. Navigate to `[Drive Letter]:\Program Files (x86)\Steam\SteamApps\common\Team Fortress 2\tf\custom`
+4. Delete any other HUDs you may have installed.
+5. Paste the folder inside the custom folder.
+6. Ensure that the final file structure should resembles the following:
 ```
 tf
 └── custom
